@@ -1,0 +1,390 @@
+html {
+	
+}
+
+body {
+	background: $color-navy;
+	overflow: scroll;
+	-webkit-overflow-scrolling: touch;
+	object-fit: cover;
+	background-position: center top;
+	background-repeat: no-repeat;
+		
+}
+
+html, body {
+	overflow-x: hidden;
+}
+
+body {
+
+}
+
+.row {
+	max-width: 80rem;
+	@include media("<=tablet") {
+		max-width: 62.5rem;
+	}
+}
+
+
+p,
+h2,
+h3,
+h4,
+section.three li,
+form span,
+label,
+#contact button, 
+#contact .button {
+	font-family: 'gotham-rounded-book';
+}
+
+.top-bar {
+	@include rem-fallback(margin-top, 1.5625);
+	@include rem-fallback(margin-bottom, 1.5625);
+}
+
+.top-bar,
+.top-bar-section ul li,
+.top-bar-section li:not(.has-form) a:not(.button) {
+	background: none;
+}
+
+.top-bar ul li a {
+	background: transparent !important;
+}
+
+.top-bar.expanded .toggle-topbar a,
+.top-bar-section li:not(.has-form) a:not(.button):hover {
+	color: $color-turquoise;
+}
+
+.top-bar-section ul li > a,
+footer {
+	@include rem-fallback(font-size, 0.95);
+	text-transform: uppercase;
+}
+
+.top-bar-section ul li > a,
+footer p {
+	font-family: 'gotham-rounded-medium';
+	@include rem-fallback(letter-spacing, 0.05);
+}
+
+.top-bar .title-area {
+	@include rem-fallback(padding-left, 2.5);
+}
+
+.top-bar.expanded .title-area {
+	background: none;
+}
+
+$topbar-link-bg-hover: none;
+$topbar-link-bg-color-hover: none;
+
+.hero {
+	@include bgimage-jpg(hero-background);
+	// height: 700px;
+	object-fit: cover;
+	background-position: center top;
+	background-repeat: no-repeat;
+	@include rem-fallback(padding-bottom, 12);
+	// @include rem-fallback(margin-top, -3.125);
+	@include rem-fallback(margin-bottom, 3.125);
+}
+
+.hero h1,
+.hero h5,
+.top-bar .toggle-topbar a {
+	font-family: 'gotham-rounded-light';
+}
+
+.hero h1,
+section.five p,
+section.six p,
+label,
+footer {
+	color: $color-white;
+}
+
+.hero h5 {
+	color: $color-cornflower;
+	@include rem-fallback(font-size, 1.5);
+	@include rem-fallback(margin, 1.75, 1.75, 2.5, 1.75);
+}
+
+.hero h1 {
+	@include rem-fallback(padding-top, 4.0);
+	@include media("<=tablet") {
+		@include rem-fallback(padding-top, 1.0);
+	}	
+}
+
+section.one li,
+section.three li {
+	@include rem-fallback(padding-left, 2.5);
+	background: url(../images/bullet-circle-check.png) top left no-repeat;
+}
+
+h2,
+h3,
+footer a {
+	color: $color-magenta;	
+}
+
+li {
+	list-style-type: none;
+	@include rem-fallback(margin-bottom, 0.75);
+}
+
+nav {
+	opacity: 0;
+	@include delayed-transition(opacity, 1.5, 1.5, 0);
+}
+
+div.fade-in-second {
+	opacity: 0;
+	@include delayed-transition(opacity, 4.5, 1.5, ease-in);
+}
+
+div.fade-in-third {
+	opacity: 0;
+	@include delayed-transition(opacity, 7.5, 2.5, ease-in);
+}
+
+nav.load,
+div.fade-in-second.load,
+div.fade-in-third.load {
+	opacity: 1;
+}
+
+// section.one h2,
+// section.one h3,
+// section.two h2 {
+// 	font-family: 'gotham-rounded-book';
+// }
+
+section.one li,
+section.three li,
+section.two p,
+section.four h6,
+section.four p,
+section.contact-thanks p {
+	color: $color-slate;
+}
+
+section.two p,
+section.three li,
+section.four p,
+section.four h6,
+section.five p,
+section.six p,
+label,
+#contact button, 
+#contact .button,
+section.contact-thanks p {
+	@include rem-fallback(font-size, 1.25);
+	@include media("<tablet") {
+		@include rem-fallback(font-size, 1.0);
+	}
+}
+
+section.one,
+section.two,
+section.three,
+section.four,
+section.six {
+	@include rem-fallback(padding-top, 4.6875);
+	@include rem-fallback(padding-bottom, 4.6875);
+}
+
+section.one,
+section.three,
+section.contact-thanks {
+	background: $color-white;
+}
+
+section.contact-thanks {
+	@include rem-fallback(padding-top, 7.5);
+	@include rem-fallback(padding-bottom, 10);
+}
+
+section.one h4,
+section.six h3,
+form span {
+	color: $color-turquoise;
+}
+
+section.one {
+	// background: $color-white;
+	
+	// h2,
+	// h3{
+	// 	font-family: 'gotham-rounded-book';
+	// }
+	h2 {
+		span {
+			font-weight: bold;
+			font-style: italic;
+		}
+	}
+	p,
+	li {
+		color: $color-slate;
+	}
+	p {
+		@include rem-fallback(font-size, 1.5);
+		@include rem-fallback(margin, 1.5625, 0, 1.5625, 0);
+	}
+	li {
+		// list-style-type: none;
+		font-family: 'gotham-rounded-book-italic';
+		@include rem-fallback(font-size, 1.1);
+		@include rem-fallback(letter-spacing, 0.04);
+		// @include rem-fallback(padding-top, 0.75);
+	}
+}
+
+section.two,
+section.four {
+	background: $color-plaster;	
+}
+
+section.five,
+footer {
+	@include rem-fallback(padding-top, 2.1875);
+	@include rem-fallback(padding-bottom, 2.1875);	
+}
+
+section.two {
+	img {
+		width: 95px;
+		height: 84px;
+		margin: 0 auto;
+	}
+	p {
+		span {
+			font-family: 'gotham-rounded-book-italic';
+			font-weight: bold;
+		}
+	}
+
+	h2,
+	p {
+		@include rem-fallback(padding-top, 1.5);
+	}
+}
+
+section.three,
+section.six {
+	h3 {
+		@include rem-fallback(padding-bottom, 1.75);
+	}
+}
+
+section.four h6,
+section.contact-thanks p span {
+	font-family: gotham-rounded-bold;
+}
+section.four {
+	h6 {
+		@include rem-fallback(margin-bottom, 0);
+		
+	}
+	p span {
+		@include rem-fallback(font-size, 1.125);
+	}
+}
+
+section.five {
+	background: $color-magenta;
+	@include rem-fallback(padding, 2.1, 0, 1.1, 0);
+}
+
+section.six {
+	background: $color-navy;
+}
+
+#contact button, 
+#contact .button {
+	background: $color-magenta;
+	@include rem-fallback(padding, 1.25, 3.75, 1.25, 3.75);
+	@include rem-fallback(margin-top, 2);
+}
+
+#contact button:hover, 
+#contact .button:hover,
+#contact button:disabled, 
+#contact .button:disabled {
+	background: lighten($color-magenta, 10%);
+}
+
+input,
+textarea {
+	-webkit-transform: translate3d(0,0,0);
+}
+
+input[type="text"],
+input[type="email"],
+textarea[name="description"],
+select,
+input[type=radio] {
+	@include rem-fallback(margin-top, 1.25);
+}
+
+input[type=radio].css-checkbox {
+	position:absolute; 
+	z-index:-1000; 
+	left:-1000px; 
+	overflow: hidden; 
+	clip: rect(0 0 0 0); 
+	height:1px; 
+	width:1px; 
+	margin:-1px; 
+	padding:0; 
+	border:0;
+}
+
+input[type=radio].css-checkbox + label.css-label {
+	padding-left:24px;
+	height:19px; 
+	display:inline-block;
+	line-height:19px;
+	background-repeat:no-repeat;
+	background-position: 0 0;
+	font-size:19px;
+	vertical-align:middle;
+	cursor:pointer;
+
+}
+
+input[type=radio].css-checkbox:checked + label.css-label {
+	background-position: 0 -19px;
+}
+
+label.css-label {
+	background-image:url(../images/css-check.png);
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+form span {
+	@include rem-fallback(font-size, 0.9);
+}
+
+// form span {
+// 	@include rem-fallback(margin-top, 0);
+// }
+
+// span.hint {
+// 	@include rem-fallback(margin-top, -2.0);
+// }
+
+footer {
+	background: $color-midnight;
+}

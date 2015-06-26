@@ -1,0 +1,6 @@
+AuthType Basic
+AuthName " Statistics"
+AuthName "lambworks.com Statistics"
+AuthUserFile /var/chroot/home/content/79/9919879/html/stats/.statspwd
+Require valid-user
+DirectoryIndex index.html
