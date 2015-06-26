@@ -1,6 +1,6 @@
     <footer>
       <div class="row">
-        <div class="large-10 medium-12 large-centered columns">        
+        <div class="large-10 medium-12 large-centered columns">
           <div class="large-5 large-offset-1 medium-12 columns">
           <p>&copy; 2015 Lambworks</p>
         </div>
