@@ -1,3 +1,7 @@
 /bower_components/*
 /.sass-cache/*
 *.DS_Store
+*.bowerrc
+*bower.json
+*Gemfile
+*Gemfile.lock
