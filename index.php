@@ -1,6 +1,6 @@
-<?php 
+<?php
   include('inc/contact-mailer.php');
-  include('inc/header.php'); 
+  include('inc/header.php');
 ?>
 
       <div class="hero">
@@ -9,7 +9,7 @@
             <div class="large-12 large-centered columns">
               <div class="fade-in-second">
                 <h1 class="text-center fade-in-second">
-                  Product Strategy & Design for Startups
+                  Product Strategy &amp; Design for Startups
                 </h1>
               </div>
             </div>
@@ -28,7 +28,7 @@
             <div class="fade-in-third">
               <img class="fade-in-third" src="images/hero-icon-graphic.png" alt="">
             </div>
-            
+
           </div>
         </div> <!-- /row -->
       </div> <!-- /hero -->
@@ -97,7 +97,7 @@
             <li>Has an attractive look and feel that fits the app</li>
             <li>Sustainably delivers value to users</li>
           </ul>
-        </div>  
+        </div>
       </div>
     </section> <!-- /three -->
 
@@ -149,9 +149,7 @@
         <p class="large-12 large-centered columns text-center">I’m currently booked until August, 2015.</p>
       </div><!-- /row -->
     </section> <!-- /five -->
-<?php 
+<?php
   include('inc/contact-form.php');
-  include('inc/footer.php'); 
-  ?>    
-
-
+  include('inc/footer.php');
+  ?>
