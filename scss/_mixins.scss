@@ -10,6 +10,10 @@
   background: url($url);
 }
 
+@mixin bg-color($color) {
+	background: $color;
+}
+
 // Transition Mixin
 
 @mixin delayed-transition($method, $delay, $duration, $timing) {
@@ -23,7 +27,7 @@
   -ms-transition: $method #{$duration}s $timing;
   -o-transition: $method #{$duration}s $timing;
   transition: $method #{$duration}s $timing;
-} 
+}
 
 
 // Use this mixin for importing fonts
@@ -71,7 +75,7 @@
     @if $i < $max {
       $pxValues: #{$pxValues + " "};
     }
-  } 
+  }
 
   @for $i from 1 through $max {
     $value: strip-unit(nth($values, $i));
@@ -80,8 +84,8 @@
     @if $i < $max {
       $remValues: #{$remValues + " "};
     }
-  } 
-  
-  #{$property}: $pxValues; 
-  #{$property}: $remValues; 
+  }
+
+  #{$property}: $pxValues;
+  #{$property}: $remValues;
 }

@@ -74,22 +74,74 @@
       </div> <!-- /row -->
     </section> <!-- /one -->
 
-    <section class="two">
+    <section class="two small-12 columns">
       <div class="row">
-        <div class="large-12 large-centered columns text-center">
-          <img src="images/emotions.png" alt="Comedy and Tragedy Masks">
-        </div>
-      </div> <!-- /row -->
-      <div class="row">
-        <h3 class="large-12 large-centered columns text-center">
-          Human beings are emotional creatures.
-        </h3>
+        <p class="large-12 large-centered columns text-center">
+          <span>Looking for the next logical step?</span>
+        </p>
       </div>
       <div class="row">
-        <p class="large-9 large-centered small-12 small-centered columns text-center">
-          The world is full of problems to fix. Once you discover how to solve a painful problem, you can package that solution into a useful and meaningful product.
+        <p class="large-6 large-centered medium-8 medium-centered small-10 small-centered columns text-center">
+          I offer three services, each designed for a specific stage in your
+          early startup journey.
         </p>
       </div> <!-- /row -->
+      <div class="row large-12 large-centered columns">
+        <div class="large-4 large-uncentered medium-4 medium-uncentered small-12 small-centered columns">
+          <div class="panel">
+            <div class="bg-turquoise rounded-top">
+              <p class="text-center">1</p>
+            </div>
+            <div class="row text-center"><img src="" alt=""></div>
+            <div class="row">
+              <h5 class="small-10 small-centered columns text-center">
+                Product Roadmap Workshop &amp; Report
+              </h5>
+            </div>
+            <div class="row">
+              <h6 class="small-12 small-centered columns text-center">
+                Who is this for?
+              </h6>
+            </div>
+          </div>
+        </div>
+        <div class="large-4 large-uncentered medium-4 medium-uncentered small-12 small-centered columns">
+          <div class="panel">
+            <div class="bg-magenta rounded-top">
+              <p class="text-center">1</p>
+            </div>
+            <div class="row text-center"><img src="" alt=""></div>
+            <div class="row">
+              <h5 class="small-10 small-centered columns text-center">
+                Product Roadmap Workshop &amp; Report
+              </h5>
+            </div>
+            <div class="row">
+              <h6 class="small-12 small-centered columns text-center">
+                Who is this for?
+              </h6>
+            </div>
+          </div>
+        </div>
+        <div class="large-4 large-uncentered medium-4 medium-uncentered small-12 small-centered columns">
+          <div class="panel">
+            <div class="bg-sea-green rounded-top">
+              <p class="text-center">1</p>
+            </div>
+            <div class="row text-center"><img src="" alt=""></div>
+            <div class="row">
+              <h5 class="small-10 small-centered columns text-center">
+                Product Roadmap Workshop &amp; Report
+              </h5>
+            </div>
+            <div class="row">
+              <h6 class="small-12 small-centered columns text-center">
+                Who is this for?
+              </h6>
+            </div>
+          </div>
+        </div>
+      </div>
     </section> <!-- /two -->
 
     <section class="three">
