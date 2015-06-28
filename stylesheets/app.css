@@ -7104,6 +7104,7 @@ p,
 h2,
 h3,
 h4,
+section.one li
 section.three li,
 form span,
 label,
@@ -7112,7 +7113,7 @@ label,
   font-family: 'gotham-rounded-book';
 }
 
-/* line 35, ../scss/_custom.scss */
+/* line 36, ../scss/_custom.scss */
 .top-bar {
   margin-top: 25px;
   margin-top: 1.5625rem;
@@ -7120,25 +7121,25 @@ label,
   margin-bottom: 1.5625rem;
 }
 
-/* line 40, ../scss/_custom.scss */
+/* line 41, ../scss/_custom.scss */
 .top-bar,
 .top-bar-section ul li,
 .top-bar-section li:not(.has-form) a:not(.button) {
   background: none;
 }
 
-/* line 46, ../scss/_custom.scss */
+/* line 47, ../scss/_custom.scss */
 .top-bar ul li a {
   background: transparent !important;
 }
 
-/* line 50, ../scss/_custom.scss */
+/* line 51, ../scss/_custom.scss */
 .top-bar.expanded .toggle-topbar a,
 .top-bar-section li:not(.has-form) a:not(.button):hover {
   color: #42c1d1;
 }
 
-/* line 55, ../scss/_custom.scss */
+/* line 56, ../scss/_custom.scss */
 .top-bar-section ul li > a,
 footer {
   font-size: 15.2px;
@@ -7146,26 +7147,31 @@ footer {
   text-transform: uppercase;
 }
 
-/* line 61, ../scss/_custom.scss */
+/* line 62, ../scss/_custom.scss */
 .top-bar-section ul li > a,
-footer p {
+footer p,
+section.one p {
   font-family: 'gotham-rounded-medium';
+}
+
+/* line 68, ../scss/_custom.scss */
+.top-bar-section ul li > a {
   letter-spacing: 0.8px;
   letter-spacing: 0.05rem;
 }
 
-/* line 67, ../scss/_custom.scss */
+/* line 72, ../scss/_custom.scss */
 .top-bar .title-area {
   padding-left: 40px;
   padding-left: 2.5rem;
 }
 
-/* line 71, ../scss/_custom.scss */
+/* line 76, ../scss/_custom.scss */
 .top-bar.expanded .title-area {
   background: none;
 }
 
-/* line 78, ../scss/_custom.scss */
+/* line 83, ../scss/_custom.scss */
 .hero {
   background: url("../images/hero-background.jpg");
   object-fit: cover;
@@ -7177,14 +7183,14 @@ footer p {
   margin-bottom: 3.125rem;
 }
 
-/* line 89, ../scss/_custom.scss */
+/* line 94, ../scss/_custom.scss */
 .hero h1,
 .hero h5,
 .top-bar .toggle-topbar a {
   font-family: 'gotham-rounded-light';
 }
 
-/* line 95, ../scss/_custom.scss */
+/* line 100, ../scss/_custom.scss */
 .hero h1,
 section.five p,
 section.six p,
@@ -7193,7 +7199,7 @@ footer {
   color: #fff;
 }
 
-/* line 103, ../scss/_custom.scss */
+/* line 108, ../scss/_custom.scss */
 .hero h5 {
   color: #a4cfea;
   font-size: 24px;
@@ -7202,42 +7208,38 @@ footer {
   margin: 1.75rem 1.75rem 2.5rem 1.75rem;
 }
 
-/* line 109, ../scss/_custom.scss */
+/* line 114, ../scss/_custom.scss */
 .hero h1 {
   padding-top: 64px;
   padding-top: 4rem;
 }
 @media (max-width: 768px) {
-  /* line 109, ../scss/_custom.scss */
+  /* line 114, ../scss/_custom.scss */
   .hero h1 {
     padding-top: 16px;
     padding-top: 1rem;
   }
 }
 
-/* line 116, ../scss/_custom.scss */
-section.one li,
+/* line 121, ../scss/_custom.scss */
 section.three li {
+  list-style-type: none;
   padding-left: 40px;
   padding-left: 2.5rem;
+  margin-bottom: 12px;
+  margin-bottom: 0.75rem;
   background: url(../images/bullet-circle-check.png) top left no-repeat;
 }
 
-/* line 122, ../scss/_custom.scss */
+/* line 128, ../scss/_custom.scss */
 h2,
 h3,
-footer a {
+footer a,
+section.one p {
   color: #ed4b7e;
 }
 
-/* line 128, ../scss/_custom.scss */
-li {
-  list-style-type: none;
-  margin-bottom: 12px;
-  margin-bottom: 0.75rem;
-}
-
-/* line 133, ../scss/_custom.scss */
+/* line 135, ../scss/_custom.scss */
 nav {
   opacity: 0;
   -webkit-transition-delay: 1.5s;
@@ -7252,7 +7254,7 @@ nav {
   transition: opacity 1.5s 0;
 }
 
-/* line 138, ../scss/_custom.scss */
+/* line 140, ../scss/_custom.scss */
 div.fade-in-second {
   opacity: 0;
   -webkit-transition-delay: 4.5s;
@@ -7267,7 +7269,7 @@ div.fade-in-second {
   transition: opacity 1.5s ease-in;
 }
 
-/* line 143, ../scss/_custom.scss */
+/* line 145, ../scss/_custom.scss */
 div.fade-in-third {
   opacity: 0;
   -webkit-transition-delay: 7.5s;
@@ -7282,14 +7284,15 @@ div.fade-in-third {
   transition: opacity 2.5s ease-in;
 }
 
-/* line 148, ../scss/_custom.scss */
+/* line 150, ../scss/_custom.scss */
 nav.load,
 div.fade-in-second.load,
 div.fade-in-third.load {
   opacity: 1;
 }
 
-/* line 160, ../scss/_custom.scss */
+/* line 162, ../scss/_custom.scss */
+section.one h4,
 section.one li,
 section.three li,
 section.two p,
@@ -7299,7 +7302,7 @@ section.contact-thanks p {
   color: #3c6174;
 }
 
-/* line 169, ../scss/_custom.scss */
+/* line 172, ../scss/_custom.scss */
 section.two p,
 section.three li,
 section.four p,
@@ -7314,7 +7317,7 @@ section.contact-thanks p {
   font-size: 1.25rem;
 }
 @media (max-width: 767px) {
-  /* line 169, ../scss/_custom.scss */
+  /* line 172, ../scss/_custom.scss */
   section.two p,
   section.three li,
   section.four p,
@@ -7330,7 +7333,7 @@ section.contact-thanks p {
   }
 }
 
-/* line 185, ../scss/_custom.scss */
+/* line 188, ../scss/_custom.scss */
 section.one,
 section.two,
 section.three,
@@ -7342,14 +7345,14 @@ section.six {
   padding-bottom: 4.6875rem;
 }
 
-/* line 194, ../scss/_custom.scss */
+/* line 197, ../scss/_custom.scss */
 section.one,
 section.three,
 section.contact-thanks {
   background: #fff;
 }
 
-/* line 200, ../scss/_custom.scss */
+/* line 203, ../scss/_custom.scss */
 section.contact-thanks {
   padding-top: 120px;
   padding-top: 7.5rem;
@@ -7357,46 +7360,51 @@ section.contact-thanks {
   padding-bottom: 10rem;
 }
 
-/* line 205, ../scss/_custom.scss */
-section.one h4,
+/* line 208, ../scss/_custom.scss */
 section.six h3,
 form span {
   color: #42c1d1;
 }
 
-/* line 219, ../scss/_custom.scss */
+/* line 221, ../scss/_custom.scss */
 section.one h2 span {
   font-weight: bold;
   font-style: italic;
 }
-/* line 224, ../scss/_custom.scss */
-section.one p,
+@media (max-width: 768px) {
+  /* line 226, ../scss/_custom.scss */
+  section.one h4 {
+    font-size: 25.6px;
+    font-size: 1.6rem;
+  }
+}
+/* line 231, ../scss/_custom.scss */
 section.one li {
   color: #3c6174;
+  font-size: 18px;
+  font-size: 1.125rem;
+  margin-bottom: 30px;
+  margin-bottom: 1.875rem;
 }
-/* line 228, ../scss/_custom.scss */
+/* line 236, ../scss/_custom.scss */
 section.one p {
-  font-size: 24px;
-  font-size: 1.5rem;
-  margin: 25px 0px 25px 0px;
-  margin: 1.5625rem 0rem 1.5625rem 0rem;
+  font-size: 21px;
+  font-size: 1.3125rem;
+  margin: 20.8px 0px 25px 0px;
+  margin: 1.3rem 0rem 1.5625rem 0rem;
 }
-/* line 232, ../scss/_custom.scss */
-section.one li {
-  font-family: 'gotham-rounded-book-italic';
-  font-size: 17.6px;
-  font-size: 1.1rem;
-  letter-spacing: 0.64px;
-  letter-spacing: 0.04rem;
+/* line 239, ../scss/_custom.scss */
+section.one p span {
+  font-family: 'Gotham-Rounded-Medium-Italic';
 }
 
-/* line 241, ../scss/_custom.scss */
+/* line 245, ../scss/_custom.scss */
 section.two,
 section.four {
   background: #ecf3f7;
 }
 
-/* line 246, ../scss/_custom.scss */
+/* line 250, ../scss/_custom.scss */
 section.five,
 footer {
   padding-top: 35px;
@@ -7405,61 +7413,61 @@ footer {
   padding-bottom: 2.1875rem;
 }
 
-/* line 253, ../scss/_custom.scss */
+/* line 257, ../scss/_custom.scss */
 section.two img {
   width: 95px;
   height: 84px;
   margin: 0 auto;
 }
-/* line 259, ../scss/_custom.scss */
+/* line 263, ../scss/_custom.scss */
 section.two p span {
   font-family: 'gotham-rounded-book-italic';
   font-weight: bold;
 }
-/* line 265, ../scss/_custom.scss */
+/* line 269, ../scss/_custom.scss */
 section.two h2,
 section.two p {
   padding-top: 24px;
   padding-top: 1.5rem;
 }
 
-/* line 273, ../scss/_custom.scss */
+/* line 277, ../scss/_custom.scss */
 section.three h3,
 section.six h3 {
   padding-bottom: 28px;
   padding-bottom: 1.75rem;
 }
 
-/* line 278, ../scss/_custom.scss */
+/* line 282, ../scss/_custom.scss */
 section.four h6,
 section.contact-thanks p span {
   font-family: gotham-rounded-bold;
 }
 
-/* line 283, ../scss/_custom.scss */
+/* line 287, ../scss/_custom.scss */
 section.four h6 {
   margin-bottom: 0px;
   margin-bottom: 0rem;
 }
-/* line 287, ../scss/_custom.scss */
+/* line 291, ../scss/_custom.scss */
 section.four p span {
   font-size: 18px;
   font-size: 1.125rem;
 }
 
-/* line 292, ../scss/_custom.scss */
+/* line 296, ../scss/_custom.scss */
 section.five {
   background: #ed4b7e;
   padding: 33.6px 0px 17.6px 0px;
   padding: 2.1rem 0rem 1.1rem 0rem;
 }
 
-/* line 297, ../scss/_custom.scss */
+/* line 301, ../scss/_custom.scss */
 section.six {
   background: #023b57;
 }
 
-/* line 301, ../scss/_custom.scss */
+/* line 305, ../scss/_custom.scss */
 #contact button,
 #contact .button {
   background: #ed4b7e;
@@ -7469,7 +7477,7 @@ section.six {
   margin-top: 2rem;
 }
 
-/* line 308, ../scss/_custom.scss */
+/* line 312, ../scss/_custom.scss */
 #contact button:hover,
 #contact .button:hover,
 #contact button:disabled,
@@ -7477,13 +7485,13 @@ section.six {
   background: #f2799f;
 }
 
-/* line 315, ../scss/_custom.scss */
+/* line 319, ../scss/_custom.scss */
 input,
 textarea {
   -webkit-transform: translate3d(0, 0, 0);
 }
 
-/* line 320, ../scss/_custom.scss */
+/* line 324, ../scss/_custom.scss */
 input[type="text"],
 input[type="email"],
 textarea[name="description"],
@@ -7493,7 +7501,7 @@ input[type=radio] {
   margin-top: 1.25rem;
 }
 
-/* line 328, ../scss/_custom.scss */
+/* line 332, ../scss/_custom.scss */
 input[type=radio].css-checkbox {
   position: absolute;
   z-index: -1000;
@@ -7507,7 +7515,7 @@ input[type=radio].css-checkbox {
   border: 0;
 }
 
-/* line 341, ../scss/_custom.scss */
+/* line 345, ../scss/_custom.scss */
 input[type=radio].css-checkbox + label.css-label {
   padding-left: 24px;
   height: 19px;
@@ -7520,12 +7528,12 @@ input[type=radio].css-checkbox + label.css-label {
   cursor: pointer;
 }
 
-/* line 354, ../scss/_custom.scss */
+/* line 358, ../scss/_custom.scss */
 input[type=radio].css-checkbox:checked + label.css-label {
   background-position: 0 -19px;
 }
 
-/* line 358, ../scss/_custom.scss */
+/* line 362, ../scss/_custom.scss */
 label.css-label {
   background-image: url(../images/css-check.png);
   -webkit-touch-callout: none;
@@ -7536,13 +7544,13 @@ label.css-label {
   user-select: none;
 }
 
-/* line 368, ../scss/_custom.scss */
+/* line 372, ../scss/_custom.scss */
 form span {
   font-size: 14.4px;
   font-size: 0.9rem;
 }
 
-/* line 380, ../scss/_custom.scss */
+/* line 384, ../scss/_custom.scss */
 footer {
   background: #012638;
 }

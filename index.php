@@ -36,30 +36,41 @@
 
     <section class="one">
       <div class="row">
-        <h2 class="large-10 small-11 small-centered large-centered columns text-center">
-          Why <span>do</span> people love to use certain products?
-        </h2>
-      </div> <!-- /row -->
-      <div class="row">
-        <h4 class="large-8 large-centered small-10 small-centered columns text-center">
-          A useful product should solve a problem.
+        <h4 class="large-10 medium-12 small-12 small-centered medium-centered large-centered columns text-center">
+          Don't risk spending 50k+ on building software that no one wants.
         </h4>
       </div> <!-- /row -->
       <div class="row">
-        <p class="large-12 large-centered columns text-center">
-          We have lots of those!
+        <p class="large-8 large-centered small-12 small-centered columns text-center">
+          Does this sound familiar?
         </p>
-      </div>
+      </div> <!-- /row -->
       <div class="row">
-        <ul class="large-5 large-centered columns small-10 small-centered">
-          <li>Boredom, loneliness, fear of missing out</li>
-          <li>Losing money, time, or sleep</li>
-          <li>Needing advice or guidance</li>
-          <li>Seeking love, connectedness, self-validation</li>
+        <ul class="large-6 large-centered medium-8 medium-centered columns small-10 small-centered">
+          <li>
+            You're ready to build a digital product or online service, but
+            you're feeling a bit in over your head while trying to build a team.
+          </li>
+          <li>
+            You don't want to hire the wrong people or spend money on the wrong things.
+          </li>
+          <li>
+            You don't want to be that founder who spent tens of thousands of dollars
+            building software that no one used.
+          </li>
+          <li>
+            You've heard the horror stories about how easy it is to end up with
+            unreliable code, a poor user experience, unresponsive contractors,
+            or a product that no one actually wanted, but claimed they did before
+            it was built.
+          </li>
         </ul>
       </div> <!-- /row -->
       <div class="row">
-        <p class="large-12 large-centered columns text-center">&hellip; And more!</p>
+        <p class="large-8 large-centered medium-10 medium-centered small-12 small-centered columns text-center">
+          What if you could take steps designed to not only reduce risk, but also
+          save time and resources <span>before you launch your startup?</span>
+        </p>
       </div> <!-- /row -->
     </section> <!-- /one -->
 
