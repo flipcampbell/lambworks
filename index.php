@@ -86,7 +86,7 @@
           early startup journey.
         </p>
       </div> <!-- /row -->
-      <div class="row large-12 large-centered columns">
+      <div class="large-9 large-centered medium-12 medium centered small-12 small-centered columns">
         <div class="large-4 large-uncentered medium-4 medium-uncentered small-12 small-centered columns">
           <div class="panel">
             <div class="bg-turquoise rounded-top">

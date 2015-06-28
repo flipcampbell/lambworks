@@ -7578,8 +7578,22 @@ footer {
   border-radius: 4px;
   border-radius: 0.25rem;
 }
+@media (min-width: 768px) and (max-width: 1024px) {
+  /* line 404, ../scss/_custom.scss */
+  .panel {
+    margin: 16px 0px 16px 0px;
+    margin: 1rem 0rem 1rem 0rem;
+  }
+}
+@media (min-width: 320px) and (max-width: 768px) {
+  /* line 404, ../scss/_custom.scss */
+  .panel {
+    margin: 16px -12px 16px -12px;
+    margin: 1rem -0.75rem 1rem -0.75rem;
+  }
+}
 
-/* line 410, ../scss/_custom.scss */
+/* line 416, ../scss/_custom.scss */
 .rounded-top {
   border-radius: 4px 4px 0px 0px;
   border-radius: 0.25rem 0.25rem 0rem 0rem;
