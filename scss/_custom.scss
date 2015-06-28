@@ -401,10 +401,6 @@ footer {
 	@include bg-color($color-sea-green);
 }
 
-.cards {
-
-}
-
 .panel {
 	@include rem-fallback(margin, 0.625);
 	@include bg-color($color-white);
@@ -412,6 +408,5 @@ footer {
 }
 
 .rounded-top {
-	border-radius: 4px 4px 0 0;
-	border-radius: 0.25rem 0.25rem 0 0;
+	@include rem-fallback(border-radius, 0.25, 0.25, 0, 0);
 }

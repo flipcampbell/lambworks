@@ -7570,7 +7570,7 @@ footer {
   background: #4bcfa8;
 }
 
-/* line 408, ../scss/_custom.scss */
+/* line 404, ../scss/_custom.scss */
 .panel {
   margin: 10px;
   margin: 0.625rem;
@@ -7579,10 +7579,10 @@ footer {
   border-radius: 0.25rem;
 }
 
-/* line 414, ../scss/_custom.scss */
+/* line 410, ../scss/_custom.scss */
 .rounded-top {
-  border-radius: 4px 4px 0 0;
-  border-radius: 0.25rem 0.25rem 0 0;
+  border-radius: 4px 4px 0px 0px;
+  border-radius: 0.25rem 0.25rem 0rem 0rem;
 }
 
 /* line 49, ../bower_components/foundation/scss/foundation/components/_flex-video.scss */
