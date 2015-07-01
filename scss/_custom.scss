@@ -29,7 +29,8 @@ section.three li,
 form span,
 label,
 #contact button,
-#contact .button {
+#contact .button,
+.card li {
 	font-family: 'gotham-rounded-book';
 }
 
@@ -62,7 +63,10 @@ footer {
 .top-bar-section ul li > a,
 footer p,
 section.one p,
-section.two p span {
+section.two p span,
+.card h5,
+.card h6,
+.card a {
 	font-family: 'gotham-rounded-medium';
 }
 
@@ -284,7 +288,8 @@ section.six {
 }
 
 section.four h6,
-section.contact-thanks p span {
+section.contact-thanks p span,
+.card p {
 	font-family: 'gotham-rounded-bold';
 }
 section.four {
@@ -401,10 +406,55 @@ footer {
 	@include bg-color($color-sea-green);
 }
 
+.card {
+	min-height: 300px;
+	p {
+		@include rem-fallback(font-size, 1.875);
+		color: $color-white !important;
+	}
+	h5 {
+		@include rem-fallback(font-size, 1.3125);
+	}
+	h6,
+	a {
+		@include rem-fallback(font-size, 1.125);
+	}
+	li {
+		@include rem-fallback(font-size, 1);
+		@include rem-fallback(margin-bottom, 1);
+	}
+	h6,
+	li {
+		@include font-color($color-grey);
+	}
+	li {
+		@include rem-fallback(padding-bottom, 1);
+	}
+	@include media('<=tablet') {
+		p,
+		h5,
+		h6,
+		li,
+		a {
+			font-size: 85%;
+		}
+	}
+}
+
 .panel {
 	@include rem-fallback(margin, 0.625);
 	@include bg-color($color-white);
 	@include rem-fallback(border-radius, 0.25);
+	@include rem-fallback(padding-bottom, 2);
+	// &:after {
+	// 	visibility: hidden;
+	// 	display: block;
+	// 	font-size: 0;
+	// 	content: " ";
+	// 	clear: both;
+	// 	height: 0;
+	// }
+	// display: block;
 	@include media('>=tablet', '<=desktop') {
 		@include rem-fallback(margin, 1, 0, 1, 0);
 	}
@@ -415,4 +465,22 @@ footer {
 
 .rounded-top {
 	@include rem-fallback(border-radius, 0.25, 0.25, 0, 0);
+}
+
+// .card:nth-last-of-type(odd) {
+// 	li:last-of-type {
+// 		@include rem-fallback(padding-bottom, 2);
+// 	}
+// }
+
+.font-turquoise {
+	@include font-color($color-turquoise !important);
+}
+
+.font-magenta {
+	@include font-color($color-magenta !important);
+}
+
+.font-sea-green {
+	@include font-color($color-sea-green !important);
 }

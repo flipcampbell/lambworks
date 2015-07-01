@@ -87,7 +87,7 @@
         </p>
       </div> <!-- /row -->
       <div class="large-9 large-centered medium-12 medium centered small-12 small-centered columns">
-        <div class="large-4 large-uncentered medium-4 medium-uncentered small-12 small-centered columns">
+        <div class="large-4 large-uncentered medium-4 medium-uncentered small-12 small-centered columns card">
           <div class="panel">
             <div class="bg-turquoise rounded-top">
               <p class="text-center">1</p>
@@ -96,7 +96,7 @@
               <img src="" alt="">
             </div> <!-- /row -->
             <div class="row">
-              <h5 class="small-10 small-centered columns text-center">
+              <h5 class="small-10 small-centered columns text-center font-turquoise">
                 Product Roadmap Workshop &amp; Report
               </h5>
             </div> <!-- /row -->
@@ -106,7 +106,7 @@
               </h6>
             </div> <!-- /row -->
             <div class="row">
-              <ul class="small-8 small-centered columns">
+              <ul class="small-10 small-centered columns">
                 <li>
                   Recommended for those just getting started and haven't
                   invested in a team yet.
@@ -119,7 +119,7 @@
               </h6>
             </div> <!-- /row -->
             <div class="row">
-              <ul class="small-8 small-centered columns">
+              <ul class="small-10 small-centered columns">
                 <li>
                   One-on-one workshop about your product or service
                 </li>
@@ -128,12 +128,14 @@
                 </li>
               </ul>
             </div> <!-- /row -->
-            <div class="row">
-              <a href="" class="small-0 small-centered columns"></a>
+            <div class="row text-center">
+              <a href="" class="small-10 small-centered columns font-turquoise">
+                Find the right workshop for you
+              </a>
             </div> <!-- /row -->
           </div> <!-- /panel -->
         </div> <!-- /card -->
-        <div class="large-4 large-uncentered medium-4 medium-uncentered small-12 small-centered columns">
+        <div class="large-4 large-uncentered medium-4 medium-uncentered small-12 small-centered columns card">
           <div class="panel">
             <div class="bg-magenta rounded-top">
               <p class="text-center">2</p>
@@ -142,8 +144,8 @@
               <img src="" alt="">
             </div> <!-- /row -->
             <div class="row">
-              <h5 class="small-10 small-centered columns text-center">
-                Product Roadmap Workshop &amp; Report
+              <h5 class="small-10 small-centered columns text-center font-magenta">
+                Digital Strategy, Product Design &amp; Development
               </h5>
             </div> <!-- /row -->
             <div class="row">
@@ -152,10 +154,10 @@
               </h6>
             </div> <!-- /row -->
             <div class="row">
-              <ul class="small-8 small-centered columns">
+              <ul class="small-10 small-centered columns">
                 <li>
-                  Recommended for those just getting started and haven't
-                  invested in a team yet.
+                  Recommended for those ready to put ideas into action and build
+                  a team. <span>(Product Roadmap Required)</span>
                 </li>
               </ul>
             </div> <!-- /row -->
@@ -165,21 +167,23 @@
               </h6>
             </div> <!-- /row -->
             <div class="row">
-              <ul class="small-8 small-centered columns">
+              <ul class="small-10 small-centered columns">
                 <li>
-                  One-on-one workshop about your product or service
-                </li>
-                <li>
-                  10+ page report with a step-by-step process of reaching your goals
+                  Services include launching a Minimal Viable Product, branding
+                  &amp; identiy design, rapid prototyping for user research,
+                  building and managing a tech team, and
+                  <span class="font-magenta">many more.</span>
                 </li>
               </ul>
             </div> <!-- /row -->
             <div class="row">
-              <a href="" class="small-0 small-centered columns"></a>
+              <a href="" class="small-10 small-centered columns font-magenta">
+                View the full list of services
+              </a>
             </div> <!-- /row -->
           </div> <!-- /panel -->
         </div> <!-- /card -->
-        <div class="large-4 large-uncentered medium-4 medium-uncentered small-12 small-centered columns">
+        <div class="large-4 large-uncentered medium-4 medium-uncentered small-12 small-centered columns card">
           <div class="panel">
             <div class="bg-sea-green rounded-top">
               <p class="text-center">3</p>
@@ -188,7 +192,7 @@
               <img src="" alt="">
             </div> <!-- /row -->
             <div class="row">
-              <h5 class="small-10 small-centered columns text-center">
+              <h5 class="small-10 small-centered columns text-center font-sea-green">
                 Product Roadmap Workshop &amp; Report
               </h5>
             </div> <!-- /row -->
@@ -198,7 +202,7 @@
               </h6>
             </div> <!-- /row -->
             <div class="row">
-              <ul class="small-8 small-centered columns">
+              <ul class="small-10 small-centered columns">
                 <li>
                   Recommended for those just getting started and haven't
                   invested in a team yet.
@@ -211,7 +215,7 @@
               </h6>
             </div> <!-- /row -->
             <div class="row">
-              <ul class="small-8 small-centered columns">
+              <ul class="small-10 small-centered columns">
                 <li>
                   One-on-one workshop about your product or service
                 </li>
@@ -221,7 +225,7 @@
               </ul>
             </div> <!-- /row -->
             <div class="row">
-              <a href="" class="small-0 small-centered columns"></a>
+              <a href="" class="small-10 small-centered columns"></a>
             </div> <!-- /row -->
           </div> <!-- /panel -->
         </div> <!-- /card -->
