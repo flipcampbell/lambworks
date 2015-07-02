@@ -30,7 +30,8 @@ form span,
 label,
 #contact button,
 #contact .button,
-.card li {
+.card li,
+p#card-subtitle span {
 	font-family: 'gotham-rounded-book';
 }
 
@@ -288,8 +289,7 @@ section.six {
 }
 
 section.four h6,
-section.contact-thanks p span,
-.card p {
+section.contact-thanks p span {
 	font-family: 'gotham-rounded-bold';
 }
 section.four {
@@ -407,10 +407,14 @@ footer {
 }
 
 .card {
-	min-height: 300px;
+	// min-height: 300px;
 	p {
 		@include rem-fallback(font-size, 1.875);
 		color: $color-white !important;
+	}
+	p#card-subtitle span {
+		text-transform: none !important;
+		letter-spacing: normal;
 	}
 	h5 {
 		@include rem-fallback(font-size, 1.3125);
@@ -419,7 +423,8 @@ footer {
 	a {
 		@include rem-fallback(font-size, 1.125);
 	}
-	li {
+	li,
+	p#card-subtitle span {
 		@include rem-fallback(font-size, 1);
 		@include rem-fallback(margin-bottom, 1);
 	}
@@ -429,6 +434,7 @@ footer {
 	}
 	li {
 		@include rem-fallback(padding-bottom, 1);
+		@include rem-fallback(padding-left, 0.5);
 	}
 	@include media('<=tablet') {
 		p,
@@ -442,6 +448,10 @@ footer {
 }
 
 .panel {
+	box-sizing: border-box;
+	-moz-box-shadow: 0 2px 0 rgba(0, 0, 0, 0.2), inset 0 0 10px rgba(0, 0, 0, 0.03);
+	-webkit-box-shadow: 0 2px 0 rgba(0, 0, 0, 0.2), inset 0 0 10px rgba(0, 0, 0, 0.03);
+	box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2), inset 0 0 10px rgba(0, 0, 0, 0.03);
 	@include rem-fallback(margin, 0.625);
 	@include bg-color($color-white);
 	@include rem-fallback(border-radius, 0.25);
@@ -483,4 +493,9 @@ footer {
 
 .font-sea-green {
 	@include font-color($color-sea-green !important);
+}
+
+.divider {
+	border-bottom: 1px solid $color-grey;
+	@include rem-fallback(margin, 2, 0, 2, 0);
 }
