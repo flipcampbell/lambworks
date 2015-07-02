@@ -7617,16 +7617,6 @@ footer {
   padding-left: 8px;
   padding-left: 0.5rem;
 }
-@media (max-width: 768px) {
-  /* line 440, ../scss/_custom.scss */
-  .card p,
-  .card h5,
-  .card h6,
-  .card li,
-  .card a {
-    font-size: 85%;
-  }
-}
 
 /* line 450, ../scss/_custom.scss */
 .panel {

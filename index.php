@@ -111,7 +111,7 @@
                 </div>
               </div> <!-- /row -->
               <div class="row">
-                <div class="small-9 small-centered columns divider"></div>
+                <div class="small-10 small-centered columns divider"></div>
               </div> <!-- /row -->
               <div class="row">
                 <h6 class="small-11 small-offset-1 columns">
@@ -160,7 +160,7 @@
                 </div>
               </div> <!-- /row -->
               <div class="row">
-                <div class="small-9 small-centered columns divider"></div>
+                <div class="small-10 small-centered columns divider"></div>
               </div> <!-- /row -->
               <div class="row">
                 <h6 class="small-11 small-offset-1 columns">
@@ -209,7 +209,7 @@
                 </div>
               </div> <!-- /row -->
               <div class="row">
-                <div class="small-9 small-centered columns divider"></div>
+                <div class="small-10 small-centered columns divider"></div>
               </div> <!-- /row -->
               <div class="row">
                 <h6 class="small-11 small-offset-1 columns">

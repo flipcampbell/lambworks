@@ -436,15 +436,15 @@ footer {
 		@include rem-fallback(padding-bottom, 1);
 		@include rem-fallback(padding-left, 0.5);
 	}
-	@include media('<=tablet') {
-		p,
-		h5,
-		h6,
-		li,
-		a {
-			font-size: 85%;
-		}
-	}
+	// @include media('<=tablet') {
+	// 	p,
+	// 	h5,
+	// 	h6,
+	// 	li,
+	// 	a {
+	// 		font-size: 85%;
+	// 	}
+	// }
 }
 
 .panel {
