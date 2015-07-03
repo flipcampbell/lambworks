@@ -7111,7 +7111,7 @@ label,
 #contact button,
 #contact .button,
 .card li,
-p#card-subtitle span {
+p.card-subtitle span {
   font-family: 'gotham-rounded-book';
 }
 
@@ -7423,7 +7423,9 @@ footer {
 /* line 264, ../scss/_custom.scss */
 section.two img {
   width: 95px;
+  width: 5.9375rem;
   height: 84px;
+  height: 5.25rem;
   margin: 0 auto;
 }
 /* line 270, ../scss/_custom.scss */
@@ -7575,42 +7577,49 @@ footer {
   background: #4bcfa8;
 }
 
-/* line 411, ../scss/_custom.scss */
+/* line 409, ../scss/_custom.scss */
+.bg-navy {
+  background: #023b57;
+}
+
+/* line 413, ../scss/_custom.scss */
+.bg-white {
+  background: #fff;
+}
+
+/* line 419, ../scss/_custom.scss */
 .card p {
   font-size: 30px;
   font-size: 1.875rem;
   color: #fff !important;
 }
-/* line 415, ../scss/_custom.scss */
-.card p#card-subtitle span {
-  text-transform: none !important;
-  letter-spacing: normal;
-}
-/* line 419, ../scss/_custom.scss */
+/* line 427, ../scss/_custom.scss */
 .card h5 {
   font-size: 21px;
   font-size: 1.3125rem;
 }
-/* line 422, ../scss/_custom.scss */
+/* line 430, ../scss/_custom.scss */
 .card h6,
 .card a {
   font-size: 18px;
   font-size: 1.125rem;
 }
-/* line 426, ../scss/_custom.scss */
+/* line 434, ../scss/_custom.scss */
 .card li,
-.card p#card-subtitle span {
+.card p.card-subtitle span {
   font-size: 16px;
   font-size: 1rem;
   margin-bottom: 16px;
   margin-bottom: 1rem;
+  text-transform: none;
+  letter-spacing: normal;
 }
-/* line 431, ../scss/_custom.scss */
+/* line 441, ../scss/_custom.scss */
 .card h6,
 .card li {
   color: #85929a;
 }
-/* line 435, ../scss/_custom.scss */
+/* line 445, ../scss/_custom.scss */
 .card li {
   padding-bottom: 16px;
   padding-bottom: 1rem;
@@ -7618,7 +7627,7 @@ footer {
   padding-left: 0.5rem;
 }
 @media only screen and (max-width: 1025px) {
-  /* line 441, ../scss/_custom.scss */
+  /* line 451, ../scss/_custom.scss */
   .card p,
   .card h5,
   .card h6 {
@@ -7626,7 +7635,7 @@ footer {
   }
 }
 
-/* line 458, ../scss/_custom.scss */
+/* line 468, ../scss/_custom.scss */
 .panel {
   box-sizing: border-box;
   -moz-box-shadow: 0 2px 0 rgba(0, 0, 0, 0.2), inset 0 0 10px rgba(0, 0, 0, 0.03);
@@ -7641,28 +7650,28 @@ footer {
   padding-bottom: 2rem;
 }
 
-/* line 484, ../scss/_custom.scss */
+/* line 494, ../scss/_custom.scss */
 .rounded-top {
   border-radius: 4px 4px 0px 0px;
   border-radius: 0.25rem 0.25rem 0rem 0rem;
 }
 
-/* line 494, ../scss/_custom.scss */
+/* line 504, ../scss/_custom.scss */
 .font-turquoise {
   color: #42c1d1 !important;
 }
 
-/* line 498, ../scss/_custom.scss */
+/* line 508, ../scss/_custom.scss */
 .font-magenta {
   color: #ed4b7e !important;
 }
 
-/* line 502, ../scss/_custom.scss */
+/* line 512, ../scss/_custom.scss */
 .font-sea-green {
   color: #4bcfa8 !important;
 }
 
-/* line 506, ../scss/_custom.scss */
+/* line 516, ../scss/_custom.scss */
 .divider {
   border-bottom: 1px solid #85929a;
   margin: 32px 0px 32px 0px;

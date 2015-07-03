@@ -31,7 +31,7 @@ label,
 #contact button,
 #contact .button,
 .card li,
-p#card-subtitle span {
+p.card-subtitle span {
 	font-family: 'gotham-rounded-book';
 }
 
@@ -262,8 +262,8 @@ footer {
 
 section.two {
 	img {
-		width: 95px;
-		height: 84px;
+		@include rem-fallback(width, 5.9375);
+		@include rem-fallback(height, 5.25);
 		margin: 0 auto;
 	}
 	p {
@@ -406,16 +406,24 @@ footer {
 	@include bg-color($color-sea-green);
 }
 
+.bg-navy {
+	@include bg-color($color-navy);
+}
+
+.bg-white {
+	@include bg-color($color-white);
+}
+
 .card {
 	// min-height: 300px;
 	p {
 		@include rem-fallback(font-size, 1.875);
 		color: $color-white !important;
 	}
-	p#card-subtitle span {
-		text-transform: none !important;
-		letter-spacing: normal;
-	}
+	// p#card-subtitle span {
+	// 	text-transform: none !important;
+	//
+	// }
 	h5 {
 		@include rem-fallback(font-size, 1.3125);
 	}
@@ -424,9 +432,11 @@ footer {
 		@include rem-fallback(font-size, 1.125);
 	}
 	li,
-	p#card-subtitle span {
+	p.card-subtitle span {
 		@include rem-fallback(font-size, 1);
 		@include rem-fallback(margin-bottom, 1);
+		text-transform: none;
+		letter-spacing: normal;
 	}
 	h6,
 	li {

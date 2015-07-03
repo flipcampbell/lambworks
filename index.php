@@ -74,7 +74,7 @@
       </div> <!-- /row -->
     </section> <!-- /one -->
 
-    <section class="two small-12 columns">
+    <section class="two">
       <div class="row">
         <p class="large-12 large-centered columns text-center">
           <span>Looking for the next logical step?</span>
@@ -95,7 +95,7 @@
               </div>
               <div class="row">
                 <div class="large-2 large-offset-1 large-uncentered small-12 small-centered columns text-center">
-                  <img src="" alt="">
+                  <img src="images/icon-roadmap.svg" alt="Roadmap Icon">
                 </div>
                 <div class="large-9 large-uncentered small-12 small-centered columns">
                   <div class="row">
@@ -104,7 +104,7 @@
                     </h5>
                   </div> <!-- /row -->
                   <div class="row">
-                    <p id="card-subtitle" class="large-12 small-10 small-centered columns">
+                    <p class="large-12 small-10 small-centered columns card-subtitle">
                       <span class="font-grey">
                         For those exploring options, strategies, and how to build a team
                       </span>
@@ -146,7 +146,7 @@
               </div>
               <div class="row">
                 <div class="large-2 large-offset-1 large-uncentered small-12 small-centered columns text-center">
-                  <img src="" alt="">
+                  <img class="" src="images/icon-branding.svg" alt="">
                 </div>
                 <div class="large-9 large-uncentered small-12 small-centered columns">
                   <div class="row">
@@ -155,7 +155,7 @@
                     </h5>
                   </div> <!-- /row -->
                   <div class="row">
-                    <p id="card-subtitle" class="small-12 columns">
+                    <p class="large-12 small-10 small-centered columns card-subtitle">
                       <span class="font-grey">
                         For those ready to hire a team to stary building and testing
                       </span>
@@ -196,7 +196,7 @@
               </div>
               <div class="row">
                 <div class="large-2 large-offset-1 large-uncentered small-12 small-centered columns text-center">
-                  <img src="" alt="">
+                  <img src="images/icon-monthly.svg" alt="Clock">
                 </div>
                 <div class="large-9 large-uncentered small-12 small-centered columns">
                   <div class="row">
@@ -205,7 +205,7 @@
                     </h5>
                   </div> <!-- /row -->
                   <div class="row">
-                    <p id="card-subtitle" class="small-12 columns">
+                    <p class="large-12 small-10 small-centered columns card-subtitle">
                       <span class="font-grey">
                         For those who have already launched a digital product or
                         strategy
@@ -238,77 +238,64 @@
             </div> <!-- /panel -->
           </div> <!-- /card -->
         </div><!-- /row -->
-      </div><!-- /row -->
+      </div> <!-- /row -->
     </section> <!-- /two -->
 
-    <section class="three">
-      <div class="row">
-        <h3 class="large-12 large-centered columns text-center">
-          Successful products have these key design ingredients.
-        </h2>
-      </div> <!-- /row -->
-      <div class="row">
-        <div class="large-12 columns">
-          <ul class="large-5 large-offset-1 large-uncentered medium-6 medium-uncentered small-10 small-centered columns">
-            <li>Enjoyable, easy to use, accessible</li>
-            <li>Presses all the right emotional buttons</li>
-          </ul>
-          <ul class="large-6 large-uncentered medium-6 medium-uncentered small-10 small-centered columns">
-            <li>Has an attractive look and feel that fits the app</li>
-            <li>Sustainably delivers value to users</li>
-          </ul>
-        </div>
-      </div>
-    </section> <!-- /three -->
-
-    <section class="four" id="about">
+    <section class="three" id="about">
       <div class="row">
         <div class="large-6 columns">
-          <div class="row">
             <div class="large-12 large-centered text-center">
               <img src="images/portrait.png" alt="A Headshot of Holly Stewart">
             </div>
-          </div> <!-- /row -->
-          <div class="row">
+
             <div class="large-8 large-centered small-centered columns">
-              <p><span>Holly Stewart is an independent product designer and consultant in Nashville.</span></p>
+              <p class="text-center">
+                <span>
+                  Holly Stewart is an independent product designer and consultant in Nashville.
+                </span>
+              </p>
             </div>
-          </div>
+
         </div>
         <div class="large-6 columns">
-          <div class="row">
-            <h3 class="large-12 columns">How I help startups</h3>
-          </div> <!-- /row -->
-          <div class="row">
-            <p class="large-12 columns">I work side-by-side with founders and developers to build products people love to use.</p>
-          </div> <!-- /row -->
-          <div class="row">
+            <h3 class="large-12 columns">Who's behind this?</h3>
+            <p class="large-12 columns">
+              Lambworks is a solo product design consultancy, for entrepreneurs
+              building digital products and online services.
+            </p>
             <div class="large-12 columns">
-              <h6>Focus</h6>
-              <p>I partner with one startup at a time, multiple times throughout the year.</p>
+              <p>I began doing design and marketing in the corporate-cubicle-world
+                for three long, soul-crushing years. After deciding that office
+                politics and inefficient bureaucracy are not for me, I voluntarily
+                escaped to go solo during a recession, while all of my colleagues
+                were desperately clinging to their jobs.
+              </p>
             </div>
-          </div> <!-- /row -->
-          <div class="row">
             <div class="large-12 columns">
-              <h6>Collaboration</h6>
-              <p>I choose teams where everyone gets to be involved in product research, strategy, and prioritization.</p>
+              <p>
+                Since then, I’ve spent six years helping startups and small
+                businesses with design, strategy, and occasionally self-sabotage
+                prevention. I prefer working with startups because we share a
+                drive to carve your own path while making useful and profitable things.
+              </p>
             </div>
-          </div> <!-- /row -->
-          <div class="row">
             <div class="large-12 columns">
-              <h6>Rapid Iteration</h6>
-              <p>I prefer team setups where I can easily integrate into the development process, without slowing things down or causing design bottlenecks.</p>
+              <h6>
+                Unlike other consultancies, I only accept projects from early
+                stage startups when it's clear I can provide a return on
+                investment by growing traction or revenue.
+              </h6>
             </div>
-          </div> <!-- /row -->
+            <div class="large-12 columns">
+              <p>
+                This allows me to solve core issues <span>before</span> any time
+                resources are thrown at a deeper business problem or unprofitable idea.
+              </p>
+            </div>
         </div> <!-- /row -->
       </div> <!-- /row -->
-    </section> <!-- /four -->
+    </section> <!-- /three -->
 
-    <section class="five" id="availability">
-      <div class="row">
-        <p class="large-12 large-centered columns text-center">I’m currently booked until August, 2015.</p>
-      </div><!-- /row -->
-    </section> <!-- /five -->
 <?php
   include('inc/contact-form.php');
   include('inc/footer.php');
