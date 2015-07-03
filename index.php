@@ -108,7 +108,6 @@
                   </p>
                 </div>
               </div> <!-- /row -->
-
               <div class="small-10 small-centered columns divider"></div>
               <div class="row">
                 <h6 class="large-11 large-offset-1 large-uncentered small-12 small-centered columns">
@@ -142,23 +141,17 @@
                   <img class="" src="images/icon-branding.svg" alt="">
                 </div>
                 <div class="large-9 large-uncentered small-12 small-centered columns">
-
-                    <h5 class="large-12 large-uncentered medium-8 medium-centered small-12 small-centered columns font-magenta">
-                      Product Strategy, Design &amp; Development
-                    </h5>
-
-
-                    <p class="large-12 small-10 small-centered columns card-subtitle">
-                      <span class="font-grey">
-                        For those ready to hire a team to stary building and testing
-                      </span>
-                    </p>
-
+                  <h5 class="large-12 large-uncentered medium-8 medium-centered small-12 small-centered columns font-magenta">
+                    Product Strategy, Design &amp; Development
+                  </h5>
+                  <p class="large-12 small-10 small-centered columns card-subtitle">
+                    <span class="font-grey">
+                      For those ready to hire a team to start building and testing
+                    </span>
+                  </p>
                 </div>
               </div> <!-- /row -->
-
-                <div class="small-10 small-centered columns divider"></div>
-
+              <div class="small-10 small-centered columns divider"></div>
               <div class="row">
                 <h6 class="large-11 large-offset-1 large-uncentered small-12 small-centered columns">
                   What do you get?
@@ -172,7 +165,7 @@
                 </ul>
               </div> <!-- /row -->
               <div class="row text-center">
-                <a href="" class="large-10 large-centered small-6 small-centered columns font-magenta">
+                <a href="" class="large-8 large-centered small-4 small-centered columns font-magenta">
                   View the full list of product building services
                 </a>
               </div> <!-- /row -->
