@@ -7634,6 +7634,16 @@ footer {
     text-align: center;
   }
 }
+@media (max-width: 768px) {
+  /* line 458, ../scss/_custom.scss */
+  .card p,
+  .card h5,
+  .card h6,
+  .card li,
+  .card a {
+    font-size: 95%;
+  }
+}
 
 /* line 468, ../scss/_custom.scss */
 .panel {

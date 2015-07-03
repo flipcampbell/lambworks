@@ -454,15 +454,15 @@ footer {
 			text-align: center;
 		}
 	}
-	// @include media('<=tablet') {
-	// 	p,
-	// 	h5,
-	// 	h6,
-	// 	li,
-	// 	a {
-	// 		font-size: 85%;
-	// 	}
-	// }
+	@include media('<=tablet') {
+		p,
+		h5,
+		h6,
+		li,
+		a {
+			font-size: 95%;
+		}
+	}
 }
 
 .panel {
