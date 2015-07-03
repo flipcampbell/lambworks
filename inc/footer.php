@@ -5,7 +5,7 @@
           <p>&copy; 2015 Lambworks</p>
         </div>
         <div class="large-6 medium-12 columns">
-          <p>Developed by <a href="http://www.flipcampbell.com">Flip Campbell</a></p></p>
+          <p>Developed by <a href="http://www.flipcampbell.com">Flip Campbell</a></p>
         </div>
 <!--         <div class="large-3 large-offset-1 medium-12 columns">
           <p><a href="#">Credits</a></p>
