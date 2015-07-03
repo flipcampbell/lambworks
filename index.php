@@ -105,7 +105,7 @@
                 </ul>
               </div> <!-- /row -->
               <div class="row text-center">
-                <a href="" class="large-10 large-centered small-6 small-centered columns font-turquoise">
+                <a href="#" class="large-10 large-centered small-6 small-centered columns font-turquoise" style="display:none;">
                   Find the right workshop for you
                 </a>
               </div> <!-- /row -->
@@ -147,7 +147,7 @@
                 </ul>
               </div> <!-- /row -->
               <div class="row text-center">
-                <a href="" class="large-8 large-centered small-4 small-centered columns font-magenta">
+                <a href="#" class="large-8 large-centered small-4 small-centered columns font-magenta" style="display:none;">
                   View the full list of product building services
                 </a>
               </div> <!-- /row -->
@@ -189,7 +189,7 @@
                 </ul>
               </div> <!-- /row -->
               <div class="row text-center">
-                <a href="#" class="large-10 large-centered small-6 small-centered columns font-sea-green" style="">
+                <a href="#" class="large-10 large-centered small-6 small-centered columns font-sea-green" style="display:none;">
                   View more details and available slots
                 </a>
               </div> <!-- /row -->
