@@ -436,6 +436,14 @@ footer {
 		@include rem-fallback(padding-bottom, 1);
 		@include rem-fallback(padding-left, 0.5);
 	}
+
+	@media only screen and (max-width: 1025px) {
+		p,
+		h5,
+		h6 {
+			text-align: center;
+		}
+	}
 	// @include media('<=tablet') {
 	// 	p,
 	// 	h5,
@@ -465,12 +473,12 @@ footer {
 	// 	height: 0;
 	// }
 	// display: block;
-	@include media('>=tablet', '<=desktop') {
-		@include rem-fallback(margin, 1, 0, 1, 0);
-	}
-	@include media('>=phone', '<=tablet') {
-		@include rem-fallback(margin, 1, -0.75, 1, -0.75);
-	}
+	// @include media('>=tablet', '<=desktop') {
+	// 	@include rem-fallback(margin, 1, 0, 1, 0);
+	// }
+	// @include media('>=phone', '<=tablet') {
+	// 	@include rem-fallback(margin, 1, -0.75, 1, -0.75);
+	// }
 }
 
 .rounded-top {

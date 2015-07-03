@@ -94,15 +94,17 @@
                 <p class="text-center">Plan</p>
               </div>
               <div class="row">
-                <div class="small-2 small-offset-1 columns"><img src="" alt=""></div>
-                <div class="small-9 columns">
+                <div class="large-2 large-offset-1 large-uncentered small-12 small-centered columns text-center">
+                  <img src="" alt="">
+                </div>
+                <div class="large-9 large-uncentered small-12 small-centered columns">
                   <div class="row">
-                    <h5 class="small-12 columns font-turquoise">
+                    <h5 class="large-12 large-uncentered medium-8 medium-centered small-12 small-centered columns font-turquoise">
                       Product Roadmap Workshop
                     </h5>
                   </div> <!-- /row -->
                   <div class="row">
-                    <p id="card-subtitle" class="small-12 columns">
+                    <p id="card-subtitle" class="large-12 small-10 small-centered columns">
                       <span class="font-grey">
                         For those exploring options, strategies, and how to build a team
                       </span>
@@ -114,16 +116,16 @@
                 <div class="small-10 small-centered columns divider"></div>
               </div> <!-- /row -->
               <div class="row">
-                <h6 class="small-11 small-offset-1 columns">
+                <h6 class="large-11 large-offset-1 large-uncentered small-12 small-centered columns">
                   What do you get?
                 </h6>
               </div> <!-- /row -->
               <div class="row">
                 <ul class="small-10 small-centered columns">
-                  <li class="small-6 columns">
+                  <li class="large-6 large-uncentered small-10 small-centered columns">
                     One-on-one workshop mapping out your idea from zero to launch
                   </li>
-                  <li class="small-6 columns">
+                  <li class="large-6 large-uncentered small-10 small-centered columns">
                     10+ page report with a step-by-step action-plan for reaching your goals
                   </li>
                 </ul>
@@ -143,10 +145,12 @@
                 <p class="text-center">Build</p>
               </div>
               <div class="row">
-                <div class="small-2 small-offset-1 columns"><img src="" alt=""></div>
-                <div class="small-9 columns">
+                <div class="large-2 large-offset-1 large-uncentered small-12 small-centered columns text-center">
+                  <img src="" alt="">
+                </div>
+                <div class="large-9 large-uncentered small-12 small-centered columns">
                   <div class="row">
-                    <h5 class="small-12 columns font-magenta">
+                    <h5 class="large-12 large-uncentered medium-8 medium-centered small-12 small-centered columns font-magenta">
                       Product Strategy, Design &amp; Development
                     </h5>
                   </div> <!-- /row -->
@@ -163,13 +167,13 @@
                 <div class="small-10 small-centered columns divider"></div>
               </div> <!-- /row -->
               <div class="row">
-                <h6 class="small-11 small-offset-1 columns">
+                <h6 class="large-11 large-offset-1 large-uncentered small-12 small-centered columns">
                   What do you get?
                 </h6>
               </div> <!-- /row -->
               <div class="row">
                 <ul class="small-10 small-centered columns">
-                  <li class="small-12 columns">
+                  <li class="large-12 large-uncentered small-10 small-centered columns">
                     A Minimum Viable Product, branding &amp; identity design,
                     rapid prototyping for user research, building and managing a team,
                     and <span class="font-magenta">much more.</span>
@@ -177,7 +181,7 @@
                 </ul>
               </div> <!-- /row -->
               <div class="row text-center">
-                <a href="" class="small-10 small-centered columns font-magenta">
+                <a href="" class="small-9 small-centered columns font-magenta">
                   View the full list of product building services
                 </a>
               </div> <!-- /row -->
@@ -191,10 +195,12 @@
                 <p class="text-center">Grow</p>
               </div>
               <div class="row">
-                <div class="small-2 small-offset-1 columns"><img src="" alt=""></div>
-                <div class="small-9 columns">
+                <div class="large-2 large-offset-1 large-uncentered small-12 small-centered columns text-center">
+                  <img src="" alt="">
+                </div>
+                <div class="large-9 large-uncentered small-12 small-centered columns">
                   <div class="row">
-                    <h5 class="small-12 columns font-sea-green">
+                    <h5 class="large-12 large-uncentered medium-8 medium-centered small-12 small-centered columns font-sea-green">
                       Monthly Digital Strategy &amp; Creative Direction
                     </h5>
                   </div> <!-- /row -->
@@ -212,20 +218,20 @@
                 <div class="small-10 small-centered columns divider"></div>
               </div> <!-- /row -->
               <div class="row">
-                <h6 class="small-11 small-offset-1 columns">
+                <h6 class="large-11 large-offset-1 large-uncentered small-12 small-centered columns">
                   What do you get?
                 </h6>
               </div> <!-- /row -->
               <div class="row">
                 <ul class="small-10 small-centered columns">
-                  <li class="small-12 columns">
+                  <li class="large-12 large-uncentered small-10 small-centered columns">
                   Month&dash;to&dash;month strategic UI and UX services for your
                   starup's product, marketing pages, and newsletter campaigns.
                   </li>
                 </ul>
               </div> <!-- /row -->
               <div class="row text-center">
-                <a href="" class="small-10 small-centered columns font-sea-green">
+                <a href="" class="small-8 small-centered columns font-sea-green">
                   View more details and available slots
                 </a>
               </div> <!-- /row -->
