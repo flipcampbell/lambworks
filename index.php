@@ -201,20 +201,8 @@
 
     <section class="three" id="about">
       <div class="row">
-        <h3 class="large-12 large-centered text-center columns">Who's behind this?</h3>
-        <div class="large-6 columns">
-          <div class="large-12 large-centered columns text-center">
-            <img src="images/portrait.png" alt="A Headshot of Holly Stewart">
-          </div> <!-- /.large-12 large-centered text-center -->
-          <div class="large-8 large-centered columns">
-            <p class="text-center">
-              <span>
-                Holly Stewart is an independent product designer and consultant in Nashville.
-              </span>
-            </p>
-          </div> <!-- /.large-8 large-centered columns -->
-        </div> <!-- /.large-6 columns -->
-        <div class="large-6 columns">
+        <div class="large-6 columns large-push-6">
+          <h3 class="large-12 columns">Who's behind this?</h3>
             <p class="large-12 columns">
               Lambworks is a solo product design consultancy, for entrepreneurs
               building digital products and online services.
@@ -252,6 +240,18 @@
               </p>
             </div>
         </div> <!-- /row -->
+        <div class="large-6 columns large-pull-6">
+          <div class="large-12 large-centered columns text-center">
+            <img src="images/portrait.png" alt="A Headshot of Holly Stewart">
+          </div> <!-- /.large-12 large-centered text-center -->
+          <div class="large-8 large-centered columns">
+            <p class="text-center">
+              <span>
+                Holly Stewart is an independent product designer and consultant in Nashville.
+              </span>
+            </p>
+          </div> <!-- /.large-8 large-centered columns -->
+        </div> <!-- /.large-6 columns -->
       </div> <!-- /row -->
     </section> <!-- /three -->
 

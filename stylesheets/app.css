@@ -7174,8 +7174,8 @@ section.two p span,
 .top-bar-section ul li > a,
 section.two p span,
 #filter h6 {
-  letter-spacing: 0.8px;
-  letter-spacing: 0.05rem;
+  letter-spacing: 3.2px;
+  letter-spacing: 0.2rem;
 }
 
 /* line 88, ../scss/_custom.scss */
@@ -7718,7 +7718,7 @@ footer {
 
 /* line 536, ../scss/_custom.scss */
 .divider {
-  border-bottom: 1px solid #c7efd3;
+  border-bottom: 1px solid #c7cfd3;
   margin: 32px 0px 32px 0px;
   margin: 2rem 0rem 2rem 0rem;
 }

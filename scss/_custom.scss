@@ -82,7 +82,7 @@ section.two p span,
 .top-bar-section ul li > a,
 section.two p span,
 #filter h6 {
-	@include rem-fallback(letter-spacing, 0.05);
+	@include rem-fallback(letter-spacing, 0.20);
 }
 
 .top-bar .title-area {
@@ -534,7 +534,7 @@ footer {
 }
 
 .divider {
-	border-bottom: 1px solid #c7efd3;
+	border-bottom: 1px solid #c7cfd3;
 	@include rem-fallback(margin, 2, 0, 2, 0);
 }
 
