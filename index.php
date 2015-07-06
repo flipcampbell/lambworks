@@ -64,7 +64,7 @@
       <p class="large-12 large-centered columns text-center">
         <span>Looking for the next logical step?</span>
       </p>
-      <h4 class="large-4 large-centered medium-8 medium-centered small-10 small-centered columns text-center">
+      <h4 class="large-6 large-centered medium-8 medium-centered small-10 small-centered columns text-center">
         I offer three services, each designed for a specific stage in your
         early startup journey.
       </h4>

@@ -7603,6 +7603,11 @@ footer {
   background: #ecf3f7;
 }
 
+/* line 437, ../scss/_custom.scss */
+.card {
+  padding: 19.2px 0px 19.2px 0px;
+  padding: 1.2rem 0rem 1.2rem 0rem;
+}
 /* line 439, ../scss/_custom.scss */
 .card p {
   font-size: 30px;
@@ -7713,7 +7718,7 @@ footer {
 
 /* line 536, ../scss/_custom.scss */
 .divider {
-  border-bottom: 1px solid #85929a;
+  border-bottom: 1px solid #c7efd3;
   margin: 32px 0px 32px 0px;
   margin: 2rem 0rem 2rem 0rem;
 }

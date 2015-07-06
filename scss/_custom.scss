@@ -435,7 +435,7 @@ footer {
 }
 
 .card {
-	// min-height: 300px;
+	@include rem-fallback(padding, 1.2, 0, 1.2, 0);
 	p {
 		@include rem-fallback(font-size, 1.875);
 		color: $color-white !important;
@@ -534,7 +534,7 @@ footer {
 }
 
 .divider {
-	border-bottom: 1px solid $color-grey;
+	border-bottom: 1px solid #c7efd3;
 	@include rem-fallback(margin, 2, 0, 2, 0);
 }
 
