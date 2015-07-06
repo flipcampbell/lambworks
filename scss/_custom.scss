@@ -544,6 +544,10 @@ section.products h4,
 		@include font-color($color-navy);
 }
 
+#about img {
+	@include rem-fallback(padding-bottom, 1);
+}
+
 #filter {
 	h4,
 	h5,

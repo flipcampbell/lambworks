@@ -7728,7 +7728,13 @@ section.products h4,
   color: #023b57;
 }
 
-/* line 548, ../scss/_custom.scss */
+/* line 547, ../scss/_custom.scss */
+#about img {
+  padding-bottom: 16px;
+  padding-bottom: 1rem;
+}
+
+/* line 552, ../scss/_custom.scss */
 #filter h4,
 #filter h5,
 #filter h6 {
