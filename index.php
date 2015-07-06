@@ -60,14 +60,14 @@
       </div> <!-- /row -->
     </section> <!-- /one -->
 
-    <section class="two">
+    <section class="two products">
       <p class="large-12 large-centered columns text-center">
         <span>Looking for the next logical step?</span>
       </p>
-      <p class="large-6 large-centered medium-8 medium-centered small-10 small-centered columns text-center">
+      <h4 class="large-4 large-centered medium-8 medium-centered small-10 small-centered columns text-center">
         I offer three services, each designed for a specific stage in your
         early startup journey.
-      </p>
+      </h4>
       <div class="small-12 small-centered columns">
         <div class="row">
           <div class="large-8 medium-10 small-12 small-centered columns card">
@@ -142,7 +142,7 @@
                   <li class="large-12 large-uncentered small-10 small-centered columns">
                     A Minimum Viable Product, branding &amp; identity design,
                     rapid prototyping for user research, building and managing a team,
-                    and <span class="font-magenta">much more.</span>
+                    and <span>much more.</span>
                   </li>
                 </ul>
               </div> <!-- /row -->
@@ -184,7 +184,7 @@
                 <ul class="small-10 small-centered columns">
                   <li class="large-12 large-uncentered small-10 small-centered columns">
                   Month&dash;to&dash;month strategic UI and UX services for your
-                  starup's product, marketing pages, and newsletter campaigns.
+                  startup's product, marketing pages, and newsletter campaigns.
                   </li>
                 </ul>
               </div> <!-- /row -->
@@ -237,14 +237,17 @@
             </div>
             <div class="large-12 columns">
               <p style="font-weight:bold;">
-                Unlike other consultancies, I only accept projects from early
-                stage startups when it's clear I can provide a return on
-                investment by growing traction or revenue.
+                <span>
+                  Unlike other consultancies, I only accept projects from early
+                  stage startups when it's clear I can provide a return on
+                  investment by growing traction or revenue.
+                </span>
               </p>
             </div>
             <div class="large-12 columns">
               <p>
-                This allows me to solve core issues <span>before</span> any time
+                This allows me to solve core issues
+                <span style="font-style: italic;">before</span> any time and
                 resources are thrown at a deeper business problem or unprofitable idea.
               </p>
             </div>
@@ -252,11 +255,11 @@
       </div> <!-- /row -->
     </section> <!-- /three -->
 
-    <section class="bg-plaster" id="testimonials">
+    <div class="bg-white" id="testimonials">
       <div class="row">
         <div class="small-10 small-centered columns divider"></div>
       </div> <!-- /.row -->
-    </section>
+    </div>
 
     <section class="bg-white" id="filter">
       <div class="row">
@@ -274,14 +277,14 @@
               running and managing your product over time.
             </p>
             <p>
-              <span>Spoiler Alert: </span> It's my intention to help you outgrow
-              me.
+              <span style="font-weight: bold;">Spoiler Alert: </span>
+              It's my intention to help you outgrow me.
             </p>
           </div> <!--/.large-6 small-12 -->
           <div class="large-6 small-12 columns">
             <h5 class="font-magenta">Bootstrappers</h5>
             <p>
-              You are the ultimate decision-maker
+              You are the ultimate decision-maker.
             </p>
             <p>
               There are no hidden investors or stakeholders that will come out of
@@ -304,7 +307,10 @@
              </h5>
              <p>
                If you're in the market for order takers, pixel pushers, or code
-               monkeys, please go <a href="#" class="font-magenta">here</a>.
+               monkeys, please go
+               <a href="http://www.odesk.com" target="_blank" class="font-magenta">
+                 here
+               </a>.
              </p>
              <p>
                We don't build for the sake of building. When I and our team of

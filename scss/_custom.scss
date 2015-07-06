@@ -5,7 +5,10 @@ body {
 	object-fit: cover;
 	background-position: center top;
 	background-repeat: no-repeat;
-
+	p,
+	li {
+		@include font-color($color-grey);
+	}
 }
 
 html, body {
@@ -173,14 +176,14 @@ div.fade-in-third.load {
 // }
 
 section.one h4,
-section.one li,
-section.three li,
-section.two p,
-section.four h6,
-section.four p,
-section.contact-thanks p,
-#about p,
-#filter p {
+// section.one li,
+// section.three li,
+// section.two p,
+section.four h6 {
+// section.four p,
+// section.contact-thanks p,
+// #about p,
+// #filter p {
 	color: $color-slate;
 }
 
@@ -245,7 +248,7 @@ section.one {
 		}
 	}
 	li {
-		color: $color-slate;
+		// color: $color-slate;
 		@include rem-fallback(font-size, 1.125);
 		@include rem-fallback(margin-bottom, 1.875);
 	}
@@ -535,6 +538,7 @@ footer {
 	@include rem-fallback(margin, 2, 0, 2, 0);
 }
 
+section.products h4,
 #about h3,
 #filter h4 {
 		@include font-color($color-navy);
