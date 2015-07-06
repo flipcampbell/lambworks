@@ -7119,11 +7119,12 @@ label,
 #contact button,
 #contact .button,
 .card li,
-p.card-subtitle span {
+p.card-subtitle span,
+section.two p span {
   font-family: 'gotham-rounded-book';
 }
 
-/* line 44, ../scss/_custom.scss */
+/* line 45, ../scss/_custom.scss */
 .top-bar {
   margin-top: 25px;
   margin-top: 1.5625rem;
@@ -7131,25 +7132,25 @@ p.card-subtitle span {
   margin-bottom: 1.5625rem;
 }
 
-/* line 49, ../scss/_custom.scss */
+/* line 50, ../scss/_custom.scss */
 .top-bar,
 .top-bar-section ul li,
 .top-bar-section li:not(.has-form) a:not(.button) {
   background: none;
 }
 
-/* line 55, ../scss/_custom.scss */
+/* line 56, ../scss/_custom.scss */
 .top-bar ul li a {
   background: transparent !important;
 }
 
-/* line 59, ../scss/_custom.scss */
+/* line 60, ../scss/_custom.scss */
 .top-bar.expanded .toggle-topbar a,
 .top-bar-section li:not(.has-form) a:not(.button):hover {
   color: #42c1d1;
 }
 
-/* line 64, ../scss/_custom.scss */
+/* line 65, ../scss/_custom.scss */
 .top-bar-section ul li > a,
 footer {
   font-size: 15.2px;
@@ -7157,11 +7158,10 @@ footer {
   text-transform: uppercase;
 }
 
-/* line 70, ../scss/_custom.scss */
+/* line 71, ../scss/_custom.scss */
 .top-bar-section ul li > a,
 footer p,
 section.one p,
-section.two p span,
 .card h5,
 .card h6,
 .card a,
