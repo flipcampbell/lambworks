@@ -171,7 +171,7 @@
                   <p class="large-12 small-10 small-centered columns card-subtitle">
                     <span class="font-grey">
                       For those who have already launched a digital product or
-                      strategy
+                      service
                     </span>
                   </p>
                 </div>
@@ -309,8 +309,7 @@
                If you're in the market for order takers, pixel pushers, or code
                monkeys, please go
                <a href="http://www.odesk.com" target="_blank" class="font-magenta">
-                 here
-               </a>.
+                 here</a>.
              </p>
              <p>
                We don't build for the sake of building. When I and our team of
