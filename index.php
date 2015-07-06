@@ -201,22 +201,20 @@
 
     <section class="three" id="about">
       <div class="row">
+        <h3 class="large-12 large-centered text-center columns">Who's behind this?</h3>
         <div class="large-6 columns">
-            <div class="large-12 large-centered text-center">
-              <img src="images/portrait.png" alt="A Headshot of Holly Stewart">
-            </div>
-
-            <div class="large-8 large-centered small-centered columns">
-              <p class="text-center">
-                <span>
-                  Holly Stewart is an independent product designer and consultant in Nashville.
-                </span>
-              </p>
-            </div>
-
-        </div>
+          <div class="large-12 large-centered columns text-center">
+            <img src="images/portrait.png" alt="A Headshot of Holly Stewart">
+          </div> <!-- /.large-12 large-centered text-center -->
+          <div class="large-8 large-centered columns">
+            <p class="text-center">
+              <span>
+                Holly Stewart is an independent product designer and consultant in Nashville.
+              </span>
+            </p>
+          </div> <!-- /.large-8 large-centered columns -->
+        </div> <!-- /.large-6 columns -->
         <div class="large-6 columns">
-            <h3 class="large-12 columns">Who's behind this?</h3>
             <p class="large-12 columns">
               Lambworks is a solo product design consultancy, for entrepreneurs
               building digital products and online services.
@@ -253,6 +251,91 @@
         </div> <!-- /row -->
       </div> <!-- /row -->
     </section> <!-- /three -->
+
+    <section class="bg-plaster" id="testimonials">
+      <div class="row">
+        <div class="small-10 small-centered columns divider"></div>
+      </div> <!-- /.row -->
+    </section>
+
+    <section class="bg-white" id="filter">
+      <div class="row">
+       <div class="small-10 columns small-centered">
+          <h6 class="text-center">Who this is for</h6>
+          <h4 class="text-center">Are you my people?</h4>
+          <div class="large-6 small-12 columns">
+            <h5 class="font-magenta">Early Stage Entrepreneurs</h5>
+            <p>
+              You're open to new methodologies for better decision-making and
+              aren't afraid to restructure your business model if need be.
+            </p>
+            <p>You want done-for-you serviced to get your product off the ground,
+              but you're also ready and willing to learn the ins and outs of
+              running and managing your product over time.
+            </p>
+            <p>
+              <span>Spoiler Alert: </span> It's my intention to help you outgrow
+              me.
+            </p>
+          </div> <!--/.large-6 small-12 -->
+          <div class="large-6 small-12 columns">
+            <h5 class="font-magenta">Bootstrappers</h5>
+            <p>
+              You are the ultimate decision-maker
+            </p>
+            <p>
+              There are no hidden investors or stakeholders that will come out of
+              the woodwork who do not understand your industry or will interfere
+              with the product development.
+            </p>
+          </div> <!--/.large-6 small-12 -->
+        </div> <!--/.small-10 columns -->
+       </div> <!-- /.row -->
+       <div class="row">
+         <div class="small-10 small-centered columns divider"></div>
+       </div> <!-- /.row -->
+       <div class="row">
+        <div class="small-10 columns small-centered">
+           <h6 class="text-center">Dealbreakers</h6>
+           <h4 class="text-center">Sometimes it's just not meant to be</h4>
+           <div class="large-6 small-12 columns">
+             <h5 class="font-magenta">
+               Looking for someone who will just execute the idea in your head?
+             </h5>
+             <p>
+               If you're in the market for order takers, pixel pushers, or code
+               monkeys, please go <a href="#" class="font-magenta">here</a>.
+             </p>
+             <p>
+               We don't build for the sake of building. When I and our team of
+               experts commit to your product, we're building it for your customers,
+               not for you, or us.
+             </p>
+             <p>
+               Everyone is involved in prioritization every step of the way. No
+               one is left in the dark and input is not only encouraged, but
+               required. We collaborate as strategists, advisors, and lead
+               technicians.
+             </p>
+           </div> <!--/.large-6 small-12 -->
+           <div class="large-6 small-12 columns">
+             <h5 class="font-magenta">Not open to the idea of content marketing?</h5>
+             <p>
+               Are you against doing content marketing such as newsletters, blogging,
+               or interviews (verbal or written)?
+             </p>
+             <p>
+               This tells me you have a "build it and they will come" mentality.
+             </p>
+             <p>
+               If you aren't commited enough to build an audience and write a
+               weekly or monthly blog post or newsletter, why should I or your
+               customers take your business seriously?
+             </p>
+           </div> <!--/.large-6 small-12 -->
+         </div> <!--/.small-10 columns -->
+        </div> <!-- /.row -->
+    </section> <!-- .section -->
 
 <?php
   include('inc/contact-form.php');

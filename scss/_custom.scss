@@ -26,6 +26,9 @@ h3,
 h4,
 section.one li
 section.three li,
+#filter h4,
+#filter p,
+#filter h6,
 form span,
 label,
 #contact button,
@@ -67,12 +70,15 @@ section.one p,
 section.two p span,
 .card h5,
 .card h6,
-.card a {
+.card a,
+#filter h5,
+#about p span {
 	font-family: 'gotham-rounded-medium';
 }
 
 .top-bar-section ul li > a,
-section.two p span {
+section.two p span,
+#filter h6 {
 	@include rem-fallback(letter-spacing, 0.05);
 }
 
@@ -172,7 +178,9 @@ section.three li,
 section.two p,
 section.four h6,
 section.four p,
-section.contact-thanks p {
+section.contact-thanks p,
+#about p,
+#filter p {
 	color: $color-slate;
 }
 
@@ -195,7 +203,8 @@ section.contact-thanks p {
 section.one,
 section.two,
 section.three,
-section.four,
+section#testimonials,
+section#filter,
 section.six {
 	@include rem-fallback(padding-top, 4.6875);
 	@include rem-fallback(padding-bottom, 4.6875);
@@ -268,9 +277,6 @@ section.two {
 	}
 	p {
 		span {
-			text-transform: uppercase;
-			color: $color-grey;
-			@include rem-fallback(font-size, 1);
 			@include rem-fallback(margin-bottom, 0) ;
 		}
 	}
@@ -279,6 +285,13 @@ section.two {
 	// p {
 	// 	@include rem-fallback(padding-top, 1.5);
 	// }
+}
+
+section.two p span,
+#filter h6 {
+	text-transform: uppercase;
+	color: $color-grey;
+	@include rem-fallback(font-size, 1);
 }
 
 section.three,
@@ -414,6 +427,10 @@ footer {
 	@include bg-color($color-white);
 }
 
+.bg-plaster {
+	@include bg-color($color-plaster);
+}
+
 .card {
 	// min-height: 300px;
 	p {
@@ -516,4 +533,17 @@ footer {
 .divider {
 	border-bottom: 1px solid $color-grey;
 	@include rem-fallback(margin, 2, 0, 2, 0);
+}
+
+#about h3,
+#filter h4 {
+		@include font-color($color-navy);
+}
+
+#filter {
+	h4,
+	h5,
+	h6 {
+		@include rem-fallback(margin, 1, 0, 1, 0);
+	}
 }
