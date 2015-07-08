@@ -107,8 +107,10 @@
             </div>
           </div>
         </div>--><!-- /row -->
-      <div class="row">
-        <div class="text-center small-12 small-centered"><input type="submit" id="submit" class="button radius" value="Let's talk about your next step"></div>
-      </div>
+        <div class="row">
+          <div class="large-8 small-12 small-centered columns text-center">
+            <input type="submit" id="submit" class="button radius text-center" value="Let's talk!">
+          </div>
+        </div>
       </form>
     </section>
