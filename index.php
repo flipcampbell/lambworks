@@ -29,15 +29,15 @@
     <section class="one">
       <div class="row">
         <h4 class="large-10 medium-12 small-12 small-centered medium-centered large-centered columns text-center">
-          Don't risk spending 50k+ on building software that no one wants.
+          Don't risk spending 50k+ building software that no one wants.
         </h4>
         <p class="large-8 large-centered small-12 small-centered columns text-center">
           Does this sound familiar?
         </p>
         <ul class="large-6 large-centered medium-8 medium-centered columns small-10 small-centered">
           <li>
-            You're ready to build a digital product or online service, but
-            you're feeling a bit in over your head while trying to build a team.
+            You're ready to start building a digital product or service, but
+            you're feeling a bit overwhelmed while trying to build a team.
           </li>
           <li>
             You don't want to hire the wrong people or spend money on the wrong things.
@@ -65,7 +65,7 @@
         <span>Looking for the next logical step?</span>
       </p>
       <h4 class="large-6 large-centered medium-8 medium-centered small-10 small-centered columns text-center">
-        I offer three services, each designed for a specific stage in your
+        I offer three services for each stage of your
         early startup journey.
       </h4>
       <div class="small-12 small-centered columns">
@@ -73,7 +73,7 @@
           <div class="large-8 medium-10 small-12 small-centered columns card">
             <div class="panel">
               <div class="bg-turquoise rounded-top">
-                <p class="text-center">Plan</p>
+                <p class="text-center">PLAN</p>
               </div>
               <div class="row">
                 <div class="large-2 large-offset-1 large-uncentered small-12 small-centered columns text-center">
@@ -116,7 +116,7 @@
           <div class="large-8 medium-10 small-12 small-centered columns card">
             <div class="panel">
               <div class="bg-magenta rounded-top">
-                <p class="text-center">Build</p>
+                <p class="text-center">BUILD</p>
               </div>
               <div class="row">
                 <div class="large-2 large-offset-1 large-uncentered small-12 small-centered columns text-center">
@@ -158,7 +158,7 @@
           <div class="large-8 medium-10 small-12 small-centered columns card">
             <div class="panel">
               <div class="bg-sea-green rounded-top">
-                <p class="text-center">Grow</p>
+                <p class="text-center">GROW</p>
               </div>
               <div class="row">
                 <div class="large-2 large-offset-1 large-uncentered small-12 small-centered columns text-center">
@@ -203,36 +203,27 @@
       <div class="row">
         <div class="large-6 columns large-push-6">
           <h3 class="large-12 columns">Who's behind this?</h3>
-            <p class="large-12 columns">
+ 
+            <div class="large-12 columns">
+            <p>
               Lambworks is a solo product design consultancy, for entrepreneurs
               building digital products and online services.
-            </p>
-            <div class="large-12 columns">
-              <p>I began doing design and marketing in the corporate-cubicle-world
-                for three long, soul-crushing years. After deciding that office
-                politics and inefficient bureaucracy are not for me, I voluntarily
-                escaped to go solo during a recession, while all of my colleagues
-                were desperately clinging to their jobs.
-              </p>
-            </div>
-            <div class="large-12 columns">
+            </p>            
               <p>
-                Since then, I’ve spent six years helping startups and small
-                businesses with design, strategy, and occasionally self-sabotage
-                prevention. I prefer working with startups because we share a
-                drive to carve your own path while making useful and profitable things.
+              It's run by me, Holly Stewart, with help from friends as needed. 
+              </p>            
+            	<p>
+            	I began doing design and marketing in the corporate-cubicle-world for three years. After deciding that office politics and inefficient bureaucracy are not for me, I voluntarily escaped to go solo during a recession, while all of my colleagues were desperately clinging to their jobs.</p>
+				<p>
+                Since then, I’ve spent six years helping startups and small businesses with design, strategy, and occasionally self-sabotage prevention. I prefer working with startups because we share a drive to carve your own path while making useful and profitable things.
               </p>
-            </div>
-            <div class="large-12 columns">
-              <p style="font-weight:bold;">
+              <p>
                 <span>
                   Unlike other consultancies, I only accept projects from early
                   stage startups when it's clear I can provide a return on
                   investment by growing traction or revenue.
                 </span>
               </p>
-            </div>
-            <div class="large-12 columns">
               <p>
                 This allows me to solve core issues
                 <span style="font-style: italic;">before</span> any time and
@@ -270,7 +261,7 @@
             <h5 class="font-magenta">Early Stage Entrepreneurs</h5>
             <p>
               You're open to new methodologies for better decision-making and
-              aren't afraid to restructure your business model if need be.
+              aren't afraid to restructure your business model as needed.
             </p>
             <p>You want done-for-you serviced to get your product off the ground,
               but you're also ready and willing to learn the ins and outs of
@@ -299,8 +290,8 @@
        </div> <!-- /.row -->
        <div class="row">
         <div class="small-10 columns small-centered">
-           <h6 class="text-center">Dealbreakers</h6>
-           <h4 class="text-center">Sometimes it's just not meant to be</h4>
+           <h6 class="text-center">Deal-breakers</h6>
+           <h4 class="text-center">Sometimes it's just not meant to be.</h4>
            <div class="large-6 small-12 columns">
              <h5 class="font-magenta">
                Looking for someone who will just execute the idea in your head?
@@ -313,8 +304,7 @@
              </p>
              <p>
                We don't build for the sake of building. When I and our team of
-               experts commit to your product, we're building it for your customers,
-               not for you, or us.
+               experts commit to your product, we're building it for your customers.
              </p>
              <p>
                Everyone is involved in prioritization every step of the way. No
@@ -327,13 +317,13 @@
              <h5 class="font-magenta">Not open to the idea of content marketing?</h5>
              <p>
                Are you against doing content marketing such as newsletters, blogging,
-               or interviews (verbal or written)?
+               or interviews?
              </p>
              <p>
                This tells me you have a "build it and they will come" mentality.
              </p>
              <p>
-               If you aren't commited enough to build an audience and write a
+               If you aren't committed enough to build an audience and write a
                weekly or monthly blog post or newsletter, why should I or your
                customers take your business seriously?
              </p>

@@ -1,15 +1,12 @@
     <section class="six" id="contact">
       <div class="row">
-        <h3 class="large-12 large-centered columns text-center">
-          Let’s talk about what the next step is for you.
+        <h3 class="large-10 large-centered columns text-center">
+          Working on something great? I'd love to help make it happen.
         </h3>
       </div> <!-- /row -->
       <div class="row">
-        <p class="large-10 large-centered columns text-center">
-          Are you working on something great? I'd love to help make it happen. 
-        </p> 
-        <p class="large-10 large-centered columns text-center">
-          Let’s chat about your business, product, or services, and if I think your business has the potential to make a lot more money or traction through strategic design, we’ll go from there.
+        <p class="large-8 large-centered columns text-center">
+          Let’s chat about your business, product, or services, and if I think there's potential to gain traction or make a lot more money through strategic design, we’ll go from there.
         </p>
       </div><!-- /row -->
       <form method="post" action="inc/contact-mailer.php">
@@ -65,7 +62,7 @@
             </div>
           </div>
         </div> <!-- /row -->
-        <div class="row">
+        <!-- <div class="row">
           <div class="large-8 small-10">
             <div class="row">
               <div class="small-4 large-6 columns">
@@ -76,12 +73,12 @@
                   <option value="1 months">In 1 Month</option>
                   <option value="3 Months">In 3 Months</option>
                   <option value="6 Months">In 6 Months</option>
-                </select>                
+                </select>
               </div>
             </div>
           </div>
-        </div><!-- /row -->
-        <div class="row">
+        </div> --><!-- /row -->
+        <!-- <div class="row">
           <div class="large-8 small-10">
             <div class="row">
               <div class="small-4 large-6 columns">
@@ -92,12 +89,12 @@
                   <option value="$3,000 - $10,000">$3,000 - $10,000</option>
                   <option value="$10,000 - $20,000" selected>$10,000 - $20,000</option>
                   <option value="$20,000 - $30,000">$20,000 - $30,000</option>
-                </select>                
+                </select>
               </div>
             </div>
           </div>
-        </div> <!-- /row -->
-        <div class="row">
+        </div> --><!-- /row -->
+        <!-- <div class="row">
           <div class="large-8 small-10 small-centered">
             <div class="row">
               <div class="small-4 large-6 columns">
@@ -109,9 +106,9 @@
               </div>
             </div>
           </div>
-        </div><!-- /row -->                                  
+        </div>--><!-- /row -->
       <div class="row">
-        <div class="text-center small-12 small-centered"><input type="submit" id="submit" class="button radius" value="Let's Talk!"></div>
+        <div class="text-center small-12 small-centered"><input type="submit" id="submit" class="button radius" value="Let's talk about your next step"></div>
       </div>
       </form>
     </section>
