@@ -108,7 +108,7 @@
           </div>
         </div>--><!-- /row -->
         <div class="row">
-          <div class="large-8 small-12 small-centered columns text-center">
+          <div class="large-8 small-8 small-centered columns text-center">
             <input type="submit" id="submit" class="button radius text-center" value="Let's talk!">
           </div>
         </div>
