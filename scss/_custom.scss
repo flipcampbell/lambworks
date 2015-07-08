@@ -105,6 +105,13 @@ $topbar-link-bg-color-hover: none;
 	@include rem-fallback(padding-bottom, 12);
 	// @include rem-fallback(margin-top, -3.125);
 	@include rem-fallback(margin-bottom, 3.125);
+	@include media("<=desktop") {
+		@include rem-fallback(margin-bottom, 0);
+		background-position: initial;
+	}
+	@include media('<=phone') {
+
+	}
 }
 
 .hero h1,
@@ -209,8 +216,8 @@ section.three,
 section#testimonials,
 section#filter,
 section.six {
-	@include rem-fallback(padding-top, 4.6875);
-	@include rem-fallback(padding-bottom, 4.6875);
+	@include rem-fallback(padding-top, 3.6875);
+	@include rem-fallback(padding-bottom, 3.6875);
 }
 
 section.one,
@@ -507,7 +514,7 @@ footer {
 		@include rem-fallback(margin, 1, 0, 1, 0);
 	}
 	@include media('>=phone', '<=tablet') {
-		@include rem-fallback(margin, 1, -0.75, 1, -0.75);
+		@include rem-fallback(margin, 1, -0.25, 1, -0.25);
 	}
 }
 
