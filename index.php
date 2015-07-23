@@ -7,7 +7,7 @@
         <div class="large-12 large-centered columns">
           <div class="fade-in-second">
             <h1 class="text-center fade-in-second">
-              Product Strategy &amp; Design for Startups
+              Launch Strategy &amp; Product Design for Startups
             </h1>
           </div>
         </div>
@@ -298,20 +298,17 @@
              </h5>
              <p>
                If you're in the market for order takers, pixel pushers, or code
-               monkeys, please go
-               <a href="http://www.odesk.com" target="_blank" class="font-magenta">
-                 here</a>.
+               monkeys, this is not a good fit.
              </p>
              <p>
-               We don't build for the sake of building. When I and our team of
-               experts commit to your product, we're building it for your customers.
-             </p>
-             <p>
-               Everyone is involved in prioritization every step of the way. No
+               I choose and assemble setups where everyone is involved in prioritization every step of the way. No
                one is left in the dark and input is not only encouraged, but
                required. We collaborate as strategists, advisors, and lead
                technicians.
              </p>
+             <p>
+               We don't build for the sake of building. We commit to building your product to solve a need, want, or problem for your customers.
+             </p>             
            </div> <!--/.large-6 small-12 -->
            <div class="large-6 small-12 columns">
              <h5 class="font-magenta">Not open to the idea of content marketing?</h5>
