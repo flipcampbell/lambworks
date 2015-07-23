@@ -203,15 +203,15 @@
       <div class="row">
         <div class="large-6 columns large-push-6">
           <h3 class="large-12 columns">Who's behind this?</h3>
- 
+
             <div class="large-12 columns">
             <p>
               Lambworks is a solo product design consultancy, for entrepreneurs
               building digital products and online services.
-            </p>            
+            </p>
               <p>
-              It's run by me, Holly Stewart, with help from friends as needed. 
-              </p>            
+              It's run by me, Holly Stewart, with help from friends as needed.
+              </p>
             	<p>
             	I began doing design and marketing in the corporate-cubicle-world for three years. After deciding that office politics and inefficient bureaucracy are not for me, I voluntarily escaped to go solo during a recession, while all of my colleagues were desperately clinging to their jobs.</p>
 				<p>
@@ -246,12 +246,32 @@
       </div> <!-- /row -->
     </section> <!-- /three -->
 
-    <div class="bg-white" id="testimonials">
+    <section class="bg-plaster" id="testimonials">
+      <h3 class="large-12 large-centered columns text-center">
+        What others are saying
+      </h3>
       <div class="row">
-        <div class="small-10 small-centered columns divider"></div>
-      </div> <!-- /.row -->
-    </div>
-
+        <div class="large-12 small-centered columns">
+          <div class="large-3 large-uncentered medium-uncentered small-12 small-centered columns text-center">
+            <img src="images/testimonial-avatar-lori.png" alt=""/>
+          </div> <!-- large-3 large-uncentered medium-uncentered small-12 small-centered columns text-center-->
+          <div class="large-9 large-uncentered medium-uncentered small-12 small-centered columns">
+            <h5 class="font-magenta">
+              Holly is an entrepreneur and so I know she understands the challenges
+              we face.
+            </h5>
+            <p class="testimonial">
+              "She's 8 hours away from our business, and we could hire a local
+              designer. However, she came highly recommended by our developer.
+              After trusting her design to bring our site from idea to launch,
+              there is no one I trust more to get the job done. She has excellent
+              communication skills and always exceeds expectations."
+            </p>
+            <p class="quote-attribute">&mdash; Lori Brannock, Merch Colony</p>
+          </div> <!-- large-9 large-uncentered medium-uncentered small-12 small-centered columns-->
+        </div> <!-- /large-12 small-centered columns -->
+      </div> <!-- /row -->
+    </section> <!-- /section -->
     <section class="bg-white" id="filter">
       <div class="row">
        <div class="small-10 columns small-centered">
@@ -286,9 +306,6 @@
         </div> <!--/.small-10 columns -->
        </div> <!-- /.row -->
        <div class="row">
-         <div class="small-10 small-centered columns divider"></div>
-       </div> <!-- /.row -->
-       <div class="row">
         <div class="small-10 columns small-centered">
            <h6 class="text-center">Deal-breakers</h6>
            <h4 class="text-center">Sometimes it's just not meant to be.</h4>
@@ -308,7 +325,7 @@
              </p>
              <p>
                We don't build for the sake of building. We commit to building your product to solve a need, want, or problem for your customers.
-             </p>             
+             </p>
            </div> <!--/.large-6 small-12 -->
            <div class="large-6 small-12 columns">
              <h5 class="font-magenta">Not open to the idea of content marketing?</h5>

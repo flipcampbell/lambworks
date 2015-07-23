@@ -74,6 +74,7 @@ section.one p,
 .card h5,
 .card h6,
 .card a,
+#testimonials h5,
 #filter h5,
 #about p span {
 	font-family: 'gotham-rounded-medium';
@@ -305,7 +306,8 @@ section.two p span,
 }
 
 section.three,
-section.six {
+section.six,
+section#testimonials {
 	h3 {
 		@include rem-fallback(padding-bottom, 1.75);
 	}
@@ -547,7 +549,8 @@ footer {
 
 section.products h4,
 #about h3,
-#filter h4 {
+#filter h4,
+#testimonials h3 {
 		@include font-color($color-navy);
 }
 
@@ -555,10 +558,20 @@ section.products h4,
 	@include rem-fallback(padding-bottom, 1);
 }
 
-#filter {
+#filter,
+#testimonials {
 	h4,
 	h5,
 	h6 {
 		@include rem-fallback(margin, 1, 0, 1, 0);
 	}
+}
+
+p.testimonial {
+	font-style: italic;
+}
+
+p.quote-attribute {
+	text-transform: uppercase;
+	float: right;
 }

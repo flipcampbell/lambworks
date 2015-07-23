@@ -7165,12 +7165,13 @@ section.one p,
 .card h5,
 .card h6,
 .card a,
+#testimonials h5,
 #filter h5,
 #about p span {
   font-family: 'gotham-rounded-medium';
 }
 
-/* line 82, ../scss/_custom.scss */
+/* line 83, ../scss/_custom.scss */
 .top-bar-section ul li > a,
 section.two p span,
 #filter h6 {
@@ -7178,18 +7179,18 @@ section.two p span,
   letter-spacing: 0.2rem;
 }
 
-/* line 88, ../scss/_custom.scss */
+/* line 89, ../scss/_custom.scss */
 .top-bar .title-area {
   padding-left: 40px;
   padding-left: 2.5rem;
 }
 
-/* line 92, ../scss/_custom.scss */
+/* line 93, ../scss/_custom.scss */
 .top-bar.expanded .title-area {
   background: none;
 }
 
-/* line 99, ../scss/_custom.scss */
+/* line 100, ../scss/_custom.scss */
 .hero {
   background: url("../images/hero-background.jpg");
   object-fit: cover;
@@ -7201,7 +7202,7 @@ section.two p span,
   margin-bottom: 3.125rem;
 }
 @media (max-width: 1024px) {
-  /* line 99, ../scss/_custom.scss */
+  /* line 100, ../scss/_custom.scss */
   .hero {
     margin-bottom: 0px;
     margin-bottom: 0rem;
@@ -7209,14 +7210,14 @@ section.two p span,
   }
 }
 
-/* line 117, ../scss/_custom.scss */
+/* line 118, ../scss/_custom.scss */
 .hero h1,
 .hero h5,
 .top-bar .toggle-topbar a {
   font-family: 'gotham-rounded-light';
 }
 
-/* line 123, ../scss/_custom.scss */
+/* line 124, ../scss/_custom.scss */
 .hero h1,
 section.five p,
 section.six p,
@@ -7225,7 +7226,7 @@ footer {
   color: #fff;
 }
 
-/* line 131, ../scss/_custom.scss */
+/* line 132, ../scss/_custom.scss */
 .hero h5 {
   color: #a4cfea;
   font-size: 24px;
@@ -7234,20 +7235,20 @@ footer {
   margin: 1.75rem 1.75rem 2.5rem 1.75rem;
 }
 
-/* line 137, ../scss/_custom.scss */
+/* line 138, ../scss/_custom.scss */
 .hero h1 {
   padding-top: 64px;
   padding-top: 4rem;
 }
 @media (max-width: 768px) {
-  /* line 137, ../scss/_custom.scss */
+  /* line 138, ../scss/_custom.scss */
   .hero h1 {
     padding-top: 16px;
     padding-top: 1rem;
   }
 }
 
-/* line 144, ../scss/_custom.scss */
+/* line 145, ../scss/_custom.scss */
 section.three li {
   list-style-type: none;
   padding-left: 40px;
@@ -7257,7 +7258,7 @@ section.three li {
   background: url(../images/bullet-circle-check.png) top left no-repeat;
 }
 
-/* line 151, ../scss/_custom.scss */
+/* line 152, ../scss/_custom.scss */
 h2,
 h3,
 footer a,
@@ -7265,7 +7266,7 @@ section.one p {
   color: #ed4b7e;
 }
 
-/* line 158, ../scss/_custom.scss */
+/* line 159, ../scss/_custom.scss */
 nav {
   opacity: 0;
   -webkit-transition-delay: 1.5s;
@@ -7280,7 +7281,7 @@ nav {
   transition: opacity 1.5s 0;
 }
 
-/* line 163, ../scss/_custom.scss */
+/* line 164, ../scss/_custom.scss */
 div.fade-in-second {
   opacity: 0;
   -webkit-transition-delay: 4.5s;
@@ -7295,7 +7296,7 @@ div.fade-in-second {
   transition: opacity 1.5s ease-in;
 }
 
-/* line 168, ../scss/_custom.scss */
+/* line 169, ../scss/_custom.scss */
 div.fade-in-third {
   opacity: 0;
   -webkit-transition-delay: 7.5s;
@@ -7310,20 +7311,20 @@ div.fade-in-third {
   transition: opacity 2.5s ease-in;
 }
 
-/* line 173, ../scss/_custom.scss */
+/* line 174, ../scss/_custom.scss */
 nav.load,
 div.fade-in-second.load,
 div.fade-in-third.load {
   opacity: 1;
 }
 
-/* line 185, ../scss/_custom.scss */
+/* line 186, ../scss/_custom.scss */
 section.one h4,
 section.four h6 {
   color: #3c6174;
 }
 
-/* line 197, ../scss/_custom.scss */
+/* line 198, ../scss/_custom.scss */
 section.two p,
 section.three li,
 section.four p,
@@ -7337,7 +7338,7 @@ section.contact-thanks p {
   font-size: 1.25rem;
 }
 @media (max-width: 767px) {
-  /* line 197, ../scss/_custom.scss */
+  /* line 198, ../scss/_custom.scss */
   section.two p,
   section.three li,
   section.four p,
@@ -7352,7 +7353,7 @@ section.contact-thanks p {
   }
 }
 
-/* line 213, ../scss/_custom.scss */
+/* line 214, ../scss/_custom.scss */
 section.one,
 section.two,
 section.three,
@@ -7365,14 +7366,14 @@ section.six {
   padding-bottom: 3.6875rem;
 }
 
-/* line 223, ../scss/_custom.scss */
+/* line 224, ../scss/_custom.scss */
 section.one,
 section.three,
 section.contact-thanks {
   background: #fff;
 }
 
-/* line 229, ../scss/_custom.scss */
+/* line 230, ../scss/_custom.scss */
 section.contact-thanks {
   padding-top: 120px;
   padding-top: 7.5rem;
@@ -7380,50 +7381,50 @@ section.contact-thanks {
   padding-bottom: 10rem;
 }
 
-/* line 234, ../scss/_custom.scss */
+/* line 235, ../scss/_custom.scss */
 section.six h3,
 form span {
   color: #42c1d1;
 }
 
-/* line 247, ../scss/_custom.scss */
+/* line 248, ../scss/_custom.scss */
 section.one h2 span {
   font-weight: bold;
   font-style: italic;
 }
 @media (max-width: 768px) {
-  /* line 252, ../scss/_custom.scss */
+  /* line 253, ../scss/_custom.scss */
   section.one h4 {
     font-size: 25.6px;
     font-size: 1.6rem;
   }
 }
-/* line 257, ../scss/_custom.scss */
+/* line 258, ../scss/_custom.scss */
 section.one li {
   font-size: 18px;
   font-size: 1.125rem;
   margin-bottom: 30px;
   margin-bottom: 1.875rem;
 }
-/* line 262, ../scss/_custom.scss */
+/* line 263, ../scss/_custom.scss */
 section.one p {
   font-size: 21px;
   font-size: 1.3125rem;
   margin: 20.8px 0px 25px 0px;
   margin: 1.3rem 0rem 1.5625rem 0rem;
 }
-/* line 265, ../scss/_custom.scss */
+/* line 266, ../scss/_custom.scss */
 section.one p span {
   font-family: 'Gotham-Rounded-Medium-Italic';
 }
 
-/* line 271, ../scss/_custom.scss */
+/* line 272, ../scss/_custom.scss */
 section.two,
 section.four {
   background: #ecf3f7;
 }
 
-/* line 276, ../scss/_custom.scss */
+/* line 277, ../scss/_custom.scss */
 section.five,
 footer {
   padding-top: 35px;
@@ -7432,7 +7433,7 @@ footer {
   padding-bottom: 2.1875rem;
 }
 
-/* line 283, ../scss/_custom.scss */
+/* line 284, ../scss/_custom.scss */
 section.two img {
   width: 95px;
   width: 5.9375rem;
@@ -7440,13 +7441,13 @@ section.two img {
   height: 5.25rem;
   margin: 0 auto;
 }
-/* line 289, ../scss/_custom.scss */
+/* line 290, ../scss/_custom.scss */
 section.two p span {
   margin-bottom: 0px;
   margin-bottom: 0rem;
 }
 
-/* line 300, ../scss/_custom.scss */
+/* line 301, ../scss/_custom.scss */
 section.two p span,
 #filter h6 {
   text-transform: uppercase;
@@ -7455,43 +7456,44 @@ section.two p span,
   font-size: 1rem;
 }
 
-/* line 309, ../scss/_custom.scss */
+/* line 311, ../scss/_custom.scss */
 section.three h3,
-section.six h3 {
+section.six h3,
+section#testimonials h3 {
   padding-bottom: 28px;
   padding-bottom: 1.75rem;
 }
 
-/* line 314, ../scss/_custom.scss */
+/* line 316, ../scss/_custom.scss */
 section.four h6,
 section.contact-thanks p span {
   font-family: 'gotham-rounded-bold';
 }
 
-/* line 319, ../scss/_custom.scss */
+/* line 321, ../scss/_custom.scss */
 section.four h6 {
   margin-bottom: 0px;
   margin-bottom: 0rem;
 }
-/* line 323, ../scss/_custom.scss */
+/* line 325, ../scss/_custom.scss */
 section.four p span {
   font-size: 18px;
   font-size: 1.125rem;
 }
 
-/* line 328, ../scss/_custom.scss */
+/* line 330, ../scss/_custom.scss */
 section.five {
   background: #ed4b7e;
   padding: 33.6px 0px 17.6px 0px;
   padding: 2.1rem 0rem 1.1rem 0rem;
 }
 
-/* line 333, ../scss/_custom.scss */
+/* line 335, ../scss/_custom.scss */
 section.six {
   background: #023b57;
 }
 
-/* line 337, ../scss/_custom.scss */
+/* line 339, ../scss/_custom.scss */
 #contact button,
 #contact .button {
   background: #ed4b7e;
@@ -7501,7 +7503,7 @@ section.six {
   margin-top: 2rem;
 }
 
-/* line 344, ../scss/_custom.scss */
+/* line 346, ../scss/_custom.scss */
 #contact button:hover,
 #contact .button:hover,
 #contact button:disabled,
@@ -7509,13 +7511,13 @@ section.six {
   background: #f2799f;
 }
 
-/* line 351, ../scss/_custom.scss */
+/* line 353, ../scss/_custom.scss */
 input,
 textarea {
   -webkit-transform: translate3d(0, 0, 0);
 }
 
-/* line 356, ../scss/_custom.scss */
+/* line 358, ../scss/_custom.scss */
 input[type="text"],
 input[type="email"],
 textarea[name="description"],
@@ -7525,7 +7527,7 @@ input[type=radio] {
   margin-top: 1.25rem;
 }
 
-/* line 364, ../scss/_custom.scss */
+/* line 366, ../scss/_custom.scss */
 input[type=radio].css-checkbox {
   position: absolute;
   z-index: -1000;
@@ -7539,7 +7541,7 @@ input[type=radio].css-checkbox {
   border: 0;
 }
 
-/* line 377, ../scss/_custom.scss */
+/* line 379, ../scss/_custom.scss */
 input[type=radio].css-checkbox + label.css-label {
   padding-left: 24px;
   height: 19px;
@@ -7552,12 +7554,12 @@ input[type=radio].css-checkbox + label.css-label {
   cursor: pointer;
 }
 
-/* line 390, ../scss/_custom.scss */
+/* line 392, ../scss/_custom.scss */
 input[type=radio].css-checkbox:checked + label.css-label {
   background-position: 0 -19px;
 }
 
-/* line 394, ../scss/_custom.scss */
+/* line 396, ../scss/_custom.scss */
 label.css-label {
   background-image: url(../images/css-check.png);
   -webkit-touch-callout: none;
@@ -7568,70 +7570,70 @@ label.css-label {
   user-select: none;
 }
 
-/* line 404, ../scss/_custom.scss */
+/* line 406, ../scss/_custom.scss */
 form span {
   font-size: 14.4px;
   font-size: 0.9rem;
 }
 
-/* line 416, ../scss/_custom.scss */
+/* line 418, ../scss/_custom.scss */
 footer {
   background: #012638;
 }
 
-/* line 420, ../scss/_custom.scss */
+/* line 422, ../scss/_custom.scss */
 .bg-turquoise {
   background: #42c1d1;
 }
 
-/* line 424, ../scss/_custom.scss */
+/* line 426, ../scss/_custom.scss */
 .bg-magenta {
   background: #ed4b7e;
 }
 
-/* line 428, ../scss/_custom.scss */
+/* line 430, ../scss/_custom.scss */
 .bg-sea-green {
   background: #4bcfa8;
 }
 
-/* line 432, ../scss/_custom.scss */
+/* line 434, ../scss/_custom.scss */
 .bg-navy {
   background: #023b57;
 }
 
-/* line 436, ../scss/_custom.scss */
+/* line 438, ../scss/_custom.scss */
 .bg-white {
   background: #fff;
 }
 
-/* line 440, ../scss/_custom.scss */
+/* line 442, ../scss/_custom.scss */
 .bg-plaster {
   background: #ecf3f7;
 }
 
-/* line 444, ../scss/_custom.scss */
+/* line 446, ../scss/_custom.scss */
 .card {
   padding: 19.2px 0px 19.2px 0px;
   padding: 1.2rem 0rem 1.2rem 0rem;
 }
-/* line 446, ../scss/_custom.scss */
+/* line 448, ../scss/_custom.scss */
 .card p {
   font-size: 30px;
   font-size: 1.875rem;
   color: #fff !important;
 }
-/* line 454, ../scss/_custom.scss */
+/* line 456, ../scss/_custom.scss */
 .card h5 {
   font-size: 21px;
   font-size: 1.3125rem;
 }
-/* line 457, ../scss/_custom.scss */
+/* line 459, ../scss/_custom.scss */
 .card h6,
 .card a {
   font-size: 18px;
   font-size: 1.125rem;
 }
-/* line 461, ../scss/_custom.scss */
+/* line 463, ../scss/_custom.scss */
 .card li,
 .card p.card-subtitle span {
   font-size: 16px;
@@ -7641,12 +7643,12 @@ footer {
   text-transform: none;
   letter-spacing: normal;
 }
-/* line 468, ../scss/_custom.scss */
+/* line 470, ../scss/_custom.scss */
 .card h6,
 .card li {
   color: #85929a;
 }
-/* line 472, ../scss/_custom.scss */
+/* line 474, ../scss/_custom.scss */
 .card li {
   padding-bottom: 16px;
   padding-bottom: 1rem;
@@ -7654,7 +7656,7 @@ footer {
   padding-left: 0.5rem;
 }
 @media only screen and (max-width: 1025px) {
-  /* line 478, ../scss/_custom.scss */
+  /* line 480, ../scss/_custom.scss */
   .card p,
   .card h5,
   .card h6 {
@@ -7662,7 +7664,7 @@ footer {
   }
 }
 @media (max-width: 768px) {
-  /* line 485, ../scss/_custom.scss */
+  /* line 487, ../scss/_custom.scss */
   .card p,
   .card h5,
   .card h6,
@@ -7672,7 +7674,7 @@ footer {
   }
 }
 
-/* line 495, ../scss/_custom.scss */
+/* line 497, ../scss/_custom.scss */
 .panel {
   box-sizing: border-box;
   -moz-box-shadow: 0 2px 0 rgba(0, 0, 0, 0.2), inset 0 0 10px rgba(0, 0, 0, 0.03);
@@ -7687,67 +7689,82 @@ footer {
   padding-bottom: 2rem;
 }
 @media (min-width: 768px) and (max-width: 1024px) {
-  /* line 495, ../scss/_custom.scss */
+  /* line 497, ../scss/_custom.scss */
   .panel {
     margin: 16px 0px 16px 0px;
     margin: 1rem 0rem 1rem 0rem;
   }
 }
 @media (min-width: 320px) and (max-width: 768px) {
-  /* line 495, ../scss/_custom.scss */
+  /* line 497, ../scss/_custom.scss */
   .panel {
     margin: 16px -4px 16px -4px;
     margin: 1rem -0.25rem 1rem -0.25rem;
   }
 }
 
-/* line 521, ../scss/_custom.scss */
+/* line 523, ../scss/_custom.scss */
 .rounded-top {
   border-radius: 4px 4px 0px 0px;
   border-radius: 0.25rem 0.25rem 0rem 0rem;
 }
 
-/* line 531, ../scss/_custom.scss */
+/* line 533, ../scss/_custom.scss */
 .font-turquoise {
   color: #42c1d1 !important;
 }
 
-/* line 535, ../scss/_custom.scss */
+/* line 537, ../scss/_custom.scss */
 .font-magenta {
   color: #ed4b7e !important;
 }
 
-/* line 539, ../scss/_custom.scss */
+/* line 541, ../scss/_custom.scss */
 .font-sea-green {
   color: #4bcfa8 !important;
 }
 
-/* line 543, ../scss/_custom.scss */
+/* line 545, ../scss/_custom.scss */
 .divider {
   border-bottom: 1px solid #c7cfd3;
   margin: 32px 0px 32px 0px;
   margin: 2rem 0rem 2rem 0rem;
 }
 
-/* line 548, ../scss/_custom.scss */
+/* line 550, ../scss/_custom.scss */
 section.products h4,
 #about h3,
-#filter h4 {
+#filter h4,
+#testimonials h3 {
   color: #023b57;
 }
 
-/* line 554, ../scss/_custom.scss */
+/* line 557, ../scss/_custom.scss */
 #about img {
   padding-bottom: 16px;
   padding-bottom: 1rem;
 }
 
-/* line 559, ../scss/_custom.scss */
+/* line 563, ../scss/_custom.scss */
 #filter h4,
 #filter h5,
-#filter h6 {
+#filter h6,
+#testimonials h4,
+#testimonials h5,
+#testimonials h6 {
   margin: 16px 0px 16px 0px;
   margin: 1rem 0rem 1rem 0rem;
+}
+
+/* line 570, ../scss/_custom.scss */
+p.testimonial {
+  font-style: italic;
+}
+
+/* line 574, ../scss/_custom.scss */
+p.quote-attribute {
+  text-transform: uppercase;
+  float: right;
 }
 
 /* line 49, ../bower_components/foundation/scss/foundation/components/_flex-video.scss */
