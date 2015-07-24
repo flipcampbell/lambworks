@@ -242,26 +242,35 @@
               </span>
             </p>
           </div> <!-- /.large-8 large-centered columns -->
-          <div class="large-12 large-centered columns text-center social-icons">
-            <a href="https://twitter.com/oprylamb" target="_blank" class="bg-social" id="twitter-icon">
-              <img src="images/social-twitter.png" alt="twitter">
-            </a>
-            <a href="https://www.linkedin.com/in/hollysuzannestewart" target="_blank" class="bg-social" id="linkedin-icon">
-              <img src="images/social-linkedin.png" alt="">
-            </a>
-            <a href="https://angel.co/hollystewart" target="_blank" class="bg-social" id="angellist-icon">
-              <img src="images/social-angellist.png" alt="">
-            </a>
-            <a href="http://www.quora.com/Holly-Stewart-10" target="_blank" class="bg-social" id="quora-icon">
-              <img src="images/social-quora.png" alt="">
-            </a>
-            <a href="https://dribbble.com/lambworks" target="_blank" class="bg-social" id="dribbble-icon">
-              <img src="images/social-dribbble.png" alt="">
-            </a>
-            <a href="https://www.behance.net/hollystewart" target="_blank" class="bg-social" id="behance-icon">
-              <img src="images/social-behance.png" alt="">
-            </a>
-          </div> <!-- /.large-12 large-centered columns text-center social-icons -->
+          <!--
+          <div class="row collapse">
+            <div class="text-center social-icons">
+              <div class="large-6 large-uncentered small-12 small-centered columns">
+                <a href="https://twitter.com/oprylamb" target="_blank" class="bg-social" id="twitter-icon">
+                  <img src="images/social-twitter.png" alt="twitter">
+                </a>
+                <a href="https://www.linkedin.com/in/hollysuzannestewart" target="_blank" class="bg-social" id="linkedin-icon">
+                  <img src="images/social-linkedin.png" alt="">
+                </a>
+                <a href="https://angel.co/hollystewart" target="_blank" class="bg-social" id="angellist-icon">
+                  <img src="images/social-angellist.png" alt="">
+                </a>
+              </div>
+              <div class="large-6 large-uncentered small-12 small-centered columns">
+                <a href="http://www.quora.com/Holly-Stewart-10" target="_blank" class="bg-social" id="quora-icon">
+                  <img src="images/social-quora.png" alt="">
+                </a>
+                <a href="https://dribbble.com/lambworks" target="_blank" class="bg-social" id="dribbble-icon">
+                  <img src="images/social-dribbble.png" alt="">
+                </a>
+                <a href="https://www.behance.net/hollystewart" target="_blank" class="bg-social" id="behance-icon">
+                  <img src="images/social-behance.png" alt="">
+                </a>
+              </div>
+
+            </div> <!-- /.large-12 large-centered columns text-center social-icons -->
+        <!--  </div> <!-- /row -->
+
         </div> <!-- /.large-6 columns -->
       </div> <!-- /row -->
     </section> <!-- /three -->
