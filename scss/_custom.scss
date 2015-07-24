@@ -27,7 +27,7 @@ p,
 h2,
 h3,
 h4,
-section.one li
+section.one li,
 section.three li,
 #filter h4,
 #filter p,
@@ -144,9 +144,10 @@ footer {
 
 section.three li {
 	list-style-type: none;
-	@include rem-fallback(padding-left, 2.5);
-	@include rem-fallback(margin-bottom, 0.75);
-	background: url(../images/bullet-circle-check.png) top left no-repeat;
+	display: inline;
+	// @include rem-fallback(padding-left, 2.5);
+	// @include rem-fallback(margin-bottom, 0.75);
+	// background: url(../images/bullet-circle-check.png) top left no-repeat;
 }
 
 h2,
@@ -554,7 +555,7 @@ section.products h4,
 		@include font-color($color-navy);
 }
 
-#about img {
+img.portrait {
 	@include rem-fallback(padding-bottom, 1);
 }
 
@@ -574,4 +575,50 @@ p.testimonial {
 p.quote-attribute {
 	text-transform: uppercase;
 	float: right;
+}
+
+// .social-icons a.bg-social {
+// 	@include rem-fallback(width, 5);
+// 	@include rem-fallback(height, 5);
+// }
+
+.bg-social img {
+	padding-bottom: 0;
+	transition: opacity 0.5s;
+	transform: scale(1.027, 1.027);
+}
+
+.bg-social:hover img {
+	opacity: 0;
+}
+
+.social-icons a {
+	background: no-repeat center;
+	display: inline-block;
+	@include rem-fallback(margin-right, 0.625);
+}
+
+a#twitter-icon {
+	background: url('../images/social-twitter-hover.png');
+}
+
+a#linkedin-icon {
+	background: url('../images/social-linkedin-hover.png');
+}
+
+a#angellist-icon {
+	background: url('../images/social-angellist-hover.png');
+}
+
+a#quora-icon {
+	background: url('../images/social-quora-hover.png') no-repeat center;
+	display: inline-block;
+}
+
+a#dribbble-icon {
+	background: url('../images/social-dribbble-hover.png');
+}
+
+a#behance-icon {
+	background: url('../images/social-behance-hover.png');
 }

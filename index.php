@@ -233,7 +233,7 @@
         </div> <!-- /row -->
         <div class="large-6 columns large-pull-6">
           <div class="large-12 large-centered columns text-center">
-            <img src="images/portrait.png" alt="A Headshot of Holly Stewart">
+            <img src="images/portrait.png" alt="Holly Stewart" class="portrait">
           </div> <!-- /.large-12 large-centered text-center -->
           <div class="large-8 large-centered columns">
             <p class="text-center">
@@ -242,6 +242,26 @@
               </span>
             </p>
           </div> <!-- /.large-8 large-centered columns -->
+          <div class="large-12 large-centered columns text-center social-icons">
+            <a href="https://twitter.com/oprylamb" target="_blank" class="bg-social" id="twitter-icon">
+              <img src="images/social-twitter.png" alt="twitter">
+            </a>
+            <a href="https://www.linkedin.com/in/hollysuzannestewart" target="_blank" class="bg-social" id="linkedin-icon">
+              <img src="images/social-linkedin.png" alt="">
+            </a>
+            <a href="https://angel.co/hollystewart" target="_blank" class="bg-social" id="angellist-icon">
+              <img src="images/social-angellist.png" alt="">
+            </a>
+            <a href="http://www.quora.com/Holly-Stewart-10" target="_blank" class="bg-social" id="quora-icon">
+              <img src="images/social-quora.png" alt="">
+            </a>
+            <a href="https://dribbble.com/lambworks" target="_blank" class="bg-social" id="dribbble-icon">
+              <img src="images/social-dribbble.png" alt="">
+            </a>
+            <a href="https://www.behance.net/hollystewart" target="_blank" class="bg-social" id="behance-icon">
+              <img src="images/social-behance.png" alt="">
+            </a>
+          </div> <!-- /.large-12 large-centered columns text-center social-icons -->
         </div> <!-- /.large-6 columns -->
       </div> <!-- /row -->
     </section> <!-- /three -->
