@@ -116,7 +116,7 @@
           <div class="large-8 medium-10 small-12 small-centered columns card">
             <div class="panel">
               <div class="bg-magenta rounded-top">
-                <p class="text-center">BUILD</p>
+                <p class="text-center">LAUNCH</p>
               </div>
               <div class="row">
                 <div class="large-2 large-offset-1 large-uncentered small-12 small-centered columns text-center">
