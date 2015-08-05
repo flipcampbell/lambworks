@@ -1,3 +1,5 @@
+/*---------- Typography ------------------------------------------------------*/
+
 @include font-face(Gotham-Rounded-Bold, '../fonts/Gotham-Rounded-Bold', normal, normal);
 @include font-face(Gotham-Rounded-Bold-Italic, '../fonts/Gotham-Rounded-Bold-Italic', normal, normal);
 @include font-face(Gotham-Rounded-Book, '../fonts/Gotham-Rounded-Book', normal, normal);
@@ -6,3 +8,42 @@
 @include font-face(Gotham-Rounded-Light-Italic, '../fonts/Gotham-Rounded-Light-Italic', normal, normal);
 @include font-face(Gotham-Rounded-Medium, '../fonts/Gotham-Rounded-Medium', normal, normal);
 @include font-face(Gotham-Rounded-Medium-Italic, '../fonts/Gotham-Rounded-Medium-Italic', normal, normal);
+
+
+h3,
+li,
+p,
+p span,
+form span,
+label,
+button,
+.button, {
+  font-family: 'Gotham-Rounded-Book';
+}
+
+h1,
+h2,
+.top-bar .toggle-topbar a {
+  font-family: 'Gotham-Rounded-Light';
+}
+
+h3 {
+  @include rem-fallback(font-size, 1.4375);
+}
+
+h4 {
+  font-family: 'Gotham-Rounded-Medium';
+  @include rem-fallback(font-size, 1.3125);
+  @include rem-fallback(margin, 1.3, 0, 1.5625, 0);
+}
+
+p,
+li,
+button,
+.button,
+label {
+  @include rem-fallback(font-size, 1.25);
+  @include media("<tablet") {
+    @include rem-fallback(font-size, 1.0);
+  }
+}

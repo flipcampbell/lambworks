@@ -6969,6 +6969,114 @@ th.hide-for-touch {
     display: table-cell !important;
   }
 }
+/*---------- Color Variables -------------------------------------------------*/
+/*---------- Modular Classes -------------------------------------------------*/
+/* line 17, ../scss/_variables.scss */
+.font-white {
+  color: #fff;
+}
+
+/* line 18, ../scss/_variables.scss */
+.font-navy {
+  color: #023b57;
+}
+
+/* line 19, ../scss/_variables.scss */
+.font-plaster {
+  color: #ecf3f7;
+}
+
+/* line 20, ../scss/_variables.scss */
+.font-magenta {
+  color: #ed4b7e;
+}
+
+/* line 21, ../scss/_variables.scss */
+.font-turquoise {
+  color: #42c1d1;
+}
+
+/* line 22, ../scss/_variables.scss */
+.font-slate {
+  color: #3c6174;
+}
+
+/* line 23, ../scss/_variables.scss */
+.font-midnight {
+  color: #012638;
+}
+
+/* line 24, ../scss/_variables.scss */
+.font-cornflower {
+  color: #a4cfea;
+}
+
+/* line 25, ../scss/_variables.scss */
+.font-grey {
+  color: #85929a;
+}
+
+/* line 26, ../scss/_variables.scss */
+.font-sea-green {
+  color: #4bcfa8;
+}
+
+/* line 28, ../scss/_variables.scss */
+.bg-white {
+  background: #fff;
+}
+
+/* line 29, ../scss/_variables.scss */
+.bg-navy, body {
+  background: #023b57;
+}
+
+/* line 30, ../scss/_variables.scss */
+.bg-plaster {
+  background: #ecf3f7;
+}
+
+/* line 31, ../scss/_variables.scss */
+.bg-magenta {
+  background: #ed4b7e;
+}
+
+/* line 32, ../scss/_variables.scss */
+.bg-turquoise {
+  background: #42c1d1;
+}
+
+/* line 33, ../scss/_variables.scss */
+.bg-slate {
+  background: #3c6174;
+}
+
+/* line 34, ../scss/_variables.scss */
+.bg-midnight {
+  background: #012638;
+}
+
+/* line 35, ../scss/_variables.scss */
+.bg-cornflower {
+  background: #a4cfea;
+}
+
+/* line 36, ../scss/_variables.scss */
+.bg-grey {
+  background: #85929a;
+}
+
+/* line 37, ../scss/_variables.scss */
+.bg-sea-green {
+  background: #4bcfa8;
+}
+
+/* line 39, ../scss/_variables.scss */
+.font-medium-italic {
+  font-family: 'Gotham-Rounded-Medium-Italic';
+}
+
+/*---------- Typography ------------------------------------------------------*/
 @font-face {
   font-family: Gotham-Rounded-Bold;
   src: url("../fonts/Gotham-Rounded-Bold.eot");
@@ -7073,9 +7181,63 @@ th.hide-for-touch {
     src: url("../fonts/Gotham-Rounded-Medium-Italic.svg#Gotham-Rounded-Medium-Italic") format("svg");
   }
 }
+/* line 13, ../scss/_typography.scss */
+h3,
+li,
+p,
+p span,
+form span,
+label,
+button,
+.button {
+  font-family: 'Gotham-Rounded-Book';
+}
+
+/* line 24, ../scss/_typography.scss */
+h1,
+h2,
+.top-bar .toggle-topbar a {
+  font-family: 'Gotham-Rounded-Light';
+}
+
+/* line 30, ../scss/_typography.scss */
+h3 {
+  font-size: 23px;
+  font-size: 1.4375rem;
+}
+
+/* line 34, ../scss/_typography.scss */
+h4 {
+  font-family: 'Gotham-Rounded-Medium';
+  font-size: 21px;
+  font-size: 1.3125rem;
+  margin: 20.8px 0px 25px 0px;
+  margin: 1.3rem 0rem 1.5625rem 0rem;
+}
+
+/* line 40, ../scss/_typography.scss */
+p,
+li,
+button,
+.button,
+label {
+  font-size: 20px;
+  font-size: 1.25rem;
+}
+@media (max-width: 767px) {
+  /* line 40, ../scss/_typography.scss */
+  p,
+  li,
+  button,
+  .button,
+  label {
+    font-size: 16px;
+    font-size: 1rem;
+  }
+}
+
 /* line 1, ../scss/_custom.scss */
 body {
-  background: #023b57;
   overflow: scroll;
   -webkit-overflow-scrolling: touch;
   object-fit: cover;
@@ -7102,26 +7264,6 @@ html, body {
   .row {
     max-width: 62.5rem;
   }
-}
-
-/* line 26, ../scss/_custom.scss */
-p,
-h2,
-h3,
-h4,
-section.one li,
-section.three li,
-#filter h4,
-#filter p,
-#filter h6,
-form span,
-label,
-#contact button,
-#contact .button,
-.card li,
-p.card-subtitle span,
-section.two p span {
-  font-family: 'gotham-rounded-book';
 }
 
 /* line 45, ../scss/_custom.scss */
@@ -7161,7 +7303,6 @@ footer {
 /* line 71, ../scss/_custom.scss */
 .top-bar-section ul li > a,
 footer p,
-section.one p,
 .card h5,
 .card h6,
 .card a,
@@ -7210,15 +7351,7 @@ section.two p span,
   }
 }
 
-/* line 118, ../scss/_custom.scss */
-.hero h1,
-.hero h5,
-.top-bar .toggle-topbar a {
-  font-family: 'gotham-rounded-light';
-}
-
-/* line 124, ../scss/_custom.scss */
-.hero h1,
+/* line 125, ../scss/_custom.scss */
 section.five p,
 section.six p,
 label,
@@ -7227,8 +7360,7 @@ footer {
 }
 
 /* line 132, ../scss/_custom.scss */
-.hero h5 {
-  color: #a4cfea;
+.hero h2 {
   font-size: 24px;
   font-size: 1.5rem;
   margin: 28px 28px 40px 28px;
@@ -7257,12 +7389,11 @@ section.three li {
 /* line 153, ../scss/_custom.scss */
 h2,
 h3,
-footer a,
-section.one p {
+footer a {
   color: #ed4b7e;
 }
 
-/* line 160, ../scss/_custom.scss */
+/* line 161, ../scss/_custom.scss */
 nav {
   opacity: 0;
   -webkit-transition-delay: 1.5s;
@@ -7277,7 +7408,7 @@ nav {
   transition: opacity 1.5s 0;
 }
 
-/* line 165, ../scss/_custom.scss */
+/* line 166, ../scss/_custom.scss */
 div.fade-in-second {
   opacity: 0;
   -webkit-transition-delay: 4.5s;
@@ -7292,7 +7423,7 @@ div.fade-in-second {
   transition: opacity 1.5s ease-in;
 }
 
-/* line 170, ../scss/_custom.scss */
+/* line 171, ../scss/_custom.scss */
 div.fade-in-third {
   opacity: 0;
   -webkit-transition-delay: 7.5s;
@@ -7307,69 +7438,46 @@ div.fade-in-third {
   transition: opacity 2.5s ease-in;
 }
 
-/* line 175, ../scss/_custom.scss */
+/* line 176, ../scss/_custom.scss */
 nav.load,
 div.fade-in-second.load,
 div.fade-in-third.load {
   opacity: 1;
 }
 
-/* line 187, ../scss/_custom.scss */
-section.one h4,
+/* line 192, ../scss/_custom.scss */
 section.four h6 {
   color: #3c6174;
 }
 
-/* line 199, ../scss/_custom.scss */
-section.two p,
-section.three li,
-section.four p,
-section.four h6,
-section.five p,
-label,
-#contact button,
-#contact .button,
-section.contact-thanks p {
+/* line 203, ../scss/_custom.scss */
+section.four h6 {
   font-size: 20px;
   font-size: 1.25rem;
 }
 @media (max-width: 767px) {
-  /* line 199, ../scss/_custom.scss */
-  section.two p,
-  section.three li,
-  section.four p,
-  section.four h6,
-  section.five p,
-  label,
-  #contact button,
-  #contact .button,
-  section.contact-thanks p {
+  /* line 203, ../scss/_custom.scss */
+  section.four h6 {
     font-size: 16px;
     font-size: 1rem;
   }
 }
 
-/* line 215, ../scss/_custom.scss */
-section.one,
-section.two,
-section.three,
-section#testimonials,
-section#filter,
-section.six {
+/* line 223, ../scss/_custom.scss */
+section:not(.top-bar-section) {
   padding-top: 59px;
   padding-top: 3.6875rem;
   padding-bottom: 59px;
   padding-bottom: 3.6875rem;
 }
 
-/* line 225, ../scss/_custom.scss */
-section.one,
+/* line 229, ../scss/_custom.scss */
 section.three,
 section.contact-thanks {
   background: #fff;
 }
 
-/* line 231, ../scss/_custom.scss */
+/* line 234, ../scss/_custom.scss */
 section.contact-thanks {
   padding-top: 120px;
   padding-top: 7.5rem;
@@ -7377,50 +7485,27 @@ section.contact-thanks {
   padding-bottom: 10rem;
 }
 
-/* line 236, ../scss/_custom.scss */
+/* line 239, ../scss/_custom.scss */
 section.six h3,
 form span {
   color: #42c1d1;
 }
 
-/* line 249, ../scss/_custom.scss */
-section.one h2 span {
-  font-weight: bold;
-  font-style: italic;
-}
-@media (max-width: 768px) {
-  /* line 254, ../scss/_custom.scss */
-  section.one h4 {
-    font-size: 25.6px;
-    font-size: 1.6rem;
-  }
-}
-/* line 259, ../scss/_custom.scss */
+/* line 262, ../scss/_custom.scss */
 section.one li {
   font-size: 18px;
   font-size: 1.125rem;
   margin-bottom: 30px;
   margin-bottom: 1.875rem;
 }
-/* line 264, ../scss/_custom.scss */
-section.one p {
-  font-size: 21px;
-  font-size: 1.3125rem;
-  margin: 20.8px 0px 25px 0px;
-  margin: 1.3rem 0rem 1.5625rem 0rem;
-}
-/* line 267, ../scss/_custom.scss */
-section.one p span {
-  font-family: 'Gotham-Rounded-Medium-Italic';
-}
 
-/* line 273, ../scss/_custom.scss */
+/* line 276, ../scss/_custom.scss */
 section.two,
 section.four {
   background: #ecf3f7;
 }
 
-/* line 278, ../scss/_custom.scss */
+/* line 281, ../scss/_custom.scss */
 section.five,
 footer {
   padding-top: 35px;
@@ -7429,7 +7514,7 @@ footer {
   padding-bottom: 2.1875rem;
 }
 
-/* line 285, ../scss/_custom.scss */
+/* line 288, ../scss/_custom.scss */
 section.two img {
   width: 95px;
   width: 5.9375rem;
@@ -7437,13 +7522,13 @@ section.two img {
   height: 5.25rem;
   margin: 0 auto;
 }
-/* line 291, ../scss/_custom.scss */
+/* line 294, ../scss/_custom.scss */
 section.two p span {
   margin-bottom: 0px;
   margin-bottom: 0rem;
 }
 
-/* line 302, ../scss/_custom.scss */
+/* line 305, ../scss/_custom.scss */
 section.two p span,
 #filter h6 {
   text-transform: uppercase;
@@ -7452,7 +7537,7 @@ section.two p span,
   font-size: 1rem;
 }
 
-/* line 312, ../scss/_custom.scss */
+/* line 315, ../scss/_custom.scss */
 section.three h3,
 section.six h3,
 section#testimonials h3 {
@@ -7460,36 +7545,36 @@ section#testimonials h3 {
   padding-bottom: 1.75rem;
 }
 
-/* line 317, ../scss/_custom.scss */
+/* line 320, ../scss/_custom.scss */
 section.four h6,
 section.contact-thanks p span {
   font-family: 'gotham-rounded-bold';
 }
 
-/* line 322, ../scss/_custom.scss */
+/* line 325, ../scss/_custom.scss */
 section.four h6 {
   margin-bottom: 0px;
   margin-bottom: 0rem;
 }
-/* line 326, ../scss/_custom.scss */
+/* line 329, ../scss/_custom.scss */
 section.four p span {
   font-size: 18px;
   font-size: 1.125rem;
 }
 
-/* line 331, ../scss/_custom.scss */
+/* line 334, ../scss/_custom.scss */
 section.five {
   background: #ed4b7e;
   padding: 33.6px 0px 17.6px 0px;
   padding: 2.1rem 0rem 1.1rem 0rem;
 }
 
-/* line 336, ../scss/_custom.scss */
+/* line 339, ../scss/_custom.scss */
 section.six {
   background: #023b57;
 }
 
-/* line 340, ../scss/_custom.scss */
+/* line 343, ../scss/_custom.scss */
 #contact button,
 #contact .button {
   background: #ed4b7e;
@@ -7499,7 +7584,7 @@ section.six {
   margin-top: 2rem;
 }
 
-/* line 347, ../scss/_custom.scss */
+/* line 350, ../scss/_custom.scss */
 #contact button:hover,
 #contact .button:hover,
 #contact button:disabled,
@@ -7507,13 +7592,13 @@ section.six {
   background: #f2799f;
 }
 
-/* line 354, ../scss/_custom.scss */
+/* line 357, ../scss/_custom.scss */
 input,
 textarea {
   -webkit-transform: translate3d(0, 0, 0);
 }
 
-/* line 359, ../scss/_custom.scss */
+/* line 362, ../scss/_custom.scss */
 input[type="text"],
 input[type="email"],
 textarea[name="description"],
@@ -7523,7 +7608,7 @@ input[type=radio] {
   margin-top: 1.25rem;
 }
 
-/* line 367, ../scss/_custom.scss */
+/* line 370, ../scss/_custom.scss */
 input[type=radio].css-checkbox {
   position: absolute;
   z-index: -1000;
@@ -7537,7 +7622,7 @@ input[type=radio].css-checkbox {
   border: 0;
 }
 
-/* line 380, ../scss/_custom.scss */
+/* line 383, ../scss/_custom.scss */
 input[type=radio].css-checkbox + label.css-label {
   padding-left: 24px;
   height: 19px;
@@ -7550,12 +7635,12 @@ input[type=radio].css-checkbox + label.css-label {
   cursor: pointer;
 }
 
-/* line 393, ../scss/_custom.scss */
+/* line 396, ../scss/_custom.scss */
 input[type=radio].css-checkbox:checked + label.css-label {
   background-position: 0 -19px;
 }
 
-/* line 397, ../scss/_custom.scss */
+/* line 400, ../scss/_custom.scss */
 label.css-label {
   background-image: url(../images/css-check.png);
   -webkit-touch-callout: none;
@@ -7566,70 +7651,70 @@ label.css-label {
   user-select: none;
 }
 
-/* line 407, ../scss/_custom.scss */
+/* line 410, ../scss/_custom.scss */
 form span {
   font-size: 14.4px;
   font-size: 0.9rem;
 }
 
-/* line 419, ../scss/_custom.scss */
+/* line 422, ../scss/_custom.scss */
 footer {
   background: #012638;
 }
 
-/* line 423, ../scss/_custom.scss */
+/* line 426, ../scss/_custom.scss */
 .bg-turquoise {
   background: #42c1d1;
 }
 
-/* line 427, ../scss/_custom.scss */
+/* line 430, ../scss/_custom.scss */
 .bg-magenta {
   background: #ed4b7e;
 }
 
-/* line 431, ../scss/_custom.scss */
+/* line 434, ../scss/_custom.scss */
 .bg-sea-green {
   background: #4bcfa8;
 }
 
-/* line 435, ../scss/_custom.scss */
-.bg-navy {
+/* line 438, ../scss/_custom.scss */
+.bg-navy, body {
   background: #023b57;
 }
 
-/* line 439, ../scss/_custom.scss */
+/* line 442, ../scss/_custom.scss */
 .bg-white {
   background: #fff;
 }
 
-/* line 443, ../scss/_custom.scss */
+/* line 446, ../scss/_custom.scss */
 .bg-plaster {
   background: #ecf3f7;
 }
 
-/* line 447, ../scss/_custom.scss */
+/* line 450, ../scss/_custom.scss */
 .card {
   padding: 19.2px 0px 19.2px 0px;
   padding: 1.2rem 0rem 1.2rem 0rem;
 }
-/* line 449, ../scss/_custom.scss */
+/* line 452, ../scss/_custom.scss */
 .card p {
   font-size: 30px;
   font-size: 1.875rem;
   color: #fff !important;
 }
-/* line 457, ../scss/_custom.scss */
+/* line 460, ../scss/_custom.scss */
 .card h5 {
   font-size: 21px;
   font-size: 1.3125rem;
 }
-/* line 460, ../scss/_custom.scss */
+/* line 463, ../scss/_custom.scss */
 .card h6,
 .card a {
   font-size: 18px;
   font-size: 1.125rem;
 }
-/* line 464, ../scss/_custom.scss */
+/* line 467, ../scss/_custom.scss */
 .card li,
 .card p.card-subtitle span {
   font-size: 16px;
@@ -7639,12 +7724,12 @@ footer {
   text-transform: none;
   letter-spacing: normal;
 }
-/* line 471, ../scss/_custom.scss */
+/* line 474, ../scss/_custom.scss */
 .card h6,
 .card li {
   color: #85929a;
 }
-/* line 475, ../scss/_custom.scss */
+/* line 478, ../scss/_custom.scss */
 .card li {
   padding-bottom: 16px;
   padding-bottom: 1rem;
@@ -7652,7 +7737,7 @@ footer {
   padding-left: 0.5rem;
 }
 @media only screen and (max-width: 1025px) {
-  /* line 481, ../scss/_custom.scss */
+  /* line 484, ../scss/_custom.scss */
   .card p,
   .card h5,
   .card h6 {
@@ -7660,7 +7745,7 @@ footer {
   }
 }
 @media (max-width: 768px) {
-  /* line 488, ../scss/_custom.scss */
+  /* line 491, ../scss/_custom.scss */
   .card p,
   .card h5,
   .card h6,
@@ -7670,7 +7755,7 @@ footer {
   }
 }
 
-/* line 498, ../scss/_custom.scss */
+/* line 501, ../scss/_custom.scss */
 .panel {
   box-sizing: border-box;
   -moz-box-shadow: 0 2px 0 rgba(0, 0, 0, 0.2), inset 0 0 10px rgba(0, 0, 0, 0.03);
@@ -7685,49 +7770,49 @@ footer {
   padding-bottom: 2rem;
 }
 @media (min-width: 768px) and (max-width: 1024px) {
-  /* line 498, ../scss/_custom.scss */
+  /* line 501, ../scss/_custom.scss */
   .panel {
     margin: 16px 0px 16px 0px;
     margin: 1rem 0rem 1rem 0rem;
   }
 }
 @media (min-width: 320px) and (max-width: 768px) {
-  /* line 498, ../scss/_custom.scss */
+  /* line 501, ../scss/_custom.scss */
   .panel {
     margin: 16px -4px 16px -4px;
     margin: 1rem -0.25rem 1rem -0.25rem;
   }
 }
 
-/* line 524, ../scss/_custom.scss */
+/* line 527, ../scss/_custom.scss */
 .rounded-top {
   border-radius: 4px 4px 0px 0px;
   border-radius: 0.25rem 0.25rem 0rem 0rem;
 }
 
-/* line 534, ../scss/_custom.scss */
+/* line 537, ../scss/_custom.scss */
 .font-turquoise {
   color: #42c1d1 !important;
 }
 
-/* line 538, ../scss/_custom.scss */
+/* line 541, ../scss/_custom.scss */
 .font-magenta {
   color: #ed4b7e !important;
 }
 
-/* line 542, ../scss/_custom.scss */
+/* line 545, ../scss/_custom.scss */
 .font-sea-green {
   color: #4bcfa8 !important;
 }
 
-/* line 546, ../scss/_custom.scss */
+/* line 549, ../scss/_custom.scss */
 .divider {
   border-bottom: 1px solid #c7cfd3;
   margin: 32px 0px 32px 0px;
   margin: 2rem 0rem 2rem 0rem;
 }
 
-/* line 551, ../scss/_custom.scss */
+/* line 554, ../scss/_custom.scss */
 section.products h4,
 #about h3,
 #filter h4,
@@ -7735,13 +7820,13 @@ section.products h4,
   color: #023b57;
 }
 
-/* line 558, ../scss/_custom.scss */
+/* line 561, ../scss/_custom.scss */
 img.portrait {
   padding-bottom: 16px;
   padding-bottom: 1rem;
 }
 
-/* line 564, ../scss/_custom.scss */
+/* line 567, ../scss/_custom.scss */
 #filter h4,
 #filter h5,
 #filter h6,
@@ -7752,30 +7837,30 @@ img.portrait {
   margin: 1rem 0rem 1rem 0rem;
 }
 
-/* line 571, ../scss/_custom.scss */
+/* line 574, ../scss/_custom.scss */
 p.testimonial {
   font-style: italic;
 }
 
-/* line 575, ../scss/_custom.scss */
+/* line 578, ../scss/_custom.scss */
 p.quote-attribute {
   text-transform: uppercase;
   float: right;
 }
 
-/* line 585, ../scss/_custom.scss */
+/* line 588, ../scss/_custom.scss */
 .bg-social img {
   padding-bottom: 0;
   transition: opacity 0.5s;
   transform: scale(1.027, 1.027);
 }
 
-/* line 591, ../scss/_custom.scss */
+/* line 594, ../scss/_custom.scss */
 .bg-social:hover img {
   opacity: 0;
 }
 
-/* line 595, ../scss/_custom.scss */
+/* line 598, ../scss/_custom.scss */
 .social-icons a {
   background: no-repeat center;
   display: inline-block;
@@ -7783,33 +7868,33 @@ p.quote-attribute {
   margin-right: 0.625rem;
 }
 
-/* line 601, ../scss/_custom.scss */
+/* line 604, ../scss/_custom.scss */
 a#twitter-icon {
   background: url("../images/social-twitter-hover.png");
 }
 
-/* line 605, ../scss/_custom.scss */
+/* line 608, ../scss/_custom.scss */
 a#linkedin-icon {
   background: url("../images/social-linkedin-hover.png");
 }
 
-/* line 609, ../scss/_custom.scss */
+/* line 612, ../scss/_custom.scss */
 a#angellist-icon {
   background: url("../images/social-angellist-hover.png");
 }
 
-/* line 613, ../scss/_custom.scss */
+/* line 616, ../scss/_custom.scss */
 a#quora-icon {
   background: url("../images/social-quora-hover.png") no-repeat center;
   display: inline-block;
 }
 
-/* line 618, ../scss/_custom.scss */
+/* line 621, ../scss/_custom.scss */
 a#dribbble-icon {
   background: url("../images/social-dribbble-hover.png");
 }
 
-/* line 622, ../scss/_custom.scss */
+/* line 625, ../scss/_custom.scss */
 a#behance-icon {
   background: url("../images/social-behance-hover.png");
 }

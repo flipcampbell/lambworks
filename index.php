@@ -6,16 +6,16 @@
       <?php include('inc/nav.php');?>
         <div class="large-12 large-centered columns">
           <div class="fade-in-second">
-            <h1 class="text-center fade-in-second">
-              Launch Strategy &amp; Product Design for Startups
+            <h1 class="text-center fade-in-second font-white">
+              Launch Strategy &amp; Design for Startups
             </h1>
           </div>
         </div>
       <div class="large-10 small-12 small-centered large-centered columns">
         <div class="fade-in-second">
-          <h5 class="text-center fade-in-second">
+          <h2 class="text-center fade-in-second font-cornflower">
             Create digital products and services that people actually want to use.
-          </h5>
+          </h2>
         </div>
       </div>
       <div class="large-12 large-centered columns text-center">
@@ -26,15 +26,15 @@
     </div> <!-- /hero -->
    <!-- /container row -->
 
-    <section class="one">
+    <section class="one bg-white">
       <div class="row">
-        <h4 class="large-10 medium-12 small-12 small-centered medium-centered large-centered columns text-center">
+        <h3 class="large-10 medium-12 small-12 small-centered medium-centered large-centered columns text-center font-slate">
           Don't risk spending 50k+ building software that no one wants.
-        </h4>
-        <p class="large-8 large-centered small-12 small-centered columns text-center">
+        </h3>
+        <h4 class="large-8 large-centered small-12 small-centered columns text-center font-magenta">
           Does this sound familiar?
-        </p>
-        <ul class="large-6 large-centered medium-8 medium-centered columns small-10 small-centered">
+        </h4>
+        <ul class="large-6 large-centered medium-8 medium-centered columns small-10 small-centered font-grey">
           <li>
             You're ready to start building a digital product or service, but
             you're feeling a bit overwhelmed while trying to build a team.
@@ -53,10 +53,10 @@
             it was built.
           </li>
         </ul>
-        <p class="large-8 large-centered medium-10 medium-centered small-12 small-centered columns text-center">
+        <h4 class="large-8 large-centered medium-10 medium-centered small-12 small-centered columns text-center font-magenta">
           What if you could take steps designed to not only reduce risk, but also
-          save time and resources <span>before you launch your startup?</span>
-        </p>
+          save time and resources <span class="font-medium-italic">before you launch your startup?</span>
+        </h4>
       </div> <!-- /row -->
     </section> <!-- /one -->
 
