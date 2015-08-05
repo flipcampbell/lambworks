@@ -6973,52 +6973,52 @@ th.hide-for-touch {
 /*---------- Modular Classes -------------------------------------------------*/
 /* line 17, ../scss/_variables.scss */
 .font-white {
-  color: #fff;
+  color: #fff !important;
 }
 
 /* line 18, ../scss/_variables.scss */
 .font-navy {
-  color: #023b57;
+  color: #023b57 !important;
 }
 
 /* line 19, ../scss/_variables.scss */
 .font-plaster {
-  color: #ecf3f7;
+  color: #ecf3f7 !important;
 }
 
 /* line 20, ../scss/_variables.scss */
 .font-magenta {
-  color: #ed4b7e;
+  color: #ed4b7e !important;
 }
 
 /* line 21, ../scss/_variables.scss */
 .font-turquoise {
-  color: #42c1d1;
+  color: #42c1d1 !important;
 }
 
 /* line 22, ../scss/_variables.scss */
 .font-slate {
-  color: #3c6174;
+  color: #3c6174 !important;
 }
 
 /* line 23, ../scss/_variables.scss */
 .font-midnight {
-  color: #012638;
+  color: #012638 !important;
 }
 
 /* line 24, ../scss/_variables.scss */
 .font-cornflower {
-  color: #a4cfea;
+  color: #a4cfea !important;
 }
 
 /* line 25, ../scss/_variables.scss */
 .font-grey {
-  color: #85929a;
+  color: #85929a !important;
 }
 
 /* line 26, ../scss/_variables.scss */
 .font-sea-green {
-  color: #4bcfa8;
+  color: #4bcfa8 !important;
 }
 
 /* line 28, ../scss/_variables.scss */
@@ -7074,6 +7074,11 @@ th.hide-for-touch {
 /* line 39, ../scss/_variables.scss */
 .font-medium-italic {
   font-family: 'Gotham-Rounded-Medium-Italic';
+}
+
+/* line 43, ../scss/_variables.scss */
+.uppercase {
+  text-transform: uppercase;
 }
 
 /*---------- Typography ------------------------------------------------------*/
@@ -7183,6 +7188,7 @@ th.hide-for-touch {
 }
 /* line 13, ../scss/_typography.scss */
 h3,
+h6,
 li,
 p,
 p span,
@@ -7193,21 +7199,22 @@ button,
   font-family: 'Gotham-Rounded-Book';
 }
 
-/* line 24, ../scss/_typography.scss */
+/* line 25, ../scss/_typography.scss */
 h1,
 h2,
 .top-bar .toggle-topbar a {
   font-family: 'Gotham-Rounded-Light';
 }
 
-/* line 30, ../scss/_typography.scss */
+/* line 31, ../scss/_typography.scss */
 h3 {
   font-size: 23px;
   font-size: 1.4375rem;
 }
 
-/* line 34, ../scss/_typography.scss */
-h4 {
+/* line 35, ../scss/_typography.scss */
+h4,
+h5 {
   font-family: 'Gotham-Rounded-Medium';
   font-size: 21px;
   font-size: 1.3125rem;
@@ -7215,9 +7222,27 @@ h4 {
   margin: 1.3rem 0rem 1.5625rem 0rem;
 }
 
-/* line 40, ../scss/_typography.scss */
+/* line 42, ../scss/_typography.scss */
+h6 {
+  margin-bottom: 20px;
+  margin-bottom: 1.25rem;
+}
+/* line 44, ../scss/_typography.scss */
+h6 span {
+  font-size: 16px;
+  font-size: 1rem;
+  letter-spacing: 3.2px;
+  letter-spacing: 0.2rem;
+}
+
+/* line 50, ../scss/_typography.scss */
 p,
-li,
+li {
+  font-size: 18px;
+  font-size: 1.125rem;
+}
+
+/* line 55, ../scss/_typography.scss */
 button,
 .button,
 label {
@@ -7225,15 +7250,19 @@ label {
   font-size: 1.25rem;
 }
 @media (max-width: 767px) {
-  /* line 40, ../scss/_typography.scss */
-  p,
-  li,
+  /* line 55, ../scss/_typography.scss */
   button,
   .button,
   label {
     font-size: 16px;
     font-size: 1rem;
   }
+}
+
+/* line 64, ../scss/_typography.scss */
+li {
+  margin-bottom: 30px;
+  margin-bottom: 1.875rem;
 }
 
 /* line 1, ../scss/_custom.scss */
@@ -7243,11 +7272,6 @@ body {
   object-fit: cover;
   background-position: center top;
   background-repeat: no-repeat;
-}
-/* line 8, ../scss/_custom.scss */
-body p,
-body li {
-  color: #85929a;
 }
 
 /* line 14, ../scss/_custom.scss */
@@ -7386,9 +7410,7 @@ section.three li {
   display: inline;
 }
 
-/* line 153, ../scss/_custom.scss */
-h2,
-h3,
+/* line 155, ../scss/_custom.scss */
 footer a {
   color: #ed4b7e;
 }
@@ -7491,14 +7513,6 @@ form span {
   color: #42c1d1;
 }
 
-/* line 262, ../scss/_custom.scss */
-section.one li {
-  font-size: 18px;
-  font-size: 1.125rem;
-  margin-bottom: 30px;
-  margin-bottom: 1.875rem;
-}
-
 /* line 276, ../scss/_custom.scss */
 section.two,
 section.four {
@@ -7528,8 +7542,7 @@ section.two p span {
   margin-bottom: 0rem;
 }
 
-/* line 305, ../scss/_custom.scss */
-section.two p span,
+/* line 306, ../scss/_custom.scss */
 #filter h6 {
   text-transform: uppercase;
   color: #85929a;

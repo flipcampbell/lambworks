@@ -24,7 +24,7 @@
           </li>
           <li>
             <a href="/#contact" class="scroller">Contact</a>
-          </li>                        
+          </li>
         </ul>
       </section>
     </nav>

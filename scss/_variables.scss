@@ -14,16 +14,16 @@ $color-sea-green: #4bcfa8;
 
 /*---------- Modular Classes -------------------------------------------------*/
 
-.font-white {@include font-color($color-white);}
-.font-navy {@include font-color($color-navy);}
-.font-plaster {@include font-color($color-plaster);}
-.font-magenta {@include font-color($color-magenta);}
-.font-turquoise {@include font-color($color-turquoise);}
-.font-slate {@include font-color($color-slate);}
-.font-midnight {@include font-color($color-midnight);}
-.font-cornflower {@include font-color($color-cornflower);}
-.font-grey {@include font-color($color-grey);}
-.font-sea-green {@include font-color($color-sea-green);}
+.font-white {@include font-color($color-white !important);}
+.font-navy {@include font-color($color-navy !important);}
+.font-plaster {@include font-color($color-plaster !important);}
+.font-magenta {@include font-color($color-magenta !important);}
+.font-turquoise {@include font-color($color-turquoise !important);}
+.font-slate {@include font-color($color-slate !important);}
+.font-midnight {@include font-color($color-midnight !important);}
+.font-cornflower {@include font-color($color-cornflower !important);}
+.font-grey {@include font-color($color-grey !important);}
+.font-sea-green {@include font-color($color-sea-green !important);}
 
 .bg-white {@include bg-color($color-white);}
 .bg-navy {@include bg-color($color-navy);}
@@ -38,4 +38,8 @@ $color-sea-green: #4bcfa8;
 
 .font-medium-italic {
   font-family: 'Gotham-Rounded-Medium-Italic';
+}
+
+.uppercase {
+  text-transform: uppercase;
 }

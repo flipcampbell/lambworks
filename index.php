@@ -26,7 +26,7 @@
     </div> <!-- /hero -->
    <!-- /container row -->
 
-    <section class="one bg-white">
+    <section class="bg-white">
       <div class="row">
         <h3 class="large-10 medium-12 small-12 small-centered medium-centered large-centered columns text-center font-slate">
           Don't risk spending 50k+ building software that no one wants.
@@ -61,19 +61,19 @@
     </section> <!-- /one -->
 
     <section class="two products">
-      <p class="large-12 large-centered columns text-center">
+      <h6 class="large-12 large-centered columns text-center font-grey uppercase">
         <span>Looking for the next logical step?</span>
-      </p>
-      <h4 class="large-6 large-centered medium-8 medium-centered small-10 small-centered columns text-center">
+      </h6>
+      <h3 class="large-6 large-centered medium-8 medium-centered small-10 small-centered columns text-center font-navy">
         I offer three services for each stage of your
         early startup journey.
-      </h4>
+      </h3>
       <div class="small-12 small-centered columns">
         <div class="row">
           <div class="large-8 medium-10 small-12 small-centered columns card">
             <div class="panel">
               <div class="bg-turquoise rounded-top">
-                <p class="text-center">PLAN</p>
+                <p class="text-center uppercase font-white">PLAN</p>
               </div>
               <div class="row">
                 <div class="large-2 large-offset-1 large-uncentered small-12 small-centered columns text-center">

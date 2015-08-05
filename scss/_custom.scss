@@ -5,10 +5,10 @@ body {
 	object-fit: cover;
 	background-position: center top;
 	background-repeat: no-repeat;
-	p,
-	li {
-		@include font-color($color-grey);
-	}
+	// p,
+	// li {
+	// 	@include font-color($color-grey);
+	// }
 }
 
 html, body {
@@ -150,8 +150,8 @@ section.three li {
 	// background: url(../images/bullet-circle-check.png) top left no-repeat;
 }
 
-h2,
-h3,
+// h2,
+// h3,
 footer a,
 // section.one p
 {
@@ -241,7 +241,7 @@ form span {
 	color: $color-turquoise;
 }
 
-section.one {
+// section.one {
 	// background: $color-white;
 
 	// h2,
@@ -259,11 +259,11 @@ section.one {
 	// 		@include rem-fallback(font-size, 1.6)
 	// 	}
 	// }
-	li {
+	// li {
 		// color: $color-slate;
-		@include rem-fallback(font-size, 1.125);
-		@include rem-fallback(margin-bottom, 1.875);
-	}
+		// @include rem-fallback(font-size, 1.125);
+		// @include rem-fallback(margin-bottom, 1.875);
+	// }
 	// p {
 	// 	@include rem-fallback(font-size, 1.3125);
 	// 	@include rem-fallback(margin, 1.3, 0, 1.5625, 0);
@@ -271,7 +271,7 @@ section.one {
 	// 		font-family: 'Gotham-Rounded-Medium-Italic';
 	// 	}
 	// }
-}
+// }
 
 section.two,
 section.four {
@@ -302,7 +302,7 @@ section.two {
 	// }
 }
 
-section.two p span,
+// section.two p span,
 #filter h6 {
 	text-transform: uppercase;
 	color: $color-grey;
