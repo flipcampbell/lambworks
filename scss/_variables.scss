@@ -1,4 +1,5 @@
-// Colors
+/*---------- Color Variables -------------------------------------------------*/
+
 $color-white: #fff;
 $color-navy: #023b57;
 $color-plaster: #ecf3f7;
@@ -9,3 +10,32 @@ $color-midnight: #012638;
 $color-cornflower: #a4cfea;
 $color-grey: #85929a;
 $color-sea-green: #4bcfa8;
+
+
+/*---------- Modular Classes -------------------------------------------------*/
+
+.font-white {@include font-color($color-white);}
+.font-navy {@include font-color($color-navy);}
+.font-plaster {@include font-color($color-plaster);}
+.font-magenta {@include font-color($color-magenta);}
+.font-turquoise {@include font-color($color-turquoise);}
+.font-slate {@include font-color($color-slate);}
+.font-midnight {@include font-color($color-midnight);}
+.font-cornflower {@include font-color($color-cornflower);}
+.font-grey {@include font-color($color-grey);}
+.font-sea-green {@include font-color($color-sea-green);}
+
+.bg-white {@include bg-color($color-white);}
+.bg-navy {@include bg-color($color-navy);}
+.bg-plaster {@include bg-color($color-plaster);}
+.bg-magenta {@include bg-color($color-magenta);}
+.bg-turquoise {@include bg-color($color-turquoise);}
+.bg-slate {@include bg-color($color-slate);}
+.bg-midnight {@include bg-color($color-midnight);}
+.bg-cornflower {@include bg-color($color-cornflower);}
+.bg-grey {@include bg-color($color-grey);}
+.bg-sea-green {@include bg-color($color-sea-green);}
+
+.font-medium-italic {
+  font-family: 'Gotham-Rounded-Medium-Italic';
+}
