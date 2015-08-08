@@ -204,18 +204,25 @@
         <div class="large-6 columns large-push-6">
           <h3 class="large-12 columns">Who's behind this?</h3>
 
-            <div class="large-12 columns">
-            <p>
-              Lambworks is a solo product design consultancy, for entrepreneurs
-              building digital products and online services.
-            </p>
+            <div class="large-12 columns font-grey">
               <p>
-              It's run by me, Holly Stewart, with help from friends as needed.
+                Lambworks is a solo product design consultancy, for entrepreneurs
+                building digital products and online services.
+              </p>
+              <p>
+                It's run by me, Holly Stewart, with help from friends as needed.
               </p>
             	<p>
-            	I began doing design and marketing in the corporate-cubicle-world for three years. After deciding that office politics and inefficient bureaucracy are not for me, I voluntarily escaped to go solo during a recession, while all of my colleagues were desperately clinging to their jobs.</p>
-				<p>
-                Since then, I’ve spent six years helping startups and small businesses with design, strategy, and occasionally self-sabotage prevention. I prefer working with startups because we share a drive to carve your own path while making useful and profitable things.
+              	I began doing design and marketing in the corporate-cubicle-world
+                for three years. After deciding that office politics and inefficient
+                bureaucracy are not for me, I voluntarily escaped to go solo during
+                a recession, while all of my colleagues were desperately clinging to their jobs.
+              </p>
+      				<p>
+                Since then, I’ve spent six years helping startups and small
+                businesses with design, strategy, and occasionally self-sabotage
+                prevention. I prefer working with startups because we share a
+                drive to carve your own path while making useful and profitable things.
               </p>
               <p>
                 <span>
@@ -229,14 +236,14 @@
                 <span style="font-style: italic;">before</span> any time and
                 resources are thrown at a deeper business problem or unprofitable idea.
               </p>
-            </div>
-        </div> <!-- /row -->
+            </div> <!-- /.large-12 columns font-grey -->
+        </div> <!-- /.row -->
         <div class="large-6 columns large-pull-6">
           <div class="large-12 large-centered columns text-center">
             <img src="images/portrait.png" alt="Holly Stewart" class="portrait">
           </div> <!-- /.large-12 large-centered text-center -->
           <div class="large-8 large-centered columns">
-            <p class="text-center">
+            <p class="text-center font-grey">
               <span>
                 Holly Stewart is an independent product designer and consultant in Nashville.
               </span>
