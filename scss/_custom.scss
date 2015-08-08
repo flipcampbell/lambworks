@@ -81,8 +81,9 @@ footer p,
 }
 
 .top-bar-section ul li > a,
-section.two p span,
-#filter h6 {
+section.two p span
+// #filter h6
+{
 	@include rem-fallback(letter-spacing, 0.20);
 }
 
@@ -303,11 +304,11 @@ section.two {
 }
 
 // section.two p span,
-#filter h6 {
-	text-transform: uppercase;
-	color: $color-grey;
-	@include rem-fallback(font-size, 1);
-}
+// #filter h6 {
+// 	text-transform: uppercase;
+// 	color: $color-grey;
+// 	@include rem-fallback(font-size, 1);
+// }
 
 section.three,
 section.six,
@@ -552,8 +553,8 @@ footer {
 }
 
 section.products h4,
-#about h3,
-#filter h4,
+// #about h3,
+// #filter h4,
 #testimonials h3 {
 		@include font-color($color-navy);
 }

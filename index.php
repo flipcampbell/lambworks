@@ -202,7 +202,7 @@
     <section class="three" id="about">
       <div class="row">
         <div class="large-6 columns large-push-6">
-          <h3 class="large-12 columns">Who's behind this?</h3>
+          <h3 class="large-12 columns font-navy">Who's behind this?</h3>
 
             <div class="large-12 columns font-grey">
               <p>
@@ -296,14 +296,14 @@
               Holly is an entrepreneur and so I know she understands the challenges
               we face.
             </h5>
-            <p class="testimonial">
+            <p class="testimonial font-grey">
               "She's 8 hours away from our business, and we could hire a local
               designer. However, she came highly recommended by our developer.
               After trusting her design to bring our site from idea to launch,
               there is no one I trust more to get the job done. She has excellent
               communication skills and always exceeds expectations."
             </p>
-            <p class="quote-attribute">&mdash; Lori Brannock, Merch Colony</p>
+            <p class="quote-attribute font-grey">&mdash; Lori Brannock, Merch Colony</p>
           </div> <!-- large-9 large-uncentered medium-uncentered small-12 small-centered columns-->
         </div> <!-- /large-12 small-centered columns -->
       </div> <!-- /row -->
@@ -311,29 +311,32 @@
     <section class="bg-white" id="filter">
       <div class="row">
        <div class="small-10 columns small-centered">
-          <h6 class="text-center">Who this is for</h6>
-          <h4 class="text-center">Are you my people?</h4>
+          <h6 class="text-center font-grey uppercase">
+            <span>Who this is for</span>
+          </h6>
+          <h3 class="text-center font-navy">Are you my people?</h3>
           <div class="large-6 small-12 columns">
             <h5 class="font-magenta">Early Stage Entrepreneurs</h5>
-            <p>
+            <p class="font-grey">
               You're open to new methodologies for better decision-making and
               aren't afraid to restructure your business model as needed.
             </p>
-            <p>You want done-for-you serviced to get your product off the ground,
+            <p class="font-grey">
+              You want done-for-you serviced to get your product off the ground,
               but you're also ready and willing to learn the ins and outs of
               running and managing your product over time.
             </p>
-            <p>
+            <p class="font-grey">
               <span style="font-weight: bold;">Spoiler Alert: </span>
               It's my intention to help you outgrow me.
             </p>
           </div> <!--/.large-6 small-12 -->
           <div class="large-6 small-12 columns">
             <h5 class="font-magenta">Bootstrappers</h5>
-            <p>
+            <p class="font-grey">
               You are the ultimate decision-maker.
             </p>
-            <p>
+            <p class="font-grey">
               There are no hidden investors or stakeholders that will come out of
               the woodwork who do not understand your industry or will interfere
               with the product development.
@@ -343,36 +346,43 @@
        </div> <!-- /.row -->
        <div class="row">
         <div class="small-10 columns small-centered">
-           <h6 class="text-center">Deal-breakers</h6>
-           <h4 class="text-center">Sometimes it's just not meant to be.</h4>
+           <h6 class="text-center font-grey uppercase">
+             <span>Deal-breakers</span>
+           </h6>
+           <h3 class="text-center font-navy">
+             Sometimes it's just not meant to be.
+           </h3>
            <div class="large-6 small-12 columns">
              <h5 class="font-magenta">
                Looking for someone who will just execute the idea in your head?
              </h5>
-             <p>
+             <p class="font-grey">
                If you're in the market for order takers, pixel pushers, or code
                monkeys, this is not a good fit.
              </p>
-             <p>
-               I choose and assemble setups where everyone is involved in prioritization every step of the way. No
-               one is left in the dark and input is not only encouraged, but
-               required. We collaborate as strategists, advisors, and lead
-               technicians.
+             <p class="font-grey">
+               I choose and assemble setups where everyone is involved in
+               prioritization every step of the way. No one is left in the dark
+               and input is not only encouraged, but required. We collaborate as
+               strategists, advisors, and lead technicians.
              </p>
-             <p>
-               We don't build for the sake of building. We commit to building your product to solve a need, want, or problem for your customers.
+             <p class="font-grey">
+               We don't build for the sake of building. We commit to building
+               your product to solve a need, want, or problem for your customers.
              </p>
            </div> <!--/.large-6 small-12 -->
            <div class="large-6 small-12 columns">
-             <h5 class="font-magenta">Not open to the idea of content marketing?</h5>
-             <p>
+             <h5 class="font-magenta">
+               Not open to the idea of content marketing?
+             </h5>
+             <p class="font-grey">
                Are you against doing content marketing such as newsletters, blogging,
                or interviews?
              </p>
-             <p>
+             <p class="font-grey">
                This tells me you have a "build it and they will come" mentality.
              </p>
-             <p>
+             <p class="font-grey">
                If you aren't committed enough to build an audience and write a
                weekly or monthly blog post or newsletter, why should I or your
                customers take your business seriously?
