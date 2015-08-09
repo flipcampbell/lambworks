@@ -2,9 +2,9 @@
   // include('../inc/contact-mailer.php');
   include('../../inc/header.php');
 ?>
-
+<?php include('../../inc/nav.php');?>
 <div class="hero-case-study bg-trusttree no-margin-bottom">
-  <?php include('../../inc/nav.php');?>
+
   <div class="large-12 large-centered columns">
     <div class="fade-in-second">
       <h1 class="text-center fade-in-second font-white">
