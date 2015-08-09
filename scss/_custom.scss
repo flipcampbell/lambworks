@@ -116,6 +116,12 @@ $topbar-link-bg-color-hover: none;
 	}
 }
 
+.hero-case-study {
+	h2 {
+		@include rem-fallback(padding-bottom, 5);
+	}
+}
+
 // .hero h1,
 // .hero h5,
 // .top-bar .toggle-topbar a {
@@ -130,13 +136,13 @@ footer {
 	color: $color-white;
 }
 
-.hero h2 {
+h2 {
 	// color: $color-cornflower;
 	@include rem-fallback(font-size, 1.5);
 	@include rem-fallback(margin, 1.75, 1.75, 2.5, 1.75);
 }
 
-.hero h1 {
+h1 {
 	@include rem-fallback(padding-top, 4.0);
 	@include media("<=tablet") {
 		@include rem-fallback(padding-top, 1.0);

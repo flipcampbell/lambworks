@@ -36,10 +36,26 @@ $color-sea-green: #4bcfa8;
 .bg-grey {@include bg-color($color-grey);}
 .bg-sea-green {@include bg-color($color-sea-green);}
 
+.bg-trusttree {
+  @include bgimage-jpg('/case-studies/trust-tree/trust-tree-bg');
+  // object-fit: cover;
+  // background-position: center top;
+  // background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .font-medium-italic {
   font-family: 'Gotham-Rounded-Medium-Italic';
 }
 
 .uppercase {
   text-transform: uppercase;
+}
+
+.no-margin-bottom {
+  @include rem-fallback(margin-bottom, 0);
+}
+
+.text-right {
+  text-align: right;
 }
