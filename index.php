@@ -23,8 +23,8 @@
           <img class="fade-in-third" src="images/hero-icon-graphic.png" alt="">
         </div>
       </div>
-    </div> <!-- /hero -->
-   <!-- /container row -->
+    </div> <!-- /.hero -->
+   <!-- /.container row -->
 
     <section class="bg-white">
       <div class="row">

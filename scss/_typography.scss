@@ -51,7 +51,8 @@ p {
   @include rem-fallback(font-size, 1);
 }
 
-li {
+li,
+h5 span {
   @include rem-fallback(font-size, 1.125);
 }
 

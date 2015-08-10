@@ -6969,7 +6969,6 @@ th.hide-for-touch {
     display: table-cell !important;
   }
 }
-/*---------- Color Variables -------------------------------------------------*/
 /*---------- Modular Classes -------------------------------------------------*/
 /* line 17, ../scss/_variables.scss */
 .font-white {
@@ -7088,12 +7087,17 @@ th.hide-for-touch {
 }
 
 /* line 55, ../scss/_variables.scss */
+.underlined {
+  text-decoration: underline;
+}
+
+/* line 59, ../scss/_variables.scss */
 .no-margin-bottom {
   margin-bottom: 0px;
   margin-bottom: 0rem;
 }
 
-/* line 59, ../scss/_variables.scss */
+/* line 63, ../scss/_variables.scss */
 .text-right {
   text-align: right;
 }
@@ -7259,12 +7263,13 @@ p {
 }
 
 /* line 54, ../scss/_typography.scss */
-li {
+li,
+h5 span {
   font-size: 18px;
   font-size: 1.125rem;
 }
 
-/* line 58, ../scss/_typography.scss */
+/* line 59, ../scss/_typography.scss */
 button,
 .button,
 label {
@@ -7272,7 +7277,7 @@ label {
   font-size: 1.25rem;
 }
 @media (max-width: 767px) {
-  /* line 58, ../scss/_typography.scss */
+  /* line 59, ../scss/_typography.scss */
   button,
   .button,
   label {
@@ -7281,7 +7286,7 @@ label {
   }
 }
 
-/* line 67, ../scss/_typography.scss */
+/* line 68, ../scss/_typography.scss */
 li {
   margin-bottom: 30px;
   margin-bottom: 1.875rem;

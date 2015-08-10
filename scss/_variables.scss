@@ -1,4 +1,4 @@
-/*---------- Color Variables -------------------------------------------------*/
+// /*---------- Color Variables -------------------------------------------------*/
 
 $color-white: #fff;
 $color-navy: #023b57;
@@ -50,6 +50,10 @@ $color-sea-green: #4bcfa8;
 
 .uppercase {
   text-transform: uppercase;
+}
+
+.underlined {
+  text-decoration: underline;
 }
 
 .no-margin-bottom {

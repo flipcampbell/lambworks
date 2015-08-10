@@ -12,7 +12,7 @@
 
       <section class="top-bar-section">
         <!-- Right Nav Section -->
-        <ul class="right text-right">
+        <ul class="right">
   <!--         <li>
             <a href="#">Articles</a>
           </li> -->
