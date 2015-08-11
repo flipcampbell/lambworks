@@ -2,8 +2,9 @@
   // include('../inc/contact-mailer.php');
   include('../../inc/header.php');
 ?>
-<?php include('../../inc/nav.php');?>
+
 <div class="hero-case-study bg-trusttree no-margin-bottom">
+  <?php include('../../inc/nav.php');?>
   <div class="large-12 large-centered columns">
     <h1 class="text-center fade-in-second font-white">
       Trust Tree
@@ -15,29 +16,31 @@
     </h2>
   </div> <!-- /.large-12 large-centered columns-->
 </div> <!-- /.hero-->
-<div class="bg-gradient">
-  <section class="bg-white">
-    <div class="row font-slate padding-bottom-2rem">
-      <div class="large-4 large-uncentered medium-uncentered small-12 small-centered columns text-center">
-        <img src="/images/case-studies/trust-tree/trust-tree-logo.png" alt="Trust Tree Logo">
-      </div>
-      <div class="large-4 large-uncentered medium-6 medium-uncentered small-12 small-centered columns">
-        <h5 class="no-margin-bottom font-slate"><span>Client</span></h5>
-        <p>Trust Tree Legal, PC</p>
-        <h5 class="no-margin-bottom font-slate"><span>Timeline</span></h5>
-        <p>December 2014 - Present</p>
-      </div>
-      <div class="large-4 large-uncentered medium-6 medium-uncentered small-12 small-centered columns">
-        <h5 class="no-margin-bottom font-slate"><span>Services Provided</span></h5>
-        <p>Product Strategy, Visual Identity and Branding, Web App UX/UI Design</p>
-        <h5 class="no-margin-bottom font-slate"><span>Project URL</span></h5>
-        <p>
-          <a href="http://www.trusttreetrademarks.com" target="_blank" class="font-slate underlined">
-            trusttreetrademarks.com
-          </a>
-        </p>
-      </div> <!-- /.large-4 large-uncentered medium-6 medium-uncentered small-12 small-centered columns-->
-    </div> <!-- /.row-->
+<section class="bg-plaster">
+  <div class="row font-slate">
+    <div class="large-4 large-uncentered medium-uncentered small-12 small-centered columns text-center">
+      <img src="/images/case-studies/trust-tree/trust-tree-logo.png" alt="Trust Tree Logo">
+    </div>
+    <div class="large-4 large-uncentered medium-6 medium-uncentered small-12 small-centered columns">
+      <h5 class="no-margin-bottom font-slate"><span>Client</span></h5>
+      <p>Trust Tree Legal, PC</p>
+      <h5 class="no-margin-bottom font-slate"><span>Timeline</span></h5>
+      <p>December 2014 - Present</p>
+    </div>
+    <div class="large-4 large-uncentered medium-6 medium-uncentered small-12 small-centered columns">
+      <h5 class="no-margin-bottom font-slate"><span>Services Provided</span></h5>
+      <p>Product Strategy, Visual Identity and Branding, Web App UX/UI Design</p>
+      <h5 class="no-margin-bottom font-slate"><span>Project URL</span></h5>
+      <p>
+        <a href="http://www.trusttreetrademarks.com" target="_blank" class="font-slate underlined">
+          trusttreetrademarks.com
+        </a>
+      </p>
+    </div> <!-- /.large-4 large-uncentered medium-6 medium-uncentered small-12 small-centered columns-->
+  </div> <!-- /.row-->
+</section> <!-- /.bg-plaster-->
+<section class="bg-white no-padding-top">
+  <div class="bg-gradient">
     <div class="row">
       <div class="small-12 small-centered columns text-center padding-bottom-2rem">
         <img src="/images/case-studies/trust-tree/trust-tree-homepage.png" alt="Trust Tree Homepage">
@@ -123,8 +126,9 @@
         <img src="/images/case-studies/trust-tree/trust-tree-magazine-ad.png" alt="Trust Tree Magazine Ad">
       </div> <!-- /.small-10 small-centered columns text-center-->
     </div> <!-- /.row-->
-  </section> <!-- /.section-->
-</div> <!-- /.bg-gradient-->
+  </div> <!-- /.bg-gradient-->
+</section> <!-- /section.bg-white no-padding-top-->
+
 
 <section class="bg-plaster">
   <div class="row">
@@ -136,10 +140,10 @@
         <a href="/#contact" class="button radius text-center bg-magenta text-center">
           Get in touch
         </a>
-      </div>
+      </div> <!-- /.large-6 large-uncentered small-12 small-centered columns text-center-->
     </div> <!-- /.small-8 small-centered columns-->
   </div> <!-- /.row-->
-</section> <!-- /.section-->
+</section> <!-- /section.bg-plaster-->
 
 <?php
   // include('../inc/contact-form.php');

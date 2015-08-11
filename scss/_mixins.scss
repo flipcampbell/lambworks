@@ -7,7 +7,7 @@
 
 @mixin bgimage-png($name) {
   $url:"../images/#{$name}.png";
-  background: url($url);
+  background-image: url($url);
 }
 
 @mixin bg-color($color) {
