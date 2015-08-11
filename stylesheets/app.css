@@ -7360,12 +7360,6 @@ html, body {
   background: transparent !important;
 }
 
-/* line 60, ../scss/_custom.scss */
-.top-bar.expanded .toggle-topbar a,
-.top-bar-section li:not(.has-form) a:not(.button):hover {
-  color: #42c1d1;
-}
-
 /* line 65, ../scss/_custom.scss */
 .top-bar-section ul li > a,
 footer {

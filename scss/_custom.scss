@@ -57,10 +57,10 @@ html, body {
 	background: transparent !important;
 }
 
-.top-bar.expanded .toggle-topbar a,
-.top-bar-section li:not(.has-form) a:not(.button):hover {
-	color: $color-turquoise;
-}
+// .top-bar.expanded .toggle-topbar a,
+// .top-bar-section li:not(.has-form) a:not(.button):hover {
+// 	@extend .underlined;
+// }
 
 .top-bar-section ul li > a,
 footer {
