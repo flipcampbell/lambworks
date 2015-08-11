@@ -39,6 +39,7 @@ h5 {
   @include rem-fallback(margin, 1.3, 0, 1.5625, 0);
 }
 
+h4 span,
 h6 {
   @include rem-fallback(margin-bottom, 1.25);
   span {

@@ -143,6 +143,37 @@
       </div> <!-- /.large-6 large-uncentered small-12 small-centered columns text-center-->
     </div> <!-- /.small-8 small-centered columns-->
   </div> <!-- /.row-->
+  <div class="small-10 small-centered columns divider"></div>
+  <div class="row">
+    <a href="#" class="medium-6 medium-uncentered small-12 small-centered columns">
+      <div class="medium-3 medium-uncentered small-4 small-centered columns text-center clearfix">
+        <img src="/images/case-studies/zeumo-logo-icon.png" alt="Zeumo Logo" class="float-right padding-top-22px">
+      </div> <!-- /.medium-3 medium-uncentered small-4 small-centered columns text-center-->
+      <div class="medium-9 medium-uncentered small-8 small-centered columns">
+        <h4 class="font-magenta">Zeumo</h4>
+        <p class="font-slate">
+          King dungeon dirk honeyed locusts, lord of light,
+          always pays his debts m'lord moon-flower juice death before disgrace
+          betrothed. Dog spiced wine mare's milk, tread lightly here lance green
+          dreams ever vigilant we do not sow
+        </p>
+      </div> <!-- /.medium-9 medium-uncentered small-8 small-centered columns-->
+    </a> <!-- /.medium-6 medium-uncentered small-12 small-centered columns-->
+    <a href="#" class="medium-6 medium-uncentered small-12 small-centered columns">
+      <div class="medium-3 medium-uncentered small-4 small-centered columns text-center clearfix">
+        <img src="/images/case-studies/merch-colony-logo-icon.png" alt="Merch Colony Logo" class="float-right padding-top-22px">
+      </div> <!-- /.medium-3 medium-uncentered small-4 small-centered columns text-center-->
+      <div class="medium-9 medium-uncentered small-8 small-centered columns">
+        <h4 class="font-magenta">Merch Colony</h4>
+        <p class="font-slate">
+          King dungeon dirk honeyed locusts, lord of light,
+          always pays his debts m'lord moon-flower juice death before disgrace
+          betrothed. Dog spiced wine mare's milk, tread lightly here lance green
+          dreams ever vigilant we do not sow
+        </p>
+      </div> <!-- /.medium-9 medium-uncentered small-8 small-centered columns-->
+    </a> <!-- /.medium-6 medium-uncentered small-12 small-centered columns-->
+  </div> <!-- /.row-->
 </section> <!-- /section.bg-plaster-->
 
 <?php

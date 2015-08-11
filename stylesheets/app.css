@@ -7109,18 +7109,59 @@ th.hide-for-touch {
 }
 
 /* line 72, ../scss/_variables.scss */
+.padding-top-22px {
+  padding-top: 22px;
+  padding-top: 1.375rem;
+}
+@media only screen and (max-width: 653px) {
+  /* line 72, ../scss/_variables.scss */
+  .padding-top-22px {
+    padding-top: 0;
+  }
+}
+
+/* line 79, ../scss/_variables.scss */
 .padding-bottom-1rem {
   padding-bottom: 16px;
   padding-bottom: 1rem;
 }
 
-/* line 76, ../scss/_variables.scss */
+/* line 83, ../scss/_variables.scss */
 .padding-bottom-2rem {
   padding-bottom: 32px;
   padding-bottom: 2rem;
 }
 
-/* line 80, ../scss/_variables.scss */
+/* line 87, ../scss/_variables.scss */
+.padding-left-1rem {
+  padding-left: 16px;
+  padding-left: 1rem;
+}
+
+/* line 91, ../scss/_variables.scss */
+.padding-left-2rem {
+  padding-left: 32px;
+  padding-left: 2rem;
+}
+
+/* line 95, ../scss/_variables.scss */
+.padding-left-3rem {
+  padding-left: 48px;
+  padding-left: 3rem;
+}
+
+/* line 99, ../scss/_variables.scss */
+.float-right {
+  float: right;
+}
+@media only screen and (max-width: 653px) {
+  /* line 99, ../scss/_variables.scss */
+  .float-right {
+    float: none;
+  }
+}
+
+/* line 106, ../scss/_variables.scss */
 .text-right {
   text-align: right;
 }
@@ -7267,11 +7308,13 @@ h5 {
 }
 
 /* line 42, ../scss/_typography.scss */
+h4 span,
 h6 {
   margin-bottom: 20px;
   margin-bottom: 1.25rem;
 }
-/* line 44, ../scss/_typography.scss */
+/* line 45, ../scss/_typography.scss */
+h4 span span,
 h6 span {
   font-size: 16px;
   font-size: 1rem;
@@ -7279,20 +7322,20 @@ h6 span {
   letter-spacing: 0.2rem;
 }
 
-/* line 50, ../scss/_typography.scss */
+/* line 51, ../scss/_typography.scss */
 p {
   font-size: 16px;
   font-size: 1rem;
 }
 
-/* line 54, ../scss/_typography.scss */
+/* line 55, ../scss/_typography.scss */
 li,
 h5 span {
   font-size: 18px;
   font-size: 1.125rem;
 }
 
-/* line 59, ../scss/_typography.scss */
+/* line 60, ../scss/_typography.scss */
 button,
 .button,
 label {
@@ -7300,7 +7343,7 @@ label {
   font-size: 1.25rem;
 }
 @media (max-width: 767px) {
-  /* line 59, ../scss/_typography.scss */
+  /* line 60, ../scss/_typography.scss */
   button,
   .button,
   label {
@@ -7309,7 +7352,7 @@ label {
   }
 }
 
-/* line 68, ../scss/_typography.scss */
+/* line 69, ../scss/_typography.scss */
 li {
   margin-bottom: 30px;
   margin-bottom: 1.875rem;
