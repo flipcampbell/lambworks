@@ -632,3 +632,9 @@ a#dribbble-icon {
 a#behance-icon {
 	background: url('../images/social-behance-hover.png');
 }
+
+a.button {
+	&:hover {
+		background-color: lighten($color-magenta, 5%);
+	}
+}
