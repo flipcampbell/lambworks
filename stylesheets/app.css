@@ -7468,21 +7468,6 @@ footer a {
   color: #ed4b7e;
 }
 
-/* line 168, ../scss/_custom.scss */
-nav {
-  opacity: 0;
-  -webkit-transition-delay: 1.5s;
-  -moz-transition-delay: 1.5s;
-  -ms-transition-delay: 1.5s;
-  -o-transition-delay: 1.5s;
-  transition-delay: 1.5s;
-  -webkit-transition: opacity 1.5s 0;
-  -moz-transition: opacity 1.5s 0;
-  -ms-transition: opacity 1.5s 0;
-  -o-transition: opacity 1.5s 0;
-  transition: opacity 1.5s 0;
-}
-
 /* line 173, ../scss/_custom.scss */
 div.fade-in-second {
   opacity: 0;

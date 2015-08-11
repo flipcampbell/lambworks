@@ -3,7 +3,7 @@
 $(document).foundation();
 
 // Transitions for Hero Section
-$("nav").addClass("load");
+// $("nav").addClass("load");
 $("div.fade-in-second").addClass("load");
 $("div.fade-in-third").addClass("load");
 

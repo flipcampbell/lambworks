@@ -165,10 +165,10 @@ footer a,
 	color: $color-magenta;
 }
 
-nav {
-	opacity: 0;
-	@include delayed-transition(opacity, 1.5, 1.5, 0);
-}
+// nav {
+// 	opacity: 0;
+// 	@include delayed-transition(opacity, 1.5, 1.5, 0);
+// }
 
 div.fade-in-second {
 	opacity: 0;
