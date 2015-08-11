@@ -7070,34 +7070,42 @@ th.hide-for-touch {
   background: #4bcfa8;
 }
 
-/* line 39, ../scss/_variables.scss */
+/* line 40, ../scss/_variables.scss */
+.bg-gradient {
+  background-image: -moz-linear-gradient(90deg, white 0%, #ecf3f7 100%);
+  background-image: -webkit-linear-gradient(90deg, white 0%, #ecf3f7 100%);
+  background-image: -ms-linear-gradient(90deg, white 0%, #ecf3f7 100%);
+  z-index: 2;
+}
+
+/* line 53, ../scss/_variables.scss */
 .bg-trusttree {
   background: url("../images//case-studies/trust-tree/trust-tree-bg.jpg");
   background-size: cover;
 }
 
-/* line 47, ../scss/_variables.scss */
+/* line 61, ../scss/_variables.scss */
 .font-medium-italic {
   font-family: 'Gotham-Rounded-Medium-Italic';
 }
 
-/* line 51, ../scss/_variables.scss */
+/* line 65, ../scss/_variables.scss */
 .uppercase {
   text-transform: uppercase;
 }
 
-/* line 55, ../scss/_variables.scss */
+/* line 69, ../scss/_variables.scss */
 .underlined {
   text-decoration: underline;
 }
 
-/* line 59, ../scss/_variables.scss */
+/* line 73, ../scss/_variables.scss */
 .no-margin-bottom {
   margin-bottom: 0px;
   margin-bottom: 0rem;
 }
 
-/* line 63, ../scss/_variables.scss */
+/* line 77, ../scss/_variables.scss */
 .text-right {
   text-align: right;
 }
