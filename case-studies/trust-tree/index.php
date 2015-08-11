@@ -37,11 +37,11 @@
         <p>Product Strategy, Visual Identity and Branding, Web App UX/UI Design</p>
         <h5 class="no-margin-bottom font-slate"><span>Project URL</span></h5>
         <p>
-          <a href="trusttreetrademarks.com" target="_blank" class="font-slate underlined">
+          <a href="http://www.trusttreetrademarks.com" target="_blank" class="font-slate underlined">
             trusttreetrademarks.com
           </a>
         </p>
-      </div>
+      </div> <!-- /.large-4 large-uncentered medium-6 medium-uncentered small-12 small-centered columns-->
     </div> <!-- /.row-->
     <div class="row">
       <div class="large-10 small-12 small-centered columns text-center">
@@ -87,7 +87,7 @@
       rather than the competition.
     </p>
   </section> <!-- /.section-->
-</div>
+</div> <!-- /.bg-gradient-->
 
 <?php
   // include('../inc/contact-form.php');
