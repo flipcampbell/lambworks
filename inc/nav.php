@@ -16,9 +16,9 @@
   <!--         <li>
             <a href="#">Articles</a>
           </li> -->
-  <!--         <li>
-            <a href="#">Work</a>
-          </li> -->
+          <li>
+            <a href="/case-studies/trust-tree/">Work</a>
+          </li>
           <li>
             <a href="/#about" class="scroller">About</a>
           </li>
