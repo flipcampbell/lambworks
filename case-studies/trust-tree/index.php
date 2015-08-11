@@ -5,18 +5,14 @@
 <?php include('../../inc/nav.php');?>
 <div class="hero-case-study bg-trusttree no-margin-bottom">
   <div class="large-12 large-centered columns">
-    <div class="fade-in-second">
-      <h1 class="text-center fade-in-second font-white">
-        Trust Tree
-      </h1>
-    </div> <!-- /.fade-in-second-->
+    <h1 class="text-center fade-in-second font-white">
+      Trust Tree
+    </h1>
   </div> <!-- /.large-12 large-centered columns-->
   <div class="large-5 medium-8 small-12 small-centered columns">
-    <div class="fade-in-second">
-      <h2 class="text-center fade-in-second font-white no-margin-bottom">
-        Register your trademark through IP attorneys, without stepping foot in an attorney’s office.
-      </h2>
-    </div> <!-- /.fade-in-second-->
+    <h2 class="text-center fade-in-second font-white no-margin-bottom">
+      Register your trademark through IP attorneys, without stepping foot in an attorney’s office.
+    </h2>
   </div> <!-- /.large-12 large-centered columns-->
 </div> <!-- /.hero-->
 <div class="bg-gradient">
@@ -48,15 +44,15 @@
       </div> <!-- /.small-10 small-centered columns text-center-->
     </div> <!-- /.row-->
     <h3 class="text-center font-grey padding-bottom-1rem">The Story</h3>
-    <p class="large-6 medium-8 small-10 small-centered columns font-grey">
+    <p class="large-4 medium-8 small-10 small-centered columns font-grey">
       Bill, Kevin, and Randy needed a brand and online platform to transition
       their in-person trademark registration services into a streamlined digital offering.
     </p>
-    <p class="large-6 medium-8 small-10 small-centered columns font-grey">
+    <p class="large-4 medium-8 small-10 small-centered columns font-grey">
       Anyone can file a trademark application online through the USPTO, but the
       application and process are quite confusing if you’re not an attorney.
     </p>
-    <p class="large-6 medium-8 small-10 small-centered columns font-grey padding-bottom-2rem">
+    <p class="large-4 medium-8 small-10 small-centered columns font-grey padding-bottom-2rem">
       Trust Tree is a simplified and attorney-guided service for anyone who
       wants to file a trademark online, but doesn’t want to step foot in an attorney’s office.
     </p>
@@ -65,18 +61,18 @@
         <img src="/images/case-studies/trust-tree/trust-tree-pages.png" alt="Trust Tree Pages">
       </div> <!-- /.small-10 small-centered columns text-center-->
     </div> <!-- /.row-->
-    <h3 class="medium-7 small-12 small-centered columns text-center font-grey padding-bottom-1rem">
+    <h3 class="large-6 medium-8 small-12 small-centered columns text-center font-grey padding-bottom-1rem">
       Defining the audience, understanding their problem, and offering a service
       to solve that problem
     </h3>
-    <p class="large-6 medium-8 small-10 small-centered columns font-grey">
+    <p class="large-4 medium-8 small-10 small-centered columns font-grey">
       Our first priority was to make sure we were all in agreement about who the
       target customer was. Together, we created assumption personas based on
       common elements that in-person customers shared, as well as behaviors and
       thought patterns of those who tend to use the online trademark registration
       services offered by competitors.
     </p>
-    <p class="large-6 medium-8 small-10 small-centered columns font-grey padding-bottom-2rem">
+    <p class="large-4 medium-8 small-10 small-centered columns font-grey padding-bottom-2rem">
       The average business owner's experience with the trademarking process varies
       so much that it made sense to break the service up into levels
       (we called them packages) based on how much hand-holding a customer prefers.
@@ -90,7 +86,7 @@
         <img src="/images/case-studies/trust-tree/trust-tree-planning.png" alt="Trust Tree Storyboards">
       </div> <!-- /.small-10 small-centered columns text-center-->
     </div> <!-- /.row-->
-    <p class="large-6 medium-8 small-10 small-centered columns font-grey padding-bottom-2rem">
+    <p class="large-4 medium-8 small-10 small-centered columns font-grey padding-bottom-2rem">
       We storyboarded the entire user experience from the first point of
       onboarding, to actually signing up, completing a trademark form, events
       that occur during that application process, and maintaining a trademark over time.
@@ -103,12 +99,12 @@
     <h3 class="text-center font-grey padding-bottom-1rem">
       Visual Identity, Branding &amp; Tone
     </h3>
-    <p class="large-6 medium-8 small-10 small-centered columns font-grey">
+    <p class="large-4 medium-8 small-10 small-centered columns font-grey">
       The logo needed to be strong, memorable, and simple to begin building a brand
       for this new startup. The design behind the Trust Tree logo signifies trust
       and growth, as derived from the name, through the symbolic combination of a tree and key.
     </p>
-    <p class="large-6 medium-8 small-10 small-centered columns font-grey padding-bottom-2rem">
+    <p class="large-4 medium-8 small-10 small-centered columns font-grey padding-bottom-2rem">
       We established that the tone used through all communications need to
       represent the brand in a friendly and educational way, by using helpful, plain language.
     </p>
