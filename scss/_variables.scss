@@ -61,6 +61,16 @@ $color-sea-green: #4bcfa8;
   text-decoration: underline;
 }
 
+a.link-decoration {
+  opacity: .5;
+  transition: opacity .25s ease-in-out;
+}
+
+a.link-decoration:hover,
+a.active {
+    opacity: 1;
+}
+
 .no-margin-bottom {
   @include rem-fallback(margin-bottom, 0);
 }

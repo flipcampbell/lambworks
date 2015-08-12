@@ -7,6 +7,14 @@ $(document).foundation();
 $("div.fade-in-second").addClass("load");
 $("div.fade-in-third").addClass("load");
 
+// Decorate Active Links in Nav
+if (location.pathname !== '/') {
+	$("a[href*='" + location.pathname + "']").addClass("active");
+	} else {
+	var home = document.getElementById("home").getElementsByTagName('a')[0];
+	home.className = 'active';
+}
+
 //Very Simple Form Validation
 
 var $fullName = $("#name");
