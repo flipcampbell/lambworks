@@ -11,58 +11,34 @@
       </div><!-- /row -->
       <form method="post" action="inc/contact-mailer.php">
         <div class="row">
-          <div class="large-8 small-10">
-            <div class="row">
-              <div class="small-4 large-6 columns">
-                <label for="name" class="right inline">Full Name</label>
-              </div>
-              <div class="small-8 large-6 columns">
-                <input type="text" id="name" name="name" autocorrect="off">
-                <span class="hint">What is your full name?</span>
-              </div>
-            </div>
-          </div>
-        </div><!-- /row -->
+          <div class="large-5 medium-6 small-8 small-centered columns">
+            <label for="name">Full Name</label>
+            <input type="text" id="name" name="name" autocorrect="off">
+            <span class="hint">What is your full name?</span>
+          </div> <!-- /.large-5 medium-6 small-8 small-centered columns -->
+        </div> <!-- /.row -->
         <div class="row">
-          <div class="large-8 small-10">
-            <div class="row">
-              <div class="small-4 large-6 columns">
-                <label for="email" class="right inline">Email Address</label>
-              </div>
-              <div class="small-8 large-6 columns">
-                <input type="email" id="email" name="email">
-                <span>What is your email address?</span>
-              </div>
-            </div>
-          </div>
-        </div><!-- /row -->
-        <div class="row">
-          <div class="large-8 small-10">
-            <div class="row">
-              <div class="small-4 large-6 columns">
-                <label for="company" class="right inline">Company</label>
-              </div>
-              <div class="small-8 large-6 columns">
-                <input type="text" name="company" id="company">
-                <span>Please, tell me the name of your company.</span>
-              </div>
-            </div>
-          </div>
-        </div><!-- /row -->
-        <div class="row">
-          <div class="large-8 small-10">
-            <div class="row">
-              <div class="small-4 large-6 columns">
-                <label for="description" class="right inline">Details</label>
-              </div>
-              <div class="small-8 large-6 columns">
-                <textarea name="description" id="description" cols="40" rows="5" placeholder="Share what you can about your project."></textarea>
-                <span>Tell me something about your project.</span>
-              </div>
-            </div>
-          </div>
+          <div class="large-5 medium-6 small-8 small-centered columns">
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email">
+            <span>What is your email address?</span>
+          </div> <!-- /.large-5 medium-6 small-8 small-centered columns -->
         </div> <!-- /row -->
-        <!-- <div class="row">
+        <div class="row">
+          <div class="large-5 medium-6 small-8 small-centered columns">
+            <label for="company">Company</label>
+            <input type="text" name="company" id="company">
+            <span>Please, tell me the name of your company.</span>
+          </div> <!-- /.large-5 medium-6 small-8 small-centered columns -->
+        </div><!-- /row -->
+        <div class="row">
+          <div class="large-5 medium-6 small-8 small-centered columns">
+            <label for="description">Details</label>
+            <textarea name="description" id="description" cols="40" rows="5" placeholder="Share what you can about your project."></textarea>
+            <span>Tell me something about your project.</span>
+          </div> <!-- /.large-5 medium-6 small-8 small-centered columns -->
+        </div> <!-- /row -->
+        <?php /* <div class="row">
           <div class="large-8 small-10">
             <div class="row">
               <div class="small-4 large-6 columns">
@@ -77,8 +53,8 @@
               </div>
             </div>
           </div>
-        </div> --><!-- /row -->
-        <!-- <div class="row">
+        </div> <!-- /row -->
+        <div class="row">
           <div class="large-8 small-10">
             <div class="row">
               <div class="small-4 large-6 columns">
@@ -93,8 +69,8 @@
               </div>
             </div>
           </div>
-        </div> --><!-- /row -->
-        <!-- <div class="row">
+        </div><!-- /row -->
+        <div class="row">
           <div class="large-8 small-10 small-centered">
             <div class="row">
               <div class="small-4 large-6 columns">
@@ -106,7 +82,7 @@
               </div>
             </div>
           </div>
-        </div>--><!-- /row -->
+        </div><!-- /row --> */ ?>
         <div class="row">
           <div class="large-8 small-8 small-centered columns text-center">
             <input type="submit" id="submit" class="button radius text-center" value="Let's talk!">
