@@ -7076,104 +7076,127 @@ th.hide-for-touch {
   background-repeat: repeat-x;
 }
 
-/* line 44, ../scss/_variables.scss */
-.bg-trusttree {
-  background: url("../images//case-studies/trust-tree/trust-tree-bg.jpg");
-  background-size: cover;
+/* line 45, ../scss/_variables.scss */
+.bg-cover, .bg-trusttree, .bg-zeumo {
+  background-size: cover !important;
 }
 
-/* line 52, ../scss/_variables.scss */
+/* line 49, ../scss/_variables.scss */
+.bg-trusttree {
+  background: url("../images//case-studies/trust-tree/trust-tree-bg.jpg");
+}
+
+/* line 57, ../scss/_variables.scss */
+.bg-zeumo {
+  background: url("../images/case-studies/zeumo/zeumo-bg.jpg");
+  background-position: center top;
+  background-repeat: no-repeat;
+}
+
+/* line 64, ../scss/_variables.scss */
 .font-medium-italic {
   font-family: 'Gotham-Rounded-Medium-Italic';
 }
 
-/* line 56, ../scss/_variables.scss */
+/* line 68, ../scss/_variables.scss */
 .uppercase {
   text-transform: uppercase;
 }
 
-/* line 60, ../scss/_variables.scss */
+/* line 72, ../scss/_variables.scss */
 .underlined {
   text-decoration: underline;
 }
 
-/* line 64, ../scss/_variables.scss */
+/* line 76, ../scss/_variables.scss */
 a.link-decoration {
   opacity: .5;
   transition: opacity .25s ease-in-out;
 }
 
-/* line 69, ../scss/_variables.scss */
+/* line 81, ../scss/_variables.scss */
 a.link-decoration:hover,
 a.active {
   opacity: 1;
 }
 
-/* line 74, ../scss/_variables.scss */
+/* line 86, ../scss/_variables.scss */
 .no-margin-bottom {
   margin-bottom: 0px;
   margin-bottom: 0rem;
 }
 
-/* line 78, ../scss/_variables.scss */
+/* line 90, ../scss/_variables.scss */
 .no-padding-top {
   padding-top: 0 !important;
 }
 
-/* line 82, ../scss/_variables.scss */
+/* line 94, ../scss/_variables.scss */
 .padding-top-22px {
   padding-top: 22px;
   padding-top: 1.375rem;
 }
 @media only screen and (max-width: 653px) {
-  /* line 82, ../scss/_variables.scss */
+  /* line 94, ../scss/_variables.scss */
   .padding-top-22px {
     padding-top: 0;
   }
 }
 
-/* line 89, ../scss/_variables.scss */
+/* line 101, ../scss/_variables.scss */
+.padding-top-30px {
+  padding-top: 30px;
+  padding-top: 1.875rem;
+}
+
+/* line 105, ../scss/_variables.scss */
+.padding-top-56px {
+  padding-top: 56px;
+  padding-top: 3.5rem;
+}
+
+/* line 109, ../scss/_variables.scss */
 .padding-bottom-1rem {
   padding-bottom: 16px;
   padding-bottom: 1rem;
 }
 
-/* line 93, ../scss/_variables.scss */
+/* line 113, ../scss/_variables.scss */
 .padding-bottom-2rem {
   padding-bottom: 32px;
   padding-bottom: 2rem;
 }
 
-/* line 97, ../scss/_variables.scss */
+/* line 117, ../scss/_variables.scss */
 .padding-left-1rem {
   padding-left: 16px;
   padding-left: 1rem;
 }
 
-/* line 101, ../scss/_variables.scss */
+/* line 121, ../scss/_variables.scss */
 .padding-left-2rem {
   padding-left: 32px;
   padding-left: 2rem;
 }
 
-/* line 105, ../scss/_variables.scss */
+/* line 125, ../scss/_variables.scss */
 .padding-left-3rem {
   padding-left: 48px;
   padding-left: 3rem;
 }
 
-/* line 109, ../scss/_variables.scss */
+/* line 129, ../scss/_variables.scss */
 .float-right {
   float: right;
 }
 @media only screen and (max-width: 653px) {
-  /* line 109, ../scss/_variables.scss */
+  /* line 129, ../scss/_variables.scss */
   .float-right {
     float: none;
   }
 }
 
-/* line 116, ../scss/_variables.scss */
+/* line 136, ../scss/_variables.scss */
 .text-right {
   text-align: right;
 }

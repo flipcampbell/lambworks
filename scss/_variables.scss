@@ -41,12 +41,24 @@ $color-sea-green: #4bcfa8;
   @include bgimage-png('/case-studies/bg-gradient');
   background-repeat: repeat-x;
 }
+
+.bg-cover {
+  background-size: cover !important;
+}
+
 .bg-trusttree {
   @include bgimage-jpg('/case-studies/trust-tree/trust-tree-bg');
   // object-fit: cover;
   // background-position: center top;
   // background-repeat: no-repeat;
-  background-size: cover;
+  @extend .bg-cover;
+}
+
+.bg-zeumo {
+  @include bgimage-jpg('case-studies/zeumo/zeumo-bg');
+  @extend .bg-cover;
+  background-position: center top;
+  background-repeat: no-repeat;
 }
 
 .font-medium-italic {
@@ -84,6 +96,14 @@ a.active {
   @media only screen and (max-width : 653px) {
     padding-top: 0;
   }
+}
+
+.padding-top-30px {
+  @include rem-fallback(padding-top, 1.875);
+}
+
+.padding-top-56px {
+  @include rem-fallback(padding-top, 3.5);
 }
 
 .padding-bottom-1rem {
