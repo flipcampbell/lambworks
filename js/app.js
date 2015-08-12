@@ -2,42 +2,6 @@
 // Documentation can be found at: http://foundation.zurb.com/docs
 $(document).foundation();
 
-// Decorate Active Links in Nav
-// if (location.pathname !== '/') {
-// 	$("a[href*='" + location.pathname + "']").addClass("active");
-// 	} else {
-// 	var home = document.getElementById("home").getElementsByTagName('a')[0];
-// 	home.className = 'active';
-// }
-
-// function activeNavigation() {
-//     $.fn.activeNavigation = function(selector) {
-//         var pathname = window.location.pathname
-//         var extension_position;
-//         var href;
-//         var hrefs = []
-//         $(selector).find("a").each(function(){
-//             // Remove href file extension
-//             extension_position = $(this).attr("href").lastIndexOf('.');
-//             href = (extension_position >= 0) ? $(this).attr("href").substr(0, extension_position) : $(this).attr("href");
-//
-//             if (pathname.indexOf(href) > -1) {
-//                 hrefs.push($(this));
-//             }
-//         })
-//         if (hrefs.length) {
-//             hrefs.sort(function(a,b){
-//                 return b.attr("href").length - a.attr("href").length
-//             })
-//             hrefs[0].closest('li').addClass("active")
-//         }
-//     };
-// }
-//
-// $.activeNavigation("#nav");
-
-
-
 // Transitions for Hero Section
 // $("nav").addClass("load");
 $("div.fade-in-second").addClass("load");

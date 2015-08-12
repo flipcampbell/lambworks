@@ -172,12 +172,12 @@ footer a,
 
 div.fade-in-second {
 	opacity: 0;
-	@include delayed-transition(opacity, 4.5, 1.5, ease-in);
+	@include delayed-transition(opacity, 2.5, 0.5, ease-in);
 }
 
 div.fade-in-third {
 	opacity: 0;
-	@include delayed-transition(opacity, 7.5, 2.5, ease-in);
+	@include delayed-transition(opacity, 3.5, 1.5, ease-in);
 }
 
 nav.load,
