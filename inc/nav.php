@@ -1,7 +1,7 @@
 
 <!-- <div class="fixed"> -->
   <div class="row">
-    <nav class="top-bar main-nav" data-topbar role="navigation">
+    <nav class="top-bar main-nav" id="nav" data-topbar role="navigation">
       <ul class="title-area">
         <li class="name">
           <a href="/" id="home"><img src="/images/logo.png" alt="Lambworks"></a>

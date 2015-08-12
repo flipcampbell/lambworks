@@ -175,6 +175,11 @@
     </a> <!-- /.medium-6 medium-uncentered small-12 small-centered columns-->
   </div> <!-- /.row-->
 </section> <!-- /section.bg-plaster-->
+<script type="text/javascript">
+$(function() {
+  $('nav a[href^="/' + location.pathname.split("/")[1] + '"]').addClass('active');
+});
+</script>
 
 <?php
   // include('../inc/contact-form.php');
