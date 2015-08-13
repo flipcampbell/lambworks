@@ -1,138 +1,140 @@
-// /*---------- Color Variables -------------------------------------------------*/
+// /*---------- Color Variables ----------------------------------------------*/
 
-$color-white: #fff;
-$color-navy: #023b57;
-$color-plaster: #ecf3f7;
-$color-magenta: #ed4b7e;
-$color-turquoise: #42c1d1;
-$color-slate: #3c6174;
-$color-midnight: #012638;
-$color-cornflower: #a4cfea;
-$color-grey: #85929a;
-$color-sea-green: #4bcfa8;
-
+    $color-white: #fff;
+    $color-navy: #023b57;
+    $color-plaster: #ecf3f7;
+    $color-magenta: #ed4b7e;
+    $color-turquoise: #42c1d1;
+    $color-slate: #3c6174;
+    $color-midnight: #012638;
+    $color-cornflower: #a4cfea;
+    $color-grey: #85929a;
+    $color-sea-green: #4bcfa8;
 
 /*---------- Modular Classes -------------------------------------------------*/
 
-.font-white {@include font-color($color-white !important);}
-.font-navy {@include font-color($color-navy !important);}
-.font-plaster {@include font-color($color-plaster !important);}
-.font-magenta {@include font-color($color-magenta !important);}
-.font-turquoise {@include font-color($color-turquoise !important);}
-.font-slate {@include font-color($color-slate !important);}
-.font-midnight {@include font-color($color-midnight !important);}
-.font-cornflower {@include font-color($color-cornflower !important);}
-.font-grey {@include font-color($color-grey !important);}
-.font-sea-green {@include font-color($color-sea-green !important);}
 
-.bg-white {@include bg-color($color-white);}
-.bg-navy {@include bg-color($color-navy);}
-.bg-plaster {@include bg-color($color-plaster);}
-.bg-magenta {@include bg-color($color-magenta);}
-.bg-turquoise {@include bg-color($color-turquoise);}
-.bg-slate {@include bg-color($color-slate);}
-.bg-midnight {@include bg-color($color-midnight);}
-.bg-cornflower {@include bg-color($color-cornflower);}
-.bg-grey {@include bg-color($color-grey);}
-.bg-sea-green {@include bg-color($color-sea-green);}
+  /*---------- Typography ----------------------------------------------------*/
 
+    .font-white {@include font-color($color-white !important);}
+    .font-navy {@include font-color($color-navy !important);}
+    .font-plaster {@include font-color($color-plaster !important);}
+    .font-magenta {@include font-color($color-magenta !important);}
+    .font-turquoise {@include font-color($color-turquoise !important);}
+    .font-slate {@include font-color($color-slate !important);}
+    .font-midnight {@include font-color($color-midnight !important);}
+    .font-cornflower {@include font-color($color-cornflower !important);}
+    .font-grey {@include font-color($color-grey !important);}
+    .font-sea-green {@include font-color($color-sea-green !important);}
 
-.bg-gradient {
-  @include bgimage-png('/case-studies/bg-gradient');
-  background-repeat: repeat-x;
-}
+    .font-medium-italic {
+      font-family: 'Gotham-Rounded-Medium-Italic';
+    }
 
-.bg-cover {
-  background-size: cover !important;
-}
+    .uppercase {
+      text-transform: uppercase;
+    }
 
-.bg-trusttree {
-  @include bgimage-jpg('/case-studies/trust-tree/trust-tree-bg');
-  // object-fit: cover;
-  // background-position: center top;
-  // background-repeat: no-repeat;
-  @extend .bg-cover;
-}
+    .underlined {
+      text-decoration: underline;
+    }
 
-.bg-zeumo {
-  @include bgimage-jpg('case-studies/zeumo/zeumo-bg');
-  @extend .bg-cover;
-  background-position: center top;
-  background-repeat: no-repeat;
-}
+    a.link-decoration {
+      opacity: .5;
+      transition: opacity .25s ease-in-out;
+    }
 
-.font-medium-italic {
-  font-family: 'Gotham-Rounded-Medium-Italic';
-}
+    a.link-decoration:hover,
+    a.active {
+        opacity: 1;
+    }
 
-.uppercase {
-  text-transform: uppercase;
-}
+    .text-right {
+      text-align: right;
+    }
 
-.underlined {
-  text-decoration: underline;
-}
+  /*---------- Backgrounds ---------------------------------------------------*/
 
-a.link-decoration {
-  opacity: .5;
-  transition: opacity .25s ease-in-out;
-}
+    .bg-white {@include bg-color($color-white);}
+    .bg-navy {@include bg-color($color-navy);}
+    .bg-plaster {@include bg-color($color-plaster);}
+    .bg-magenta {@include bg-color($color-magenta);}
+    .bg-turquoise {@include bg-color($color-turquoise);}
+    .bg-slate {@include bg-color($color-slate);}
+    .bg-midnight {@include bg-color($color-midnight);}
+    .bg-cornflower {@include bg-color($color-cornflower);}
+    .bg-grey {@include bg-color($color-grey);}
+    .bg-sea-green {@include bg-color($color-sea-green);}
 
-a.link-decoration:hover,
-a.active {
-    opacity: 1;
-}
+    .bg-gradient {
+      @include bgimage-png('/case-studies/bg-gradient');
+      background-repeat: repeat-x;
+    }
 
-.no-margin-bottom {
-  @include rem-fallback(margin-bottom, 0);
-}
+    .bg-cover {
+      background-size: cover !important;
+    }
 
-.no-padding-top {
-  padding-top: 0 !important;
-}
+    .bg-trusttree {
+      @include bgimage-jpg('/case-studies/trust-tree/trust-tree-bg');
+      @extend .bg-cover;
+    }
 
-.padding-top-22px {
-  @include rem-fallback(padding-top, 1.375);
-  @media only screen and (max-width : 653px) {
-    padding-top: 0;
-  }
-}
+    .bg-zeumo {
+      @include bgimage-jpg('case-studies/zeumo/zeumo-bg');
+      @extend .bg-cover;
+      background-position: center top;
+      background-repeat: no-repeat;
+    }
 
-.padding-top-30px {
-  @include rem-fallback(padding-top, 1.875);
-}
+  /*---------- Positioning ---------------------------------------------------*/
 
-.padding-top-56px {
-  @include rem-fallback(padding-top, 3.5);
-}
+    .no-margin-bottom {
+      @include rem-fallback(margin-bottom, 0);
+    }
 
-.padding-bottom-1rem {
-  @include rem-fallback(padding-bottom, 1);
-}
+    .no-padding-top {
+      padding-top: 0 !important;
+    }
 
-.padding-bottom-2rem {
-  @include rem-fallback(padding-bottom, 2);
-}
+    .padding-top-22px {
+      @include rem-fallback(padding-top, 1.375);
+      @media only screen and (max-width : 653px) {
+        padding-top: 0;
+      }
+    }
 
-.padding-left-1rem {
-  @include rem-fallback(padding-left, 1);
-}
+    .padding-top-30px {
+      @include rem-fallback(padding-top, 1.875);
+    }
 
-.padding-left-2rem {
-  @include rem-fallback(padding-left, 2);
-}
+    .padding-top-56px {
+      @include rem-fallback(padding-top, 3.5);
+    }
 
-.padding-left-3rem {
-  @include rem-fallback(padding-left, 3);
-}
+    .padding-bottom-1rem {
+      @include rem-fallback(padding-bottom, 1);
+    }
 
-.float-right {
-  float: right;
-  @media only screen and (max-width : 653px) {
-    float: none;
-  }
-}
+    .padding-bottom-2rem {
+      @include rem-fallback(padding-bottom, 2);
+    }
 
-.text-right {
-  text-align: right;
-}
+    .padding-left-1rem {
+      @include rem-fallback(padding-left, 1);
+    }
+
+    .padding-left-2rem {
+      @include rem-fallback(padding-left, 2);
+    }
+
+    .padding-left-3rem {
+      @include rem-fallback(padding-left, 3);
+    }
+
+    .float-right {
+      float: right;
+      @media only screen and (max-width : 653px) {
+        float: none;
+      }
+    }

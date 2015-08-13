@@ -6970,235 +6970,238 @@ th.hide-for-touch {
   }
 }
 /*---------- Modular Classes -------------------------------------------------*/
-/* line 17, ../scss/_variables.scss */
+/*---------- Typography ----------------------------------------------------*/
+/* line 19, ../scss/_variables.scss */
 .font-white {
   color: #fff !important;
 }
 
-/* line 18, ../scss/_variables.scss */
+/* line 20, ../scss/_variables.scss */
 .font-navy {
   color: #023b57 !important;
 }
 
-/* line 19, ../scss/_variables.scss */
+/* line 21, ../scss/_variables.scss */
 .font-plaster {
   color: #ecf3f7 !important;
 }
 
-/* line 20, ../scss/_variables.scss */
+/* line 22, ../scss/_variables.scss */
 .font-magenta {
   color: #ed4b7e !important;
 }
 
-/* line 21, ../scss/_variables.scss */
+/* line 23, ../scss/_variables.scss */
 .font-turquoise {
   color: #42c1d1 !important;
 }
 
-/* line 22, ../scss/_variables.scss */
+/* line 24, ../scss/_variables.scss */
 .font-slate {
   color: #3c6174 !important;
 }
 
-/* line 23, ../scss/_variables.scss */
+/* line 25, ../scss/_variables.scss */
 .font-midnight {
   color: #012638 !important;
 }
 
-/* line 24, ../scss/_variables.scss */
+/* line 26, ../scss/_variables.scss */
 .font-cornflower {
   color: #a4cfea !important;
 }
 
-/* line 25, ../scss/_variables.scss */
+/* line 27, ../scss/_variables.scss */
 .font-grey {
   color: #85929a !important;
 }
 
-/* line 26, ../scss/_variables.scss */
+/* line 28, ../scss/_variables.scss */
 .font-sea-green {
   color: #4bcfa8 !important;
 }
 
-/* line 28, ../scss/_variables.scss */
+/* line 30, ../scss/_variables.scss */
+.font-medium-italic {
+  font-family: 'Gotham-Rounded-Medium-Italic';
+}
+
+/* line 34, ../scss/_variables.scss */
+.uppercase {
+  text-transform: uppercase;
+}
+
+/* line 38, ../scss/_variables.scss */
+.underlined {
+  text-decoration: underline;
+}
+
+/* line 42, ../scss/_variables.scss */
+a.link-decoration {
+  opacity: .5;
+  transition: opacity .25s ease-in-out;
+}
+
+/* line 47, ../scss/_variables.scss */
+a.link-decoration:hover,
+a.active {
+  opacity: 1;
+}
+
+/* line 52, ../scss/_variables.scss */
+.text-right {
+  text-align: right;
+}
+
+/*---------- Backgrounds ---------------------------------------------------*/
+/* line 58, ../scss/_variables.scss */
 .bg-white {
   background: #fff;
 }
 
-/* line 29, ../scss/_variables.scss */
+/* line 59, ../scss/_variables.scss */
 .bg-navy, body {
   background: #023b57;
 }
 
-/* line 30, ../scss/_variables.scss */
+/* line 60, ../scss/_variables.scss */
 .bg-plaster {
   background: #ecf3f7;
 }
 
-/* line 31, ../scss/_variables.scss */
+/* line 61, ../scss/_variables.scss */
 .bg-magenta {
   background: #ed4b7e;
 }
 
-/* line 32, ../scss/_variables.scss */
+/* line 62, ../scss/_variables.scss */
 .bg-turquoise {
   background: #42c1d1;
 }
 
-/* line 33, ../scss/_variables.scss */
+/* line 63, ../scss/_variables.scss */
 .bg-slate {
   background: #3c6174;
 }
 
-/* line 34, ../scss/_variables.scss */
+/* line 64, ../scss/_variables.scss */
 .bg-midnight {
   background: #012638;
 }
 
-/* line 35, ../scss/_variables.scss */
+/* line 65, ../scss/_variables.scss */
 .bg-cornflower {
   background: #a4cfea;
 }
 
-/* line 36, ../scss/_variables.scss */
+/* line 66, ../scss/_variables.scss */
 .bg-grey {
   background: #85929a;
 }
 
-/* line 37, ../scss/_variables.scss */
+/* line 67, ../scss/_variables.scss */
 .bg-sea-green {
   background: #4bcfa8;
 }
 
-/* line 40, ../scss/_variables.scss */
+/* line 69, ../scss/_variables.scss */
 .bg-gradient {
   background-image: url("../images//case-studies/bg-gradient.png");
   background-repeat: repeat-x;
 }
 
-/* line 45, ../scss/_variables.scss */
+/* line 74, ../scss/_variables.scss */
 .bg-cover, .bg-trusttree, .bg-zeumo {
   background-size: cover !important;
 }
 
-/* line 49, ../scss/_variables.scss */
+/* line 78, ../scss/_variables.scss */
 .bg-trusttree {
   background: url("../images//case-studies/trust-tree/trust-tree-bg.jpg");
 }
 
-/* line 57, ../scss/_variables.scss */
+/* line 83, ../scss/_variables.scss */
 .bg-zeumo {
   background: url("../images/case-studies/zeumo/zeumo-bg.jpg");
   background-position: center top;
   background-repeat: no-repeat;
 }
 
-/* line 64, ../scss/_variables.scss */
-.font-medium-italic {
-  font-family: 'Gotham-Rounded-Medium-Italic';
-}
-
-/* line 68, ../scss/_variables.scss */
-.uppercase {
-  text-transform: uppercase;
-}
-
-/* line 72, ../scss/_variables.scss */
-.underlined {
-  text-decoration: underline;
-}
-
-/* line 76, ../scss/_variables.scss */
-a.link-decoration {
-  opacity: .5;
-  transition: opacity .25s ease-in-out;
-}
-
-/* line 81, ../scss/_variables.scss */
-a.link-decoration:hover,
-a.active {
-  opacity: 1;
-}
-
-/* line 86, ../scss/_variables.scss */
+/*---------- Positioning ---------------------------------------------------*/
+/* line 92, ../scss/_variables.scss */
 .no-margin-bottom {
   margin-bottom: 0px;
   margin-bottom: 0rem;
 }
 
-/* line 90, ../scss/_variables.scss */
+/* line 96, ../scss/_variables.scss */
 .no-padding-top {
   padding-top: 0 !important;
 }
 
-/* line 94, ../scss/_variables.scss */
+/* line 100, ../scss/_variables.scss */
 .padding-top-22px {
   padding-top: 22px;
   padding-top: 1.375rem;
 }
 @media only screen and (max-width: 653px) {
-  /* line 94, ../scss/_variables.scss */
+  /* line 100, ../scss/_variables.scss */
   .padding-top-22px {
     padding-top: 0;
   }
 }
 
-/* line 101, ../scss/_variables.scss */
+/* line 107, ../scss/_variables.scss */
 .padding-top-30px {
   padding-top: 30px;
   padding-top: 1.875rem;
 }
 
-/* line 105, ../scss/_variables.scss */
+/* line 111, ../scss/_variables.scss */
 .padding-top-56px {
   padding-top: 56px;
   padding-top: 3.5rem;
 }
 
-/* line 109, ../scss/_variables.scss */
+/* line 115, ../scss/_variables.scss */
 .padding-bottom-1rem {
   padding-bottom: 16px;
   padding-bottom: 1rem;
 }
 
-/* line 113, ../scss/_variables.scss */
+/* line 119, ../scss/_variables.scss */
 .padding-bottom-2rem {
   padding-bottom: 32px;
   padding-bottom: 2rem;
 }
 
-/* line 117, ../scss/_variables.scss */
+/* line 123, ../scss/_variables.scss */
 .padding-left-1rem {
   padding-left: 16px;
   padding-left: 1rem;
 }
 
-/* line 121, ../scss/_variables.scss */
+/* line 127, ../scss/_variables.scss */
 .padding-left-2rem {
   padding-left: 32px;
   padding-left: 2rem;
 }
 
-/* line 125, ../scss/_variables.scss */
+/* line 131, ../scss/_variables.scss */
 .padding-left-3rem {
   padding-left: 48px;
   padding-left: 3rem;
 }
 
-/* line 129, ../scss/_variables.scss */
+/* line 135, ../scss/_variables.scss */
 .float-right {
   float: right;
 }
 @media only screen and (max-width: 653px) {
-  /* line 129, ../scss/_variables.scss */
+  /* line 135, ../scss/_variables.scss */
   .float-right {
     float: none;
   }
-}
-
-/* line 136, ../scss/_variables.scss */
-.text-right {
-  text-align: right;
 }
 
 /*---------- Typography ------------------------------------------------------*/
