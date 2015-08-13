@@ -76,16 +76,25 @@
     }
 
     .bg-trusttree {
-      @include bgimage-jpg('/case-studies/trust-tree/trust-tree-bg');
-      @extend .bg-cover;
+      @include bgimage-jpg('case-studies/trust-tree/trust-tree-bg');
     }
 
     .bg-zeumo {
       @include bgimage-jpg('case-studies/zeumo/zeumo-bg');
-      @extend .bg-cover;
       background-position: center top;
       background-repeat: no-repeat;
     }
+
+    .bg-merch-colony {
+      @include bgimage-jpg('case-studies/merch-colony/merch-colony-bg');
+    }
+
+    .bg-trusttree,
+    .bg-zeumo,
+    .bg-merch-colony {
+      @extend .bg-cover;
+    }
+
 
   /*---------- Positioning ---------------------------------------------------*/
 
@@ -95,6 +104,14 @@
 
     .no-padding-top {
       padding-top: 0 !important;
+    }
+
+    .padding-top-15px {
+      @include rem-fallback(padding-top, 0.9375);
+    }
+
+    .padding-top-1rem {
+      @include rem-fallback(padding-top, 1);
     }
 
     .padding-top-22px {

@@ -3,37 +3,37 @@
   include('../../inc/header.php');
 ?>
 
-<div class="hero-case-study bg-trusttree no-margin-bottom">
+<div class="hero-case-study bg-merch-colony no-margin-bottom">
   <?php include('../../inc/nav.php');?>
   <div class="large-12 large-centered columns">
     <h1 class="text-center fade-in-second font-white">
-      Trust Tree
+      Merch Colony
     </h1>
   </div> <!-- /.large-12 large-centered columns-->
   <div class="large-5 medium-8 small-12 small-centered columns">
     <h2 class="text-center fade-in-second font-white no-margin-bottom">
-      Register your trademark through IP attorneys, without stepping foot in an attorney’s office.
+      A new way to share recommendations of your favorite local businesses to friends.
     </h2>
   </div> <!-- /.large-12 large-centered columns-->
 </div> <!-- /.hero-->
 <section class="bg-plaster">
   <div class="row font-slate">
-    <div class="large-4 large-uncentered medium-uncentered small-12 small-centered columns text-center">
-      <img src="/images/case-studies/trust-tree/trust-tree-logo.png" alt="Trust Tree Logo">
-    </div>
+    <div class="large-4 large-uncentered medium-uncentered small-12 small-centered columns text-center padding-top-15px">
+      <img src="/images/case-studies/merch-colony/merch-colony-logo.png" alt="Merch Colony Logo">
+    </div> <!-- /.large-4 large-uncentered medium-uncentered small-12 small-centered columns text-center padding-top-15px-->
     <div class="large-4 large-uncentered medium-6 medium-uncentered small-12 small-centered columns">
       <h5 class="no-margin-bottom font-slate"><span>Client</span></h5>
-      <p>Trust Tree Legal, PC</p>
+      <p>Merch Colony, LLC</p>
       <h5 class="no-margin-bottom font-slate"><span>Timeline</span></h5>
-      <p>December 2014 - Present</p>
-    </div>
+      <p>April 2013 - Present</p>
+    </div> <!-- /.large-4 large-uncentered medium-6 medium-uncentered small-12 small-centered columns-->
     <div class="large-4 large-uncentered medium-6 medium-uncentered small-12 small-centered columns">
       <h5 class="no-margin-bottom font-slate"><span>Services Provided</span></h5>
-      <p>Product Strategy, Visual Identity and Branding, Web App UX/UI Design</p>
+      <p>Visual Identity Design, Web App UI Design</p>
       <h5 class="no-margin-bottom font-slate"><span>Project URL</span></h5>
       <p>
-        <a href="http://www.trusttreetrademarks.com" target="_blank" class="font-slate underlined">
-          trusttreetrademarks.com
+        <a href="http://www.merchcolony.com" target="_blank" class="font-slate underlined">
+          merchcolony.com
         </a>
       </p>
     </div> <!-- /.large-4 large-uncentered medium-6 medium-uncentered small-12 small-centered columns-->
@@ -43,93 +43,80 @@
   <div class="bg-gradient">
     <div class="row">
       <div class="small-12 small-centered columns text-center padding-bottom-2rem">
-        <img src="/images/case-studies/trust-tree/trust-tree-homepage.png" alt="Trust Tree Homepage">
+        <img src="/images/case-studies/merch-colony/merch-colony-homepage.jpg" alt="Merch Colony Homepage">
       </div> <!-- /.small-10 small-centered columns text-center-->
     </div> <!-- /.row-->
     <h3 class="text-center font-grey padding-bottom-1rem">The Story</h3>
-    <p class="large-4 medium-8 small-10 small-centered columns font-grey">
-      Bill, Kevin, and Randy needed a brand and online platform to transition
-      their in-person trademark registration services into a streamlined digital offering.
-    </p>
-    <p class="large-4 medium-8 small-10 small-centered columns font-grey">
-      Anyone can file a trademark application online through the USPTO, but the
-      application and process are quite confusing if you’re not an attorney.
-    </p>
     <p class="large-4 medium-8 small-10 small-centered columns font-grey padding-bottom-2rem">
-      Trust Tree is a simplified and attorney-guided service for anyone who
-      wants to file a trademark online, but doesn’t want to step foot in an attorney’s office.
+      In 2013, Lori Brannock set out to create an app that lets friends build
+      and share lists of their favorite places and recommendations in
+      Charlottesville, VA (new cities coming soon). While Yelp does already cover
+      some of that, she wanted to create a platform that focuses more on personal
+      recommendations from friends, while ditching the negative or critical
+      reviews that can often hurt local businesses.
     </p>
     <div class="row">
       <div class="small-12 small-centered columns text-center padding-bottom-2rem">
-        <img src="/images/case-studies/trust-tree/trust-tree-pages.png" alt="Trust Tree Pages">
-      </div> <!-- /.small-10 small-centered columns text-center-->
+        <img src="/images/case-studies/merch-colony/merch-colony-list-search.png" alt="Merch List Search Pages">
+      </div> <!-- /.small-12 small-centered columns text-center padding-bottom-2rem-->
     </div> <!-- /.row-->
-    <h3 class="large-6 medium-8 small-12 small-centered columns text-center font-grey padding-bottom-1rem">
-      Defining the audience, understanding their problem, and offering a service
-      to solve that problem
-    </h3>
-    <p class="large-4 medium-8 small-10 small-centered columns font-grey">
-      Our first priority was to make sure we were all in agreement about who the
-      target customer was. Together, we created assumption personas based on
-      common elements that in-person customers shared, as well as behaviors and
-      thought patterns of those who tend to use the online trademark registration
-      services offered by competitors.
-    </p>
-    <p class="large-4 medium-8 small-10 small-centered columns font-grey padding-bottom-2rem">
-      The average business owner's experience with the trademarking process varies
-      so much that it made sense to break the service up into levels
-      (we called them packages) based on how much hand-holding a customer prefers.
-      We modeled this structure after TurboTax, as users can self-select
-      the desired level of help they receive when filing taxes online.
-      Multi-tiered pricing also lets Trust Tree price anchor against themselves,
-      rather than the competition.
+    <p class="large-4 medium-8 small-10 small-centered columns font-grey padding-top-1rem padding-bottom-2rem">
+      Anyone can sign up as a merchant or a regular user. Merchants can pay a
+      monthly fee to become a featured merchant, which means they are featured
+      on the homepage, blog, calendar, email newsletter AND promoted through
+      Merch Colony’s social media accounts.  These highlights bring a lot of
+      attention to local businesses.
     </p>
     <div class="row">
       <div class="small-12 small-centered columns text-center padding-bottom-2rem">
-        <img src="/images/case-studies/trust-tree/trust-tree-planning.png" alt="Trust Tree Storyboards">
-      </div> <!-- /.small-10 small-centered columns text-center-->
+        <img src="/images/case-studies/merch-colony/merch-colony-user-merchant.png" alt="Merch Colony User Merchant Pages">
+      </div> <!-- /.small-12 small-centered columns text-center padding-bottom-2rem-->
     </div> <!-- /.row-->
-    <p class="large-4 medium-8 small-10 small-centered columns font-grey padding-bottom-2rem">
-      We storyboarded the entire user experience from the first point of
-      onboarding, to actually signing up, completing a trademark form, events
-      that occur during that application process, and maintaining a trademark over time.
+    <p class="large-4 medium-8 small-10 small-centered columns font-grey padding-top-1rem padding-bottom-2rem">
+      To drum up further user engagement on the site, Merch Colony has added an
+      events calendar. They’re also working on a new blog feature that will
+      dedicate even more spotlight to featured merchants, in addition to the
+      promotion through the newsletter, social media, and prominent positioning
+      within the app.
     </p>
     <div class="row">
       <div class="small-12 small-centered columns text-center padding-bottom-2rem">
-        <img src="/images/case-studies/trust-tree/trust-tree-web-app.png" alt="Trust Tree Web App">
-      </div> <!-- /.small-10 small-centered columns text-center-->
+        <img src="/images/case-studies/merch-colony/merch-colony-blog-cal.png" alt="Merch Colony Blog">
+      </div> <!-- /.small-12 small-centered columns text-center padding-bottom-2rem-->
     </div> <!-- /.row-->
     <h3 class="text-center font-grey padding-bottom-1rem">
-      Visual Identity, Branding &amp; Tone
+      Visual Identity Rebranding
     </h3>
     <p class="large-4 medium-8 small-10 small-centered columns font-grey">
-      The logo needed to be strong, memorable, and simple to begin building a brand
-      for this new startup. The design behind the Trust Tree logo signifies trust
-      and growth, as derived from the name, through the symbolic combination of a tree and key.
+      When first meeting with Lori in 2013, she wanted the Merch Colony brand to
+      seem fun, friendly and hip. We agreed that the previous logo was too
+      whimsical and unscalable to move forward with.
     </p>
     <p class="large-4 medium-8 small-10 small-centered columns font-grey padding-bottom-2rem">
-      We established that the tone used through all communications need to
-      represent the brand in a friendly and educational way, by using helpful, plain language.
+      After deciding on a bee theme to match the name (sorry, ants), we went with
+      a bee stinger that doubles as a geolocation symbol. This symbol works well
+      with the brand’s goal of recommending small businesses within a city,
+      with plans to expand to future locations.
     </p>
-    <div class="row">
-      <div class="small-12 small-centered columns text-center padding-bottom-2rem">
-        <img src="/images/case-studies/trust-tree/trust-tree-identity-guide.png" alt="Trust Tree Identiy Guide">
-      </div> <!-- /.small-10 small-centered columns text-center-->
+    <div class="row padding-bottom-2rem">
+      <div class="small-8 small-centered columns">
+        <div class="small-6 columns text-center padding-bottom-2rem">
+          <p class="uppercase font-grey">Before</p>
+          <img src="/images/case-studies/merch-colony/merch-colony-old-logo.png" alt="Merch Colony Old Log">
+        </div> <!-- /.small-6 columns text-center padding-bottom-2rem-->
+        <div class="small-6 columns text-center padding-bottom-2rem">
+          <p class="uppercase font-grey">After</p>
+          <img src="/images/case-studies/merch-colony/merch-colony-logo-horizontal.png" alt="Merch Colony New Log0" class="padding-top-56px">
+        </div> <!-- /.small-6 columns text-center padding-bottom-2rem-->
+      </div>
     </div> <!-- /.row-->
     <div class="row">
       <div class="small-12 small-centered columns text-center padding-bottom-2rem">
-        <img src="/images/case-studies/trust-tree/trust-tree-business-cards.png" alt="Trust Tree Business Cards">
-      </div> <!-- /.small-10 small-centered columns text-center-->
-    </div> <!-- /.row-->
-    <div class="row">
-      <div class="small-12 small-centered columns text-center padding-bottom-2rem">
-        <img src="/images/case-studies/trust-tree/trust-tree-magazine-ad.png" alt="Trust Tree Magazine Ad">
-      </div> <!-- /.small-10 small-centered columns text-center-->
+        <img src="/images/case-studies/merch-colony/merch-colony-logo-guide.png" alt="Merch Colony Identiy Guide">
+      </div> <!-- /.small-12 small-centered columns text-center padding-bottom-2rem-->
     </div> <!-- /.row-->
   </div> <!-- /.bg-gradient-->
 </section> <!-- /section.bg-white no-padding-top-->
-
-
 <section class="bg-plaster">
   <div class="row">
     <div class="medium-7 small-12 small-centered columns">
@@ -141,14 +128,27 @@
           Get in touch
         </a>
       </div> <!-- /.large-6 large-uncentered small-12 small-centered columns text-center-->
-    </div> <!-- /.small-8 small-centered columns-->
+    </div> <!-- /.medium-7 small-12 small-centered columns-->
   </div> <!-- /.row-->
   <div class="small-11 small-centered columns divider"></div>
   <div class="row">
+    <a href="/case-studies/trust-tree" class="medium-6 medium-uncentered small-12 small-centered columns">
+      <div class="medium-3 medium-uncentered small-6 small-centered columns text-center clearfix">
+        <img src="/images/case-studies/trust-tree-logo-icon.png" alt="Zeumo Logo" class="float-right padding-top-22px">
+      </div> <!-- /.medium-3 medium-uncentered small-4 small-centered columns text-center-->
+      <div class="medium-9 medium-uncentered small-10 small-centered columns">
+        <h4 class="font-magenta">Trust Tree</h4>
+        <p class="font-slate">
+          Trust Tree is a fresh alternative to how we register trademarks.
+          The attorney-guided service is for anyone ready to file a trademark
+          online without stepping foot in an attorney’s office.
+        </p>
+      </div> <!-- /.medium-9 medium-uncentered small-10 small-centered columns-->
+    </a> <!-- /.medium-6 medium-uncentered small-12 small-centered columns-->
     <a href="/case-studies/zeumo" class="medium-6 medium-uncentered small-12 small-centered columns">
       <div class="medium-3 medium-uncentered small-6 small-centered columns text-center clearfix">
         <img src="/images/case-studies/zeumo-logo-icon.png" alt="Zeumo Logo" class="float-right padding-top-22px">
-      </div> <!-- /.medium-3 medium-uncentered small-4 small-centered columns text-center-->
+      </div> <!-- /.medium-3 medium-uncentered small-6 small-centered columns text-center clearfix-->
       <div class="medium-9 medium-uncentered small-10 small-centered columns">
         <h4 class="font-magenta">Zeumo</h4>
         <p class="font-slate">
@@ -156,20 +156,7 @@
           now communicate with their physicians through phones and tablets within
           a network for staff collaboration.
         </p>
-      </div> <!-- /.medium-9 medium-uncentered small-8 small-centered columns-->
-    </a> <!-- /.medium-6 medium-uncentered small-12 small-centered columns-->
-    <a href="#" class="medium-6 medium-uncentered small-12 small-centered columns">
-      <div class="medium-3 medium-uncentered small-6 small-centered columns text-center clearfix">
-        <img src="/images/case-studies/merch-colony-logo-icon.png" alt="Merch Colony Logo" class="float-right padding-top-22px">
-      </div> <!-- /.medium-3 medium-uncentered small-4 small-centered columns text-center-->
-      <div class="medium-9 medium-uncentered small-10 small-centered columns">
-        <h4 class="font-magenta">Merch Colony</h4>
-        <p class="font-slate">
-          Merch Colony is changing the way we recommend local businesses.
-          They’re like Yelp for your hometown, but with an emphasis on
-          recommending instead of reviewing.
-        </p>
-      </div> <!-- /.medium-9 medium-uncentered small-8 small-centered columns-->
+      </div> <!-- /.medium-9 medium-uncentered small-10 small-centered columns-->
     </a> <!-- /.medium-6 medium-uncentered small-12 small-centered columns-->
   </div> <!-- /.row-->
 </section> <!-- /section.bg-plaster-->

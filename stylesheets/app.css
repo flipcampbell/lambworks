@@ -7111,94 +7111,113 @@ a.active {
 }
 
 /* line 74, ../scss/_variables.scss */
-.bg-cover, .bg-trusttree, .bg-zeumo {
+.bg-cover, .bg-trusttree,
+.bg-zeumo,
+.bg-merch-colony {
   background-size: cover !important;
 }
 
 /* line 78, ../scss/_variables.scss */
 .bg-trusttree {
-  background: url("../images//case-studies/trust-tree/trust-tree-bg.jpg");
+  background: url("../images/case-studies/trust-tree/trust-tree-bg.jpg");
 }
 
-/* line 83, ../scss/_variables.scss */
+/* line 82, ../scss/_variables.scss */
 .bg-zeumo {
   background: url("../images/case-studies/zeumo/zeumo-bg.jpg");
   background-position: center top;
   background-repeat: no-repeat;
 }
 
+/* line 88, ../scss/_variables.scss */
+.bg-merch-colony {
+  background: url("../images/case-studies/merch-colony/merch-colony-bg.jpg");
+}
+
 /*---------- Positioning ---------------------------------------------------*/
-/* line 92, ../scss/_variables.scss */
+/* line 101, ../scss/_variables.scss */
 .no-margin-bottom {
   margin-bottom: 0px;
   margin-bottom: 0rem;
 }
 
-/* line 96, ../scss/_variables.scss */
+/* line 105, ../scss/_variables.scss */
 .no-padding-top {
   padding-top: 0 !important;
 }
 
-/* line 100, ../scss/_variables.scss */
+/* line 109, ../scss/_variables.scss */
+.padding-top-15px {
+  padding-top: 15px;
+  padding-top: 0.9375rem;
+}
+
+/* line 113, ../scss/_variables.scss */
+.padding-top-1rem {
+  padding-top: 16px;
+  padding-top: 1rem;
+}
+
+/* line 117, ../scss/_variables.scss */
 .padding-top-22px {
   padding-top: 22px;
   padding-top: 1.375rem;
 }
 @media only screen and (max-width: 653px) {
-  /* line 100, ../scss/_variables.scss */
+  /* line 117, ../scss/_variables.scss */
   .padding-top-22px {
     padding-top: 0;
   }
 }
 
-/* line 107, ../scss/_variables.scss */
+/* line 124, ../scss/_variables.scss */
 .padding-top-30px {
   padding-top: 30px;
   padding-top: 1.875rem;
 }
 
-/* line 111, ../scss/_variables.scss */
+/* line 128, ../scss/_variables.scss */
 .padding-top-56px {
   padding-top: 56px;
   padding-top: 3.5rem;
 }
 
-/* line 115, ../scss/_variables.scss */
+/* line 132, ../scss/_variables.scss */
 .padding-bottom-1rem {
   padding-bottom: 16px;
   padding-bottom: 1rem;
 }
 
-/* line 119, ../scss/_variables.scss */
+/* line 136, ../scss/_variables.scss */
 .padding-bottom-2rem {
   padding-bottom: 32px;
   padding-bottom: 2rem;
 }
 
-/* line 123, ../scss/_variables.scss */
+/* line 140, ../scss/_variables.scss */
 .padding-left-1rem {
   padding-left: 16px;
   padding-left: 1rem;
 }
 
-/* line 127, ../scss/_variables.scss */
+/* line 144, ../scss/_variables.scss */
 .padding-left-2rem {
   padding-left: 32px;
   padding-left: 2rem;
 }
 
-/* line 131, ../scss/_variables.scss */
+/* line 148, ../scss/_variables.scss */
 .padding-left-3rem {
   padding-left: 48px;
   padding-left: 3rem;
 }
 
-/* line 135, ../scss/_variables.scss */
+/* line 152, ../scss/_variables.scss */
 .float-right {
   float: right;
 }
 @media only screen and (max-width: 653px) {
-  /* line 135, ../scss/_variables.scss */
+  /* line 152, ../scss/_variables.scss */
   .float-right {
     float: none;
   }
