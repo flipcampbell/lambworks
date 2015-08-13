@@ -1,8 +1,5 @@
-<?php
-  // include('../inc/contact-mailer.php');
-  include('../../inc/header.php');
+<?php include('../../inc/header.php');
 ?>
-
 <div class="hero-case-study bg-merch-colony no-margin-bottom">
   <?php include('../../inc/nav.php');?>
   <div class="large-12 large-centered columns">
@@ -14,8 +11,8 @@
     <h2 class="text-center fade-in-second font-white no-margin-bottom">
       A new way to share recommendations of your favorite local businesses to friends.
     </h2>
-  </div> <!-- /.large-12 large-centered columns-->
-</div> <!-- /.hero-->
+  </div> <!-- /.large-5 medium-8 small-12 small-centered columns-->
+</div> <!-- /.hero-case-study bg-merch-colony no-margin-bottom-->
 <section class="bg-plaster">
   <div class="row font-slate">
     <div class="large-4 large-uncentered medium-uncentered small-12 small-centered columns text-center padding-top-15px">
@@ -37,14 +34,14 @@
         </a>
       </p>
     </div> <!-- /.large-4 large-uncentered medium-6 medium-uncentered small-12 small-centered columns-->
-  </div> <!-- /.row-->
-</section> <!-- /.bg-plaster-->
+  </div> <!-- /.row font-slate-->
+</section> <!-- /section.bg-plaster-->
 <section class="bg-white no-padding-top">
   <div class="bg-gradient">
     <div class="row">
       <div class="small-12 small-centered columns text-center padding-bottom-2rem">
         <img src="/images/case-studies/merch-colony/merch-colony-homepage.jpg" alt="Merch Colony Homepage">
-      </div> <!-- /.small-10 small-centered columns text-center-->
+      </div> <!-- /.small-12 small-centered columns text-center padding-bottom-2rem-->
     </div> <!-- /.row-->
     <h3 class="text-center font-grey padding-bottom-1rem">The Story</h3>
     <p class="large-4 medium-8 small-10 small-centered columns font-grey padding-bottom-2rem">
@@ -108,8 +105,8 @@
           <p class="uppercase font-grey">After</p>
           <img src="/images/case-studies/merch-colony/merch-colony-logo-horizontal.png" alt="Merch Colony New Log0" class="padding-top-56px">
         </div> <!-- /.small-6 columns text-center padding-bottom-2rem-->
-      </div>
-    </div> <!-- /.row-->
+      </div> <!-- /.small-8 small-centered columns-->
+    </div> <!-- /.row padding-bottom-2rem-->
     <div class="row">
       <div class="small-12 small-centered columns text-center padding-bottom-2rem">
         <img src="/images/case-studies/merch-colony/merch-colony-logo-guide.png" alt="Merch Colony Identiy Guide">
@@ -122,7 +119,7 @@
     <div class="medium-7 small-12 small-centered columns">
       <div class="large-6 large-uncentered small-12 small-centered columns">
         <h4 class="font-slate text-center">Working on something great?</h4>
-      </div> <!-- /.medium-6 small-12 small-centered columns-->
+      </div> <!-- /.large-6 large-uncentered small-12 small-centered columns-->
       <div class="large-6 large-uncentered small-12 small-centered columns text-center">
         <a href="/#contact" class="button radius text-center bg-magenta text-center">
           Get in touch
@@ -135,7 +132,7 @@
     <a href="/case-studies/trust-tree" class="medium-6 medium-uncentered small-12 small-centered columns">
       <div class="medium-3 medium-uncentered small-6 small-centered columns text-center clearfix">
         <img src="/images/case-studies/trust-tree-logo-icon.png" alt="Zeumo Logo" class="float-right padding-top-22px">
-      </div> <!-- /.medium-3 medium-uncentered small-4 small-centered columns text-center-->
+      </div> <!-- /.medium-3 medium-uncentered small-6 small-centered columns text-center clearfix-->
       <div class="medium-9 medium-uncentered small-10 small-centered columns">
         <h4 class="font-magenta">Trust Tree</h4>
         <p class="font-slate">
@@ -144,7 +141,7 @@
           online without stepping foot in an attorney’s office.
         </p>
       </div> <!-- /.medium-9 medium-uncentered small-10 small-centered columns-->
-    </a> <!-- /.medium-6 medium-uncentered small-12 small-centered columns-->
+    </a> <!-- /a.medium-6 medium-uncentered small-12 small-centered columns-->
     <a href="/case-studies/zeumo" class="medium-6 medium-uncentered small-12 small-centered columns">
       <div class="medium-3 medium-uncentered small-6 small-centered columns text-center clearfix">
         <img src="/images/case-studies/zeumo-logo-icon.png" alt="Zeumo Logo" class="float-right padding-top-22px">
@@ -157,7 +154,7 @@
           a network for staff collaboration.
         </p>
       </div> <!-- /.medium-9 medium-uncentered small-10 small-centered columns-->
-    </a> <!-- /.medium-6 medium-uncentered small-12 small-centered columns-->
+    </a> <!-- /a.medium-6 medium-uncentered small-12 small-centered columns-->
   </div> <!-- /.row-->
 </section> <!-- /section.bg-plaster-->
 <script type="text/javascript">

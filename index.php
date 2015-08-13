@@ -9,23 +9,22 @@
             <h1 class="text-center fade-in-second font-white">
               Launch Strategy &amp; Design for Startups
             </h1>
-          </div>
-        </div>
+          </div> <!-- /.fade-in-second -->
+        </div> <!-- /.large-12 large-centered columns -->
       <div class="large-10 small-12 small-centered large-centered columns">
         <div class="fade-in-second">
           <h2 class="text-center fade-in-second font-cornflower">
             Create digital products and services that people actually want to use.
           </h2>
-        </div>
-      </div>
+        </div> <!-- /.fade-in-second -->
+      </div> <!-- /.large-12 large-centered columns -->
       <div class="large-12 large-centered columns text-center">
         <div class="fade-in-third">
           <img class="fade-in-third" src="images/hero-icon-graphic.png" alt="">
-        </div>
-      </div>
+        </div> <!-- /.fade-in-third -->
+      </div> <!-- /.large-12 large-centered columns text-center -->
     </div> <!-- /.hero -->
    <!-- /.container row -->
-
     <section class="bg-white">
       <div class="row">
         <h3 class="large-10 medium-12 small-12 small-centered medium-centered large-centered columns text-center font-slate">
@@ -57,9 +56,8 @@
           What if you could take steps designed to not only reduce risk, but also
           save time and resources <span class="font-medium-italic">before you launch your startup?</span>
         </h4>
-      </div> <!-- /row -->
-    </section> <!-- /one -->
-
+      </div> <!-- /.row -->
+    </section> <!-- /section.bg-white -->
     <section class="two products">
       <h6 class="large-12 large-centered columns text-center font-grey uppercase">
         <span>Looking for the next logical step?</span>
@@ -89,7 +87,7 @@
                     </span>
                   </p>
                 </div>
-              </div> <!-- /row -->
+              </div> <!-- /.row -->
               <div class="small-10 small-centered columns divider"></div>
               <div class="row">
                 <h6 class="large-11 large-offset-1 large-uncentered small-12 small-centered columns">
@@ -103,15 +101,15 @@
                     10+ page report with a step-by-step action-plan for reaching your goals
                   </li>
                 </ul>
-              </div> <!-- /row -->
+              </div> <!-- /.row -->
               <div class="row text-center">
                 <a href="#" class="large-10 large-centered small-6 small-centered columns font-turquoise" style="display:none;">
                   Find the right workshop for you
                 </a>
-              </div> <!-- /row -->
-            </div> <!-- /panel -->
-          </div> <!-- /card -->
-        </div><!-- /row -->
+              </div> <!-- /.row -->
+            </div> <!-- /.panel -->
+          </div> <!-- /.card -->
+        </div><!-- /.row -->
         <div class="row">
           <div class="large-8 medium-10 small-12 small-centered columns card">
             <div class="panel">
@@ -132,7 +130,7 @@
                     </span>
                   </p>
                 </div>
-              </div> <!-- /row -->
+              </div> <!-- /.row -->
               <div class="small-10 small-centered columns divider"></div>
               <div class="row">
                 <h6 class="large-11 large-offset-1 large-uncentered small-12 small-centered columns">
@@ -145,15 +143,15 @@
                     and <span>much more.</span>
                   </li>
                 </ul>
-              </div> <!-- /row -->
+              </div> <!-- /.row -->
               <div class="row text-center">
                 <a href="#" class="large-8 large-centered small-4 small-centered columns font-magenta" style="display:none;">
                   View the full list of product building services
                 </a>
-              </div> <!-- /row -->
-            </div> <!-- /panel -->
-          </div> <!-- /card -->
-        </div><!-- /row -->
+              </div> <!-- /.row -->
+            </div> <!-- /.panel -->
+          </div> <!-- /.card -->
+        </div><!-- /.row -->
         <div class="row">
           <div class="large-8 medium-10 small-12 small-centered columns card">
             <div class="panel">
@@ -175,7 +173,7 @@
                     </span>
                   </p>
                 </div>
-              </div> <!-- /row -->
+              </div> <!-- /.row -->
                 <div class="small-10 small-centered columns divider"></div>
               <div class="row">
                 <h6 class="large-11 large-offset-1 large-uncentered small-12 small-centered columns">
@@ -187,17 +185,17 @@
                   startup's product, marketing pages, and newsletter campaigns.
                   </li>
                 </ul>
-              </div> <!-- /row -->
+              </div> <!-- /.row -->
               <div class="row text-center">
                 <a href="#" class="large-10 large-centered small-6 small-centered columns font-sea-green" style="display:none;">
                   View more details and available slots
                 </a>
-              </div> <!-- /row -->
-            </div> <!-- /panel -->
-          </div> <!-- /card -->
-        </div><!-- /row -->
-      </div> <!-- /row -->
-    </section> <!-- /two -->
+              </div> <!-- /.row -->
+            </div> <!-- /.panel -->
+          </div> <!-- /.card -->
+        </div><!-- /.row -->
+      </div> <!-- /.small-12 small-centered columns -->
+    </section> <!-- /section.two products -->
 
     <section class="three" id="about">
       <div class="row">
@@ -276,10 +274,10 @@
               </div>
 
             </div> <!-- /.large-12 large-centered columns text-center social-icons -->
-        <!--  </div> <!-- /row -->
+        <!--  </div> <!-- /.row -->
 
         </div> <!-- /.large-6 columns -->
-      </div> <!-- /row -->
+      </div> <!-- /.row -->
     </section> <!-- /three -->
 
     <section class="bg-plaster" id="testimonials">
@@ -306,7 +304,7 @@
             <p class="quote-attribute font-grey">&mdash; Lori Brannock, Merch Colony</p>
           </div> <!-- large-9 large-uncentered medium-uncentered small-12 small-centered columns-->
         </div> <!-- /large-12 small-centered columns -->
-      </div> <!-- /row -->
+      </div> <!-- /.row -->
     </section> <!-- /section -->
     <section class="bg-white" id="filter">
       <div class="row">

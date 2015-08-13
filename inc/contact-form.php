@@ -3,12 +3,12 @@
         <h3 class="large-10 large-centered columns text-center">
           Working on something great? I'd love to help make it happen.
         </h3>
-      </div> <!-- /row -->
+      </div> <!-- /.row -->
       <div class="row">
         <p class="large-8 large-centered columns text-center">
           Let’s chat about your business, product, or services, and if I think there's potential to gain traction or make a lot more money through strategic design, we’ll go from there.
         </p>
-      </div><!-- /row -->
+      </div> <!-- /.row -->
       <form method="post" action="inc/contact-mailer.php">
         <div class="row">
           <div class="large-5 medium-6 small-8 small-centered columns">
@@ -23,21 +23,21 @@
             <input type="email" id="email" name="email">
             <span>What is your email address?</span>
           </div> <!-- /.large-5 medium-6 small-8 small-centered columns -->
-        </div> <!-- /row -->
+        </div> <!-- /.row -->
         <div class="row">
           <div class="large-5 medium-6 small-8 small-centered columns">
             <label for="company">Company</label>
             <input type="text" name="company" id="company">
             <span>Please, tell me the name of your company.</span>
           </div> <!-- /.large-5 medium-6 small-8 small-centered columns -->
-        </div><!-- /row -->
+        </div> <!-- /.row -->
         <div class="row">
           <div class="large-5 medium-6 small-8 small-centered columns">
             <label for="description">Details</label>
             <textarea name="description" id="description" cols="40" rows="5" placeholder="Share what you can about your project."></textarea>
             <span>Tell me something about your project.</span>
           </div> <!-- /.large-5 medium-6 small-8 small-centered columns -->
-        </div> <!-- /row -->
+        </div> <!-- /.row -->
         <?php /* <div class="row">
           <div class="large-8 small-10">
             <div class="row">
@@ -53,7 +53,7 @@
               </div>
             </div>
           </div>
-        </div> <!-- /row -->
+        </div> <!-- /.row -->
         <div class="row">
           <div class="large-8 small-10">
             <div class="row">
@@ -69,7 +69,7 @@
               </div>
             </div>
           </div>
-        </div><!-- /row -->
+        </div> <!-- /.row -->
         <div class="row">
           <div class="large-8 small-10 small-centered">
             <div class="row">
@@ -82,11 +82,11 @@
               </div>
             </div>
           </div>
-        </div><!-- /row --> */ ?>
+        </div> <!-- /.row --> */ ?>
         <div class="row">
           <div class="large-8 small-8 small-centered columns text-center">
             <input type="submit" id="submit" class="button radius text-center" value="Let's talk!">
-          </div>
-        </div>
+          </div> <!-- /.large-8 small-8 small-centered columns text-center -->
+        </div> <!-- /.row -->
       </form>
-    </section>
+    </section> <!-- /section.six -->
