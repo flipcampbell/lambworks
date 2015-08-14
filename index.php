@@ -201,7 +201,6 @@
       <div class="row">
         <div class="large-6 columns large-push-6">
           <h3 class="large-12 columns font-navy">Who's behind this?</h3>
-
             <div class="large-12 columns font-grey">
               <p>
                 Lambworks is a solo product design consultancy, for entrepreneurs
@@ -235,48 +234,51 @@
                 resources are thrown at a deeper business problem or unprofitable idea.
               </p>
             </div> <!-- /.large-12 columns font-grey -->
-        </div> <!-- /.row -->
-        <div class="large-6 columns large-pull-6">
-          <div class="large-12 large-centered columns text-center">
-            <img src="images/portrait.png" alt="Holly Stewart" class="portrait">
-          </div> <!-- /.large-12 large-centered text-center -->
-          <div class="large-8 large-centered columns">
-            <p class="text-center font-grey">
-              <span>
-                Holly Stewart is an independent product designer and consultant in Nashville.
-              </span>
-            </p>
-          </div> <!-- /.large-8 large-centered columns -->
-          <!--
-          <div class="row collapse">
-            <div class="text-center social-icons">
-              <div class="large-6 large-uncentered small-12 small-centered columns">
+          </div> <!-- /.large-6 columns large-push-6 -->
+          <div class="large-6 columns large-pull-6">
+            <div class="large-12 large-centered columns text-center">
+              <img src="images/portrait.png" alt="Holly Stewart" class="portrait">
+            </div> <!-- /.large-12 large-centered text-center -->
+            <div class="large-8 large-centered columns">
+              <p class="text-center font-grey">
+                <span>
+                  Holly Stewart is an independent product designer and consultant in Nashville.
+                </span>
+              </p>
+            </div> <!-- /.large-8 large-centered columns -->
+            <ul class="small-12 small-centered columns text-center social-icons">
+              <li>
                 <a href="https://twitter.com/oprylamb" target="_blank" class="bg-social" id="twitter-icon">
                   <img src="images/social-twitter.png" alt="twitter">
                 </a>
+              </li>
+              <li>
                 <a href="https://www.linkedin.com/in/hollysuzannestewart" target="_blank" class="bg-social" id="linkedin-icon">
                   <img src="images/social-linkedin.png" alt="">
                 </a>
+              </li>
+              <li>
                 <a href="https://angel.co/hollystewart" target="_blank" class="bg-social" id="angellist-icon">
                   <img src="images/social-angellist.png" alt="">
                 </a>
-              </div>
-              <div class="large-6 large-uncentered small-12 small-centered columns">
+              </li>
+              <li>
                 <a href="http://www.quora.com/Holly-Stewart-10" target="_blank" class="bg-social" id="quora-icon">
                   <img src="images/social-quora.png" alt="">
                 </a>
+              </li>
+              <li>
                 <a href="https://dribbble.com/lambworks" target="_blank" class="bg-social" id="dribbble-icon">
                   <img src="images/social-dribbble.png" alt="">
                 </a>
+              </li>
+              <li>
                 <a href="https://www.behance.net/hollystewart" target="_blank" class="bg-social" id="behance-icon">
                   <img src="images/social-behance.png" alt="">
                 </a>
-              </div>
-
-            </div> <!-- /.large-12 large-centered columns text-center social-icons -->
-        <!--  </div> <!-- /.row -->
-
-        </div> <!-- /.large-6 columns -->
+              </li>
+            </ul> <!-- /ul.small-12 small-centered columns -->
+          </div> <!-- /.large-6 columns large-pull-6 -->
       </div> <!-- /.row -->
     </section> <!-- /three -->
 
