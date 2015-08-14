@@ -201,87 +201,86 @@
       <div class="row">
         <div class="large-6 columns large-push-6">
           <h3 class="large-12 columns font-navy">Who's behind this?</h3>
-            <div class="large-12 columns font-grey">
-              <p>
-                Lambworks is a solo product design consultancy, for entrepreneurs
-                building digital products and online services.
-              </p>
-              <p>
-                It's run by me, Holly Stewart, with help from friends as needed.
-              </p>
-            	<p>
-              	I began doing design and marketing in the corporate-cubicle-world
-                for three years. After deciding that office politics and inefficient
-                bureaucracy are not for me, I voluntarily escaped to go solo during
-                a recession, while all of my colleagues were desperately clinging to their jobs.
-              </p>
-      				<p>
-                Since then, I’ve spent six years helping startups and small
-                businesses with design, strategy, and occasionally self-sabotage
-                prevention. I prefer working with startups because we share a
-                drive to carve your own path while making useful and profitable things.
-              </p>
-              <p>
-                <span>
-                  Unlike other consultancies, I only accept projects from early
-                  stage startups when it's clear I can provide a return on
-                  investment by growing traction or revenue.
-                </span>
-              </p>
-              <p>
-                This allows me to solve core issues
-                <span style="font-style: italic;">before</span> any time and
-                resources are thrown at a deeper business problem or unprofitable idea.
-              </p>
-            </div> <!-- /.large-12 columns font-grey -->
-          </div> <!-- /.large-6 columns large-push-6 -->
-          <div class="large-6 columns large-pull-6">
-            <div class="large-12 large-centered columns text-center">
-              <img src="images/portrait.png" alt="Holly Stewart" class="portrait">
-            </div> <!-- /.large-12 large-centered text-center -->
-            <div class="large-8 large-centered columns">
-              <p class="text-center font-grey">
-                <span>
-                  Holly Stewart is an independent product designer and consultant in Nashville.
-                </span>
-              </p>
-            </div> <!-- /.large-8 large-centered columns -->
-            <ul class="small-12 small-centered columns text-center social-icons">
-              <li>
-                <a href="https://twitter.com/oprylamb" target="_blank" class="bg-social" id="twitter-icon">
-                  <img src="images/social-twitter.png" alt="twitter">
-                </a>
-              </li>
-              <li>
-                <a href="https://www.linkedin.com/in/hollysuzannestewart" target="_blank" class="bg-social" id="linkedin-icon">
-                  <img src="images/social-linkedin.png" alt="">
-                </a>
-              </li>
-              <li>
-                <a href="https://angel.co/hollystewart" target="_blank" class="bg-social" id="angellist-icon">
-                  <img src="images/social-angellist.png" alt="">
-                </a>
-              </li>
-              <li>
-                <a href="http://www.quora.com/Holly-Stewart-10" target="_blank" class="bg-social" id="quora-icon">
-                  <img src="images/social-quora.png" alt="">
-                </a>
-              </li>
-              <li>
-                <a href="https://dribbble.com/lambworks" target="_blank" class="bg-social" id="dribbble-icon">
-                  <img src="images/social-dribbble.png" alt="">
-                </a>
-              </li>
-              <li>
-                <a href="https://www.behance.net/hollystewart" target="_blank" class="bg-social" id="behance-icon">
-                  <img src="images/social-behance.png" alt="">
-                </a>
-              </li>
-            </ul> <!-- /ul.small-12 small-centered columns -->
-          </div> <!-- /.large-6 columns large-pull-6 -->
+          <div class="large-12 columns font-grey">
+            <p>
+              Lambworks is a solo product design consultancy, for entrepreneurs
+              building digital products and online services.
+            </p>
+            <p>
+              It's run by me, Holly Stewart, with help from friends as needed.
+            </p>
+          	<p>
+            	I began doing design and marketing in the corporate-cubicle-world
+              for three years. After deciding that office politics and inefficient
+              bureaucracy are not for me, I voluntarily escaped to go solo during
+              a recession, while all of my colleagues were desperately clinging to their jobs.
+            </p>
+    				<p>
+              Since then, I’ve spent six years helping startups and small
+              businesses with design, strategy, and occasionally self-sabotage
+              prevention. I prefer working with startups because we share a
+              drive to carve your own path while making useful and profitable things.
+            </p>
+            <p>
+              <span>
+                Unlike other consultancies, I only accept projects from early
+                stage startups when it's clear I can provide a return on
+                investment by growing traction or revenue.
+              </span>
+            </p>
+            <p>
+              This allows me to solve core issues
+              <span style="font-style: italic;">before</span> any time and
+              resources are thrown at a deeper business problem or unprofitable idea.
+            </p>
+          </div> <!-- /.large-12 columns font-grey -->
+        </div> <!-- /.large-6 columns large-push-6 -->
+        <div class="large-6 columns large-pull-6">
+          <div class="large-12 large-centered columns text-center">
+            <img src="images/portrait.png" alt="Holly Stewart" class="portrait">
+          </div> <!-- /.large-12 large-centered text-center -->
+          <div class="large-8 large-centered columns">
+            <p class="text-center font-grey">
+              <span>
+                Holly Stewart is an independent product designer and consultant in Nashville.
+              </span>
+            </p>
+          </div> <!-- /.large-8 large-centered columns -->
+          <ul class="small-12 small-centered columns text-center social-icons">
+            <li>
+              <a href="https://twitter.com/oprylamb" target="_blank" class="bg-social" id="twitter-icon">
+                <img src="images/social-twitter.png" alt="twitter">
+              </a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/in/hollysuzannestewart" target="_blank" class="bg-social" id="linkedin-icon">
+                <img src="images/social-linkedin.png" alt="">
+              </a>
+            </li>
+            <li>
+              <a href="https://angel.co/hollystewart" target="_blank" class="bg-social" id="angellist-icon">
+                <img src="images/social-angellist.png" alt="">
+              </a>
+            </li>
+            <li>
+              <a href="http://www.quora.com/Holly-Stewart-10" target="_blank" class="bg-social" id="quora-icon">
+                <img src="images/social-quora.png" alt="">
+              </a>
+            </li>
+            <li>
+              <a href="https://dribbble.com/lambworks" target="_blank" class="bg-social" id="dribbble-icon">
+                <img src="images/social-dribbble.png" alt="">
+              </a>
+            </li>
+            <li>
+              <a href="https://www.behance.net/hollystewart" target="_blank" class="bg-social" id="behance-icon">
+                <img src="images/social-behance.png" alt="">
+              </a>
+            </li>
+          </ul> <!-- /ul.small-12 small-centered columns -->
+        </div> <!-- /.large-6 columns large-pull-6 -->
       </div> <!-- /.row -->
     </section> <!-- /three -->
-
     <section class="bg-plaster" id="testimonials">
       <h3 class="large-12 large-centered columns text-center">
         What others are saying
