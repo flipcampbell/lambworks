@@ -127,6 +127,9 @@
 
     .padding-top-56px {
       @include rem-fallback(padding-top, 3.5);
+      @media only screen and (max-width : 653px) {
+        padding-top: 1.2rem;
+      }
     }
 
     .padding-bottom-1rem {

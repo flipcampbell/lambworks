@@ -105,7 +105,7 @@
         The Latest
       </h3>
       <p class="small-12 small-centered columns font-grey text-center">
-        Zeumo was acquired by The Advisor Board in the summer of 2015.
+        Zeumo was acquired by The Advisory Board in the summer of 2015.
       </p>
   </div> <!-- /.bg-gradient-->
 </section> <!-- /section.bg-white no-padding-top-->

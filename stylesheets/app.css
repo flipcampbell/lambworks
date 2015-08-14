@@ -7181,43 +7181,49 @@ a.active {
   padding-top: 56px;
   padding-top: 3.5rem;
 }
+@media only screen and (max-width: 653px) {
+  /* line 128, ../scss/_variables.scss */
+  .padding-top-56px {
+    padding-top: 1.2rem;
+  }
+}
 
-/* line 132, ../scss/_variables.scss */
+/* line 135, ../scss/_variables.scss */
 .padding-bottom-1rem {
   padding-bottom: 16px;
   padding-bottom: 1rem;
 }
 
-/* line 136, ../scss/_variables.scss */
+/* line 139, ../scss/_variables.scss */
 .padding-bottom-2rem {
   padding-bottom: 32px;
   padding-bottom: 2rem;
 }
 
-/* line 140, ../scss/_variables.scss */
+/* line 143, ../scss/_variables.scss */
 .padding-left-1rem {
   padding-left: 16px;
   padding-left: 1rem;
 }
 
-/* line 144, ../scss/_variables.scss */
+/* line 147, ../scss/_variables.scss */
 .padding-left-2rem {
   padding-left: 32px;
   padding-left: 2rem;
 }
 
-/* line 148, ../scss/_variables.scss */
+/* line 151, ../scss/_variables.scss */
 .padding-left-3rem {
   padding-left: 48px;
   padding-left: 3rem;
 }
 
-/* line 152, ../scss/_variables.scss */
+/* line 155, ../scss/_variables.scss */
 .float-right {
   float: right;
 }
 @media only screen and (max-width: 653px) {
-  /* line 152, ../scss/_variables.scss */
+  /* line 155, ../scss/_variables.scss */
   .float-right {
     float: none;
   }
