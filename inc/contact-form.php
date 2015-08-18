@@ -11,28 +11,28 @@
       </div> <!-- /.row -->
       <form method="post" action="inc/contact-mailer.php">
         <div class="row">
-          <div class="large-5 medium-6 small-8 small-centered columns">
+          <div class="large-5 medium-6 small-11 small-centered columns">
             <label for="name">Full Name</label>
             <input type="text" id="name" name="name" autocorrect="off">
             <span class="hint">What is your full name?</span>
           </div> <!-- /.large-5 medium-6 small-8 small-centered columns -->
         </div> <!-- /.row -->
         <div class="row">
-          <div class="large-5 medium-6 small-8 small-centered columns">
+          <div class="large-5 medium-6 small-11 small-centered columns">
             <label for="email">Email Address</label>
             <input type="email" id="email" name="email">
             <span>What is your email address?</span>
           </div> <!-- /.large-5 medium-6 small-8 small-centered columns -->
         </div> <!-- /.row -->
         <div class="row">
-          <div class="large-5 medium-6 small-8 small-centered columns">
+          <div class="large-5 medium-6 small-11 small-centered columns">
             <label for="company">Company</label>
             <input type="text" name="company" id="company">
             <span>Please, tell me the name of your company.</span>
           </div> <!-- /.large-5 medium-6 small-8 small-centered columns -->
         </div> <!-- /.row -->
         <div class="row">
-          <div class="large-5 medium-6 small-8 small-centered columns">
+          <div class="large-5 medium-6 small-11 small-centered columns">
             <label for="description">Details</label>
             <textarea name="description" id="description" cols="40" rows="5" placeholder="Share what you can about your project."></textarea>
             <span>Tell me something about your project.</span>
