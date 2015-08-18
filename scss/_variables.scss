@@ -106,6 +106,10 @@
       padding-top: 0 !important;
     }
 
+    .padding-8px {
+      @include rem-fallback(padding, .5);
+    }
+
     .padding-top-15px {
       @include rem-fallback(padding-top, 0.9375);
     }

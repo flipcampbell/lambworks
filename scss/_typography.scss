@@ -36,10 +36,10 @@ h4,
 h5 {
   font-family: 'Gotham-Rounded-Medium';
   @include rem-fallback(font-size, 1.3125);
-  @include rem-fallback(margin, 1.3, 0, 1.5625, 0);
+  // @include rem-fallback(margin, 1.3, 0, 1.5625, 0);
 }
 
-h4 span,
+// h4 span,
 h6 {
   @include rem-fallback(margin-bottom, 1.25);
   span {

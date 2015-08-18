@@ -27,10 +27,10 @@
    <!-- /.container row -->
     <section class="bg-white">
       <div class="row">
-        <h3 class="large-10 medium-12 small-12 small-centered medium-centered large-centered columns text-center font-slate">
+        <h3 class="large-10 medium-12 small-12 small-centered medium-centered large-centered columns text-center font-slate padding-bottom-1rem">
           Don't risk spending 50k+ building software that no one wants.
         </h3>
-        <h4 class="large-8 large-centered small-12 small-centered columns text-center font-magenta">
+        <h4 class="large-8 large-centered small-12 small-centered columns text-center font-magenta padding-bottom-1rem">
           Does this sound familiar?
         </h4>
         <ul class="large-6 large-centered medium-8 medium-centered columns small-10 small-centered font-grey">
@@ -45,7 +45,7 @@
             You don't want to be that founder who spent tens of thousands of dollars
             building software that no one used.
           </li>
-          <li>
+          <li class="padding-bottom-1rem">
             You've heard the horror stories about how easy it is to end up with
             unreliable code, a poor user experience, unresponsive contractors,
             or a product that no one actually wanted, but claimed they did before
@@ -58,20 +58,20 @@
         </h4>
       </div> <!-- /.row -->
     </section> <!-- /section.bg-white -->
-    <section class="two products">
-      <h6 class="large-12 large-centered columns text-center font-grey uppercase">
+    <section class="products bg-plaster">
+      <h6 class="large-12 large-centered columns text-center font-grey uppercase padding-bottom-1rem">
         <span>Looking for the next logical step?</span>
       </h6>
-      <h3 class="large-6 large-centered medium-8 medium-centered small-10 small-centered columns text-center font-navy">
+      <h3 class="large-6 large-centered medium-8 medium-centered small-10 small-centered columns text-center font-navy padding-bottom-1rem">
         I offer three services for each stage of your
         early startup journey.
       </h3>
       <div class="small-12 small-centered columns">
         <div class="row">
           <div class="large-8 medium-10 small-12 small-centered columns card">
-            <div class="panel">
+            <div class="panel bg-white">
               <div class="bg-turquoise rounded-top">
-                <p class="text-center uppercase font-white">PLAN</p>
+                <h6 class="text-center uppercase font-white padding-8px"><span>Plan</span></h6>
               </div>
               <div class="row">
                 <div class="large-2 large-offset-1 large-uncentered small-12 small-centered columns text-center">
@@ -90,10 +90,10 @@
               </div> <!-- /.row -->
               <div class="small-10 small-centered columns divider"></div>
               <div class="row">
-                <h6 class="large-11 large-offset-1 large-uncentered small-12 small-centered columns">
+                <h6 class="large-11 large-offset-1 large-uncentered small-12 small-centered columns font-grey">
                   What do you get?
                 </h6>
-                <ul class="small-10 small-centered columns">
+                <ul class="small-10 small-centered columns font-grey">
                   <li class="large-6 large-uncentered small-10 small-centered columns">
                     One-on-one workshop mapping out your idea from zero to launch
                   </li>
@@ -114,7 +114,7 @@
           <div class="large-8 medium-10 small-12 small-centered columns card">
             <div class="panel">
               <div class="bg-magenta rounded-top">
-                <p class="text-center">LAUNCH</p>
+                <h6 class="text-center uppercase font-white padding-8px"><span>Launch</span></h6>
               </div>
               <div class="row">
                 <div class="large-2 large-offset-1 large-uncentered small-12 small-centered columns text-center">
@@ -133,10 +133,10 @@
               </div> <!-- /.row -->
               <div class="small-10 small-centered columns divider"></div>
               <div class="row">
-                <h6 class="large-11 large-offset-1 large-uncentered small-12 small-centered columns">
+                <h6 class="large-11 large-offset-1 large-uncentered small-12 small-centered columns font-grey">
                   What do you get?
                 </h6>
-                <ul class="small-10 small-centered columns">
+                <ul class="small-10 small-centered columns font-grey">
                   <li class="large-12 large-uncentered small-10 small-centered columns">
                     A Minimum Viable Product, branding &amp; identity design,
                     rapid prototyping for user research, building and managing a team,
@@ -154,9 +154,9 @@
         </div><!-- /.row -->
         <div class="row">
           <div class="large-8 medium-10 small-12 small-centered columns card">
-            <div class="panel">
+            <div class="panel bg-">
               <div class="bg-sea-green rounded-top">
-                <p class="text-center">GROW</p>
+                <h6 class="text-center uppercase font-white padding-8px"><span>Grow</span></h6>
               </div>
               <div class="row">
                 <div class="large-2 large-offset-1 large-uncentered small-12 small-centered columns text-center">
@@ -176,10 +176,10 @@
               </div> <!-- /.row -->
                 <div class="small-10 small-centered columns divider"></div>
               <div class="row">
-                <h6 class="large-11 large-offset-1 large-uncentered small-12 small-centered columns">
+                <h6 class="large-11 large-offset-1 large-uncentered small-12 small-centered columns font-grey">
                   What do you get?
                 </h6>
-                <ul class="small-10 small-centered columns">
+                <ul class="small-10 small-centered columns font-grey">
                   <li class="large-12 large-uncentered small-10 small-centered columns">
                   Month&dash;to&dash;month strategic UI and UX services for your
                   startup's product, marketing pages, and newsletter campaigns.
@@ -195,7 +195,7 @@
           </div> <!-- /.card -->
         </div><!-- /.row -->
       </div> <!-- /.small-12 small-centered columns -->
-    </section> <!-- /section.two products -->
+    </section> <!-- /section.bg-plaster-->
 
     <section class="three" id="about">
       <div class="row">

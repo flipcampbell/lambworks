@@ -71,7 +71,6 @@ footer {
 .top-bar-section ul li > a,
 footer p,
 // section.one p,
-.card h5,
 .card h6,
 .card a,
 #testimonials h5,
@@ -80,8 +79,7 @@ footer p,
 	font-family: 'gotham-rounded-medium';
 }
 
-.top-bar-section ul li > a,
-section.two p span
+.top-bar-section ul li > a
 // #filter h6
 {
 	@include rem-fallback(letter-spacing, 0.20);
@@ -280,7 +278,7 @@ form span {
 	// }
 // }
 
-section.two,
+// section.two,
 section.four {
 	background: $color-plaster;
 }
@@ -291,17 +289,17 @@ footer {
 	@include rem-fallback(padding-bottom, 2.1875);
 }
 
-section.two {
+.card {
 	img {
 		@include rem-fallback(width, 5.9375);
 		@include rem-fallback(height, 5.25);
 		margin: 0 auto;
 	}
-	p {
-		span {
-			@include rem-fallback(margin-bottom, 0) ;
-		}
-	}
+// 	p {
+// 		span {
+// 			@include rem-fallback(margin-bottom, 0) ;
+// 		}
+// 	}
 
 	// h2,
 	// p {
@@ -456,10 +454,10 @@ footer {
 
 .card {
 	@include rem-fallback(padding, 1.2, 0, 1.2, 0);
-	p {
-		@include rem-fallback(font-size, 1.875);
-		color: $color-white !important;
-	}
+	// p {
+	// 	@include rem-fallback(font-size, 1.875);
+	// 	color: $color-white !important;
+	// }
 	// p#card-subtitle span {
 	// 	text-transform: none !important;
 	//
@@ -468,22 +466,28 @@ footer {
 		@include rem-fallback(font-size, 1.3125);
 	}
 	h6,
+	h6 span,
 	a {
 		@include rem-fallback(font-size, 1.125);
+	}
+	h6 {
+		span {
+			@include rem-fallback(letter-spacing, 0.125);
+		}
 	}
 	li,
 	p.card-subtitle span {
 		@include rem-fallback(font-size, 1);
-		@include rem-fallback(margin-bottom, 1);
+		// @include rem-fallback(margin-bottom, 1);
 		text-transform: none;
 		letter-spacing: normal;
 	}
-	h6,
+	// h6,
+	// li {
+	// 	@include font-color($color-grey);
+	// }
 	li {
-		@include font-color($color-grey);
-	}
-	li {
-		@include rem-fallback(padding-bottom, 1);
+		// @include rem-fallback(padding-bottom, 1);
 		@include rem-fallback(padding-left, 0.5);
 	}
 
@@ -511,7 +515,7 @@ footer {
 	-webkit-box-shadow: 0 2px 0 rgba(0, 0, 0, 0.2), inset 0 0 10px rgba(0, 0, 0, 0.03);
 	box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2), inset 0 0 10px rgba(0, 0, 0, 0.03);
 	@include rem-fallback(margin, 0.625);
-	@include bg-color($color-white);
+	// @include bg-color($color-white);
 	@include rem-fallback(border-radius, 0.25);
 	@include rem-fallback(padding-bottom, 2);
 	// &:after {
@@ -541,17 +545,7 @@ footer {
 // 	}
 // }
 
-.font-turquoise {
-	@include font-color($color-turquoise !important);
-}
 
-.font-magenta {
-	@include font-color($color-magenta !important);
-}
-
-.font-sea-green {
-	@include font-color($color-sea-green !important);
-}
 
 .divider {
 	border-bottom: 1px solid #c7cfd3;
