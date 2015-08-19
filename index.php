@@ -58,7 +58,7 @@
         </h4>
       </div> <!-- /.row -->
     </section> <!-- /section.bg-white -->
-    <section class="products bg-plaster">
+    <section class="bg-plaster">
       <h6 class="large-12 large-centered columns text-center font-grey uppercase padding-bottom-1rem">
         <span>Looking for the next logical step?</span>
       </h6>
@@ -71,12 +71,14 @@
           <div class="large-8 medium-10 small-12 small-centered columns card">
             <div class="panel bg-white">
               <div class="bg-turquoise rounded-top">
-                <h6 class="text-center uppercase font-white padding-8px"><span>Plan</span></h6>
-              </div>
+                <h6 class="text-center uppercase font-white padding-8px font-medium">
+                  <span>Plan</span>
+                </h6>
+              </div> <!-- /.bg-turquoise rounded-top -->
               <div class="row">
                 <div class="large-2 large-offset-1 large-uncentered small-12 small-centered columns text-center">
                   <img src="images/icon-roadmap.svg" alt="Roadmap Icon">
-                </div>
+                </div> <!-- /large-2 large-offset-1 large-uncentered small-12 small-centered columns text-center -->
                 <div class="large-9 large-uncentered small-12 small-centered columns">
                   <h5 class="large-12 large-uncentered medium-8 medium-centered small-12 small-centered columns font-turquoise">
                     Product Roadmap Workshop
@@ -85,10 +87,12 @@
                     <span class="font-grey">
                       For those exploring options, strategies, and how to build a team
                     </span>
-                  </p>
-                </div>
+                  </p> <!-- /p.large-12 small-12 small-centered columns card-subtitle -->
+                </div> <!-- /large-9 large-uncentered small-12 small-centered columns -->
               </div> <!-- /.row -->
-              <div class="small-10 small-centered columns divider"></div>
+              <div class="small-10 small-centered columns divider">
+
+              </div> <!-- /.small-10 small-centered columns divider -->
               <div class="row">
                 <h6 class="large-11 large-offset-1 large-uncentered small-12 small-centered columns font-grey">
                   What do you get?
@@ -100,26 +104,30 @@
                   <li class="large-6 large-uncentered small-10 small-centered columns">
                     10+ page report with a step-by-step action-plan for reaching your goals
                   </li>
-                </ul>
+                </ul> <!-- /ul.small-10 small-centered columns font-grey -->
               </div> <!-- /.row -->
+              <?php /*
               <div class="row text-center">
-                <a href="#" class="large-10 large-centered small-6 small-centered columns font-turquoise" style="display:none;">
+                <a href="#" class="large-10 large-centered small-6 small-centered columns font-turquoise">
                   Find the right workshop for you
                 </a>
-              </div> <!-- /.row -->
-            </div> <!-- /.panel -->
-          </div> <!-- /.card -->
-        </div><!-- /.row -->
+              </div> <!-- /.row text-center -->
+              */ ?>
+            </div> <!-- /.panel bg-white -->
+          </div> <!-- /.large-8 medium-10 small-12 small-centered columns card -->
+        </div> <!-- /.row -->
         <div class="row">
           <div class="large-8 medium-10 small-12 small-centered columns card">
-            <div class="panel">
+            <div class="panel bg-white">
               <div class="bg-magenta rounded-top">
-                <h6 class="text-center uppercase font-white padding-8px"><span>Launch</span></h6>
-              </div>
+                <h6 class="text-center uppercase font-white padding-8px font-medium">
+                  <span>Launch</span>
+                </h6>
+              </div> <!-- /.bg-magenta rounded-top -->
               <div class="row">
                 <div class="large-2 large-offset-1 large-uncentered small-12 small-centered columns text-center">
                   <img class="" src="images/icon-branding.svg" alt="">
-                </div>
+                </div> <!-- /.large-2 large-offset-1 large-uncentered small-12 small-centered columns text-center -->
                 <div class="large-9 large-uncentered small-12 small-centered columns">
                   <h5 class="large-12 large-uncentered medium-8 medium-centered small-12 small-centered columns font-magenta">
                     Product Strategy, Design &amp; Development
@@ -129,9 +137,11 @@
                       For those ready to hire a team to start building and testing
                     </span>
                   </p>
-                </div>
+                </div> <!-- /.large-9 large-uncentered small-12 small-centered columns -->
               </div> <!-- /.row -->
-              <div class="small-10 small-centered columns divider"></div>
+              <div class="small-10 small-centered columns divider">
+
+              </div> <!-- /.small-10 small-centered columns divider -->
               <div class="row">
                 <h6 class="large-11 large-offset-1 large-uncentered small-12 small-centered columns font-grey">
                   What do you get?
@@ -142,26 +152,30 @@
                     rapid prototyping for user research, building and managing a team,
                     and <span>much more.</span>
                   </li>
-                </ul>
+                </ul> <!-- /.small-10 small-centered columns font-grey -->
               </div> <!-- /.row -->
+              <?php /*
               <div class="row text-center">
-                <a href="#" class="large-8 large-centered small-4 small-centered columns font-magenta" style="display:none;">
+                <a href="#" class="large-8 large-centered small-4 small-centered columns font-magenta">
                   View the full list of product building services
                 </a>
-              </div> <!-- /.row -->
-            </div> <!-- /.panel -->
-          </div> <!-- /.card -->
+              </div> <!-- /.row text-center-->
+              */ ?>
+            </div> <!-- /.panel bg-white -->
+          </div> <!-- /.large-8 medium-10 small-12 small-centered columns card -->
         </div><!-- /.row -->
         <div class="row">
           <div class="large-8 medium-10 small-12 small-centered columns card">
-            <div class="panel bg-">
+            <div class="panel bg-white">
               <div class="bg-sea-green rounded-top">
-                <h6 class="text-center uppercase font-white padding-8px"><span>Grow</span></h6>
-              </div>
+                <h6 class="text-center uppercase font-white padding-8px font-medium">
+                  <span>Grow</span>
+                </h6>
+              </div> <!-- /.bg-sea-green rounded-top -->
               <div class="row">
                 <div class="large-2 large-offset-1 large-uncentered small-12 small-centered columns text-center">
                   <img src="images/icon-monthly.svg" alt="Clock">
-                </div>
+                </div> <!-- /.large-2 large-offset-1 large-uncentered small-12 small-centered columns text-center -->
                 <div class="large-9 large-uncentered small-12 small-centered columns">
                   <h5 class="large-12 large-uncentered medium-8 medium-centered small-12 small-centered columns font-sea-green">
                     Monthly Digital Strategy &amp; Creative Direction
@@ -171,10 +185,12 @@
                       For those who have already launched a digital product or
                       service
                     </span>
-                  </p>
-                </div>
+                  </p> <!-- /p.large-12 small-10 small-centered columns card-subtitle -->
+                </div> <!-- /.large-9 large-uncentered small-12 small-centered columns -->
               </div> <!-- /.row -->
-                <div class="small-10 small-centered columns divider"></div>
+              <div class="small-10 small-centered columns divider">
+
+              </div> <!-- /.small-10 small-centered columns divider -->
               <div class="row">
                 <h6 class="large-11 large-offset-1 large-uncentered small-12 small-centered columns font-grey">
                   What do you get?
@@ -184,23 +200,26 @@
                   Month&dash;to&dash;month strategic UI and UX services for your
                   startup's product, marketing pages, and newsletter campaigns.
                   </li>
-                </ul>
+                </ul> <!-- /.small-10 small-centered columns font-grey -->
               </div> <!-- /.row -->
+              <?php /*
               <div class="row text-center">
-                <a href="#" class="large-10 large-centered small-6 small-centered columns font-sea-green" style="display:none;">
+                <a href="#" class="large-10 large-centered small-6 small-centered columns font-sea-green">
                   View more details and available slots
                 </a>
-              </div> <!-- /.row -->
-            </div> <!-- /.panel -->
-          </div> <!-- /.card -->
+              </div> <!-- /.row text-center -->
+              */ ?>
+            </div> <!-- /.panel bg-white -->
+          </div> <!-- /.large-8 medium-10 small-12 small-centered columns card -->
         </div><!-- /.row -->
       </div> <!-- /.small-12 small-centered columns -->
     </section> <!-- /section.bg-plaster-->
-
-    <section class="three" id="about">
+    <section class="bg-white" id="about">
       <div class="row">
         <div class="large-6 columns large-push-6">
-          <h3 class="large-12 columns font-navy">Who's behind this?</h3>
+          <h3 class="large-12 columns font-navy padding-bottom-1rem">
+            Who's behind this?
+          </h3>
           <div class="large-12 columns font-grey">
             <p>
               Lambworks is a solo product design consultancy, for entrepreneurs
@@ -222,7 +241,7 @@
               drive to carve your own path while making useful and profitable things.
             </p>
             <p>
-              <span>
+              <span class="font-medium">
                 Unlike other consultancies, I only accept projects from early
                 stage startups when it's clear I can provide a return on
                 investment by growing traction or revenue.
@@ -230,7 +249,7 @@
             </p>
             <p>
               This allows me to solve core issues
-              <span style="font-style: italic;">before</span> any time and
+              <span class="font-medium-italic">before</span> any time and
               resources are thrown at a deeper business problem or unprofitable idea.
             </p>
           </div> <!-- /.large-12 columns font-grey -->
@@ -241,7 +260,7 @@
           </div> <!-- /.large-12 large-centered text-center -->
           <div class="large-8 large-centered columns">
             <p class="text-center font-grey">
-              <span>
+              <span class="font-medium">
                 Holly Stewart is an independent product designer and consultant in Nashville.
               </span>
             </p>
@@ -277,45 +296,47 @@
                 <img src="images/social-behance.png" alt="">
               </a>
             </li>
-          </ul> <!-- /ul.small-12 small-centered columns -->
+          </ul> <!-- /ul.small-12 small-centered columns text-center social-icons -->
         </div> <!-- /.large-6 columns large-pull-6 -->
       </div> <!-- /.row -->
-    </section> <!-- /three -->
-    <section class="bg-plaster" id="testimonials">
-      <h3 class="large-12 large-centered columns text-center">
+    </section> <!-- /section.bg-white -->
+    <section class="bg-plaster">
+      <h3 class="large-12 large-centered columns text-center font-navy padding-bottom-2rem">
         What others are saying
       </h3>
       <div class="row">
         <div class="large-12 small-centered columns">
           <div class="large-3 large-uncentered medium-uncentered small-12 small-centered columns text-center">
-            <img src="images/testimonial-avatar-lori.png" alt=""/>
+            <img src="images/testimonial-avatar-lori.png" alt="Lori Brannock">
           </div> <!-- large-3 large-uncentered medium-uncentered small-12 small-centered columns text-center-->
           <div class="large-9 large-uncentered medium-uncentered small-12 small-centered columns">
-            <h5 class="font-magenta">
+            <h5 class="font-magenta padding-bottom-1rem">
               Holly is an entrepreneur and so I know she understands the challenges
               we face.
             </h5>
-            <p class="testimonial font-grey">
+            <p class="font-grey font-medium-italic">
               "She's 8 hours away from our business, and we could hire a local
               designer. However, she came highly recommended by our developer.
               After trusting her design to bring our site from idea to launch,
               there is no one I trust more to get the job done. She has excellent
               communication skills and always exceeds expectations."
             </p>
-            <p class="quote-attribute font-grey">&mdash; Lori Brannock, Merch Colony</p>
+            <h6 class="font-grey uppercase float-right">
+              <span>&mdash; Lori Brannock, Merch Colony</span>
+            </h6>
           </div> <!-- large-9 large-uncentered medium-uncentered small-12 small-centered columns-->
         </div> <!-- /large-12 small-centered columns -->
       </div> <!-- /.row -->
-    </section> <!-- /section -->
-    <section class="bg-white" id="filter">
+    </section> <!-- /section.bg-white -->
+    <section class="bg-white">
       <div class="row">
-       <div class="small-10 columns small-centered">
-          <h6 class="text-center font-grey uppercase">
+       <div class="small-10 small-centered columns">
+          <h6 class="text-center font-grey uppercase font-medium padding-bottom-1rem">
             <span>Who this is for</span>
           </h6>
-          <h3 class="text-center font-navy">Are you my people?</h3>
+          <h3 class="text-center font-navy padding-bottom-2rem">Are you my people?</h3>
           <div class="large-6 small-12 columns">
-            <h5 class="font-magenta">Early Stage Entrepreneurs</h5>
+            <h5 class="font-magenta padding-bottom-1rem">Early Stage Entrepreneurs</h5>
             <p class="font-grey">
               You're open to new methodologies for better decision-making and
               aren't afraid to restructure your business model as needed.
@@ -326,12 +347,12 @@
               running and managing your product over time.
             </p>
             <p class="font-grey">
-              <span style="font-weight: bold;">Spoiler Alert: </span>
+              <span class="font-medium">Spoiler Alert: </span>
               It's my intention to help you outgrow me.
             </p>
           </div> <!--/.large-6 small-12 -->
           <div class="large-6 small-12 columns">
-            <h5 class="font-magenta">Bootstrappers</h5>
+            <h5 class="font-magenta padding-bottom-1rem">Bootstrappers</h5>
             <p class="font-grey">
               You are the ultimate decision-maker.
             </p>
@@ -340,19 +361,22 @@
               the woodwork who do not understand your industry or will interfere
               with the product development.
             </p>
-          </div> <!--/.large-6 small-12 -->
-        </div> <!--/.small-10 columns -->
+          </div> <!--/.large-6 small-12 columns -->
+        </div> <!--/.small-10 small-centered columns -->
        </div> <!-- /.row -->
+       <div class="small-8 small-centered columns divider">
+
+       </div> <!-- /.small-8 small-centered columns divider -->
        <div class="row">
-        <div class="small-10 columns small-centered">
-           <h6 class="text-center font-grey uppercase">
+        <div class="small-10 small-centered columns">
+           <h6 class="text-center font-grey font-medium uppercase padding-top-1rem padding-bottom-1rem">
              <span>Deal-breakers</span>
            </h6>
-           <h3 class="text-center font-navy">
+           <h3 class="text-center font-navy padding-bottom-2rem">
              Sometimes it's just not meant to be.
            </h3>
            <div class="large-6 small-12 columns">
-             <h5 class="font-magenta">
+             <h5 class="font-magenta padding-bottom-1rem">
                Looking for someone who will just execute the idea in your head?
              </h5>
              <p class="font-grey">
@@ -369,9 +393,9 @@
                We don't build for the sake of building. We commit to building
                your product to solve a need, want, or problem for your customers.
              </p>
-           </div> <!--/.large-6 small-12 -->
+           </div> <!--/.large-6 small-12 columns -->
            <div class="large-6 small-12 columns">
-             <h5 class="font-magenta">
+             <h5 class="font-magenta padding-bottom-1rem">
                Not open to the idea of content marketing?
              </h5>
              <p class="font-grey">
@@ -386,10 +410,10 @@
                weekly or monthly blog post or newsletter, why should I or your
                customers take your business seriously?
              </p>
-           </div> <!--/.large-6 small-12 -->
-         </div> <!--/.small-10 columns -->
+           </div> <!--/.large-6 small-12 columns -->
+         </div> <!--/.small-10 small-centered columns -->
         </div> <!-- /.row -->
-    </section> <!-- .section -->
+    </section> <!-- /section.bg-white -->
 
 <?php
   include('inc/contact-form.php');

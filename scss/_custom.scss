@@ -71,11 +71,12 @@ footer {
 .top-bar-section ul li > a,
 footer p,
 // section.one p,
-.card h6,
-.card a,
-#testimonials h5,
-#filter h5,
-#about p span {
+// .card h6,
+// .card a,
+// #testimonials h5,
+// #filter h5
+// #about p span
+{
 	font-family: 'gotham-rounded-medium';
 }
 
@@ -127,9 +128,9 @@ $topbar-link-bg-color-hover: none;
 // }
 
 // .hero h1,
-section.five p,
-section.six p,
-label,
+// section.five p,
+// section.six p,
+// label,
 footer {
 	color: $color-white;
 }
@@ -147,13 +148,13 @@ h1 {
 	}
 }
 
-section.three li {
-	list-style-type: none;
-	display: inline;
-	// @include rem-fallback(padding-left, 2.5);
-	// @include rem-fallback(margin-bottom, 0.75);
-	// background: url(../images/bullet-circle-check.png) top left no-repeat;
-}
+// section.three li {
+// 	list-style-type: none;
+// 	display: inline;
+// 	// @include rem-fallback(padding-left, 2.5);
+// 	// @include rem-fallback(margin-bottom, 0.75);
+// 	// background: url(../images/bullet-circle-check.png) top left no-repeat;
+// }
 
 // h2,
 // h3,
@@ -190,34 +191,34 @@ div.fade-in-third.load {
 // 	font-family: 'gotham-rounded-book';
 // }
 
-// section.one h4,
-// section.one li,
-// section.three li,
-// section.two p,
-section.four h6 {
-// section.four p,
-// section.contact-thanks p,
-// #about p,
-// #filter p {
-	color: $color-slate;
-}
+// // section.one h4,
+// // section.one li,
+// // section.three li,
+// // section.two p,
+// section.four h6 {
+// // section.four p,
+// // section.contact-thanks p,
+// // #about p,
+// // #filter p {
+// 	color: $color-slate;
+// }
 
 // section.two p,
 // section.three li,
 // section.four p,
-section.four h6,
+// section.four h6,
 // section.five p,
 // section.six p,
 // label,
 // #contact button,
 // #contact .button,
 // section.contact-thanks p
-{
-	@include rem-fallback(font-size, 1.25);
-	@include media("<tablet") {
-		@include rem-fallback(font-size, 1.0);
-	}
-}
+// {
+// 	@include rem-fallback(font-size, 1.25);
+// 	@include media("<tablet") {
+// 		@include rem-fallback(font-size, 1.0);
+// 	}
+// }
 
 // section.one,
 // section.two,
@@ -231,7 +232,7 @@ section:not(.top-bar-section) {
 }
 
 // section.one,
-section.three,
+// section.three,
 section.contact-thanks {
 	background: $color-white;
 }
@@ -279,11 +280,11 @@ form span {
 // }
 
 // section.two,
-section.four {
-	background: $color-plaster;
-}
+// section.four {
+// 	background: $color-plaster;
+// }
 
-section.five,
+// section.five,
 footer {
 	@include rem-fallback(padding-top, 2.1875);
 	@include rem-fallback(padding-bottom, 2.1875);
@@ -314,32 +315,33 @@ footer {
 // 	@include rem-fallback(font-size, 1);
 // }
 
-section.three,
-section.six,
-section#testimonials {
+// section.three,
+section.six
+// section#testimonials
+{
 	h3 {
 		@include rem-fallback(padding-bottom, 1.75);
 	}
 }
 
-section.four h6,
+// section.four h6,
 section.contact-thanks p span {
 	font-family: 'gotham-rounded-bold';
 }
-section.four {
-	h6 {
-		@include rem-fallback(margin-bottom, 0);
+// section.four {
+// 	h6 {
+// 		@include rem-fallback(margin-bottom, 0);
+//
+// 	}
+// 	p span {
+// 		@include rem-fallback(font-size, 1.125);
+// 	}
+// }
 
-	}
-	p span {
-		@include rem-fallback(font-size, 1.125);
-	}
-}
-
-section.five {
-	background: $color-magenta;
-	@include rem-fallback(padding, 2.1, 0, 1.1, 0);
-}
+// section.five {
+// 	background: $color-magenta;
+// 	@include rem-fallback(padding, 2.1, 0, 1.1, 0);
+// }
 
 section.six {
 	background: $color-navy;
@@ -347,7 +349,7 @@ section.six {
 
 #contact button,
 #contact .button {
-	background: $color-magenta;
+	// background: $color-magenta;
 	@include rem-fallback(padding, 1.25, 3.75, 1.25, 3.75);
 	@include rem-fallback(margin-top, 2);
 }
@@ -552,34 +554,35 @@ footer {
 	@include rem-fallback(margin, 2, 0, 2, 0);
 }
 
-section.products h4,
-// #about h3,
-// #filter h4,
-#testimonials h3 {
-		@include font-color($color-navy);
-}
+// section.products h4,
+// // #about h3,
+// // #filter h4,
+// #testimonials h3 {
+// 		@include font-color($color-navy);
+// }
 
 img.portrait {
 	@include rem-fallback(padding-bottom, 1);
 }
 
-#filter,
-#testimonials {
-	h4,
-	h5,
-	h6 {
-		@include rem-fallback(margin, 1, 0, 1, 0);
-	}
-}
+// #filter
+// // #testimonials
+// {
+// 	h4,
+// 	h5,
+// 	h6 {
+// 		@include rem-fallback(margin, 1, 0, 1, 0);
+// 	}
+// }
 
-p.testimonial {
-	font-style: italic;
-}
+// p.testimonial {
+// 	font-style: italic;
+// }
 
-p.quote-attribute {
-	text-transform: uppercase;
-	float: right;
-}
+// p.quote-attribute {
+// 	// text-transform: uppercase;
+// 	float: right;
+// }
 
 // .social-icons a.bg-social {
 // 	@include rem-fallback(width, 5);
@@ -596,11 +599,18 @@ p.quote-attribute {
 	opacity: 0;
 }
 
-.social-icons a {
-	background: no-repeat center;
-	display: inline-block;
-	@include rem-fallback(margin-right, 0.625);
+.social-icons {
+	li {
+		list-style-type: none;
+		display: inline;
+	}
+	a {
+		background: no-repeat center;
+		display: inline-block;
+		@include rem-fallback(margin-right, 0.625);
+	}
 }
+
 
 a#twitter-icon {
 	background: url('../images/social-twitter-hover.png');
