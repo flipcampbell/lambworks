@@ -5,10 +5,6 @@ body {
 	object-fit: cover;
 	background-position: center top;
 	background-repeat: no-repeat;
-	// p,
-	// li {
-	// 	@include font-color($color-grey);
-	// }
 }
 
 html, body {
@@ -21,26 +17,6 @@ html, body {
 		max-width: 62.5rem;
 	}
 }
-
-
-// p,
-// h2,
-// h3,
-// h4,
-// section.one li,
-// section.three li,
-// #filter h4,
-// #filter p,
-// #filter h6,
-// form span,
-// label,
-// #contact button,
-// #contact .button,
-// .card li,
-// p.card-subtitle span,
-// section.two p span {
-// 	font-family: 'gotham-rounded-book';
-// }
 
 .top-bar {
 	@include rem-fallback(margin-top, 1.5625);
@@ -57,11 +33,6 @@ html, body {
 	background: transparent !important;
 }
 
-// .top-bar.expanded .toggle-topbar a,
-// .top-bar-section li:not(.has-form) a:not(.button):hover {
-// 	@extend .underlined;
-// }
-
 .top-bar-section ul li > a,
 footer {
 	@include rem-fallback(font-size, 0.95);
@@ -69,19 +40,11 @@ footer {
 }
 
 .top-bar-section ul li > a,
-footer p,
-// section.one p,
-// .card h6,
-// .card a,
-// #testimonials h5,
-// #filter h5
-// #about p span
-{
+footer p {
 	font-family: 'gotham-rounded-medium';
 }
 
 .top-bar-section ul li > a
-// #filter h6
 {
 	@include rem-fallback(letter-spacing, 0.20);
 }
@@ -99,12 +62,10 @@ $topbar-link-bg-color-hover: none;
 
 .hero {
 	@include bgimage-jpg(hero-background);
-	// height: 700px;
 	object-fit: cover;
 	background-position: center top;
 	background-repeat: no-repeat;
 	@include rem-fallback(padding-bottom, 12);
-	// @include rem-fallback(margin-top, -3.125);
 	@include rem-fallback(margin-bottom, 3.125);
 	@include media("<=desktop") {
 		@include rem-fallback(margin-bottom, 0);
@@ -121,22 +82,11 @@ $topbar-link-bg-color-hover: none;
 	}
 }
 
-// .hero h1,
-// .hero h5,
-// .top-bar .toggle-topbar a {
-// font-family: 'gotham-rounded-light';
-// }
-
-// .hero h1,
-// section.five p,
-// section.six p,
-// label,
 footer {
 	color: $color-white;
 }
 
 h2 {
-	// color: $color-cornflower;
 	@include rem-fallback(font-size, 1.5);
 	@include rem-fallback(margin, 1.75, 1.75, 2.5, 1.75);
 }
@@ -148,26 +98,9 @@ h1 {
 	}
 }
 
-// section.three li {
-// 	list-style-type: none;
-// 	display: inline;
-// 	// @include rem-fallback(padding-left, 2.5);
-// 	// @include rem-fallback(margin-bottom, 0.75);
-// 	// background: url(../images/bullet-circle-check.png) top left no-repeat;
-// }
-
-// h2,
-// h3,
-footer a,
-// section.one p
-{
+footer a {
 	color: $color-magenta;
 }
-
-// nav {
-// 	opacity: 0;
-// 	@include delayed-transition(opacity, 1.5, 1.5, 0);
-// }
 
 div.fade-in-second {
 	opacity: 0;
@@ -185,54 +118,11 @@ div.fade-in-third.load {
 	opacity: 1;
 }
 
-// section.one h2,
-// section.one h3,
-// section.two h2 {
-// 	font-family: 'gotham-rounded-book';
-// }
-
-// // section.one h4,
-// // section.one li,
-// // section.three li,
-// // section.two p,
-// section.four h6 {
-// // section.four p,
-// // section.contact-thanks p,
-// // #about p,
-// // #filter p {
-// 	color: $color-slate;
-// }
-
-// section.two p,
-// section.three li,
-// section.four p,
-// section.four h6,
-// section.five p,
-// section.six p,
-// label,
-// #contact button,
-// #contact .button,
-// section.contact-thanks p
-// {
-// 	@include rem-fallback(font-size, 1.25);
-// 	@include media("<tablet") {
-// 		@include rem-fallback(font-size, 1.0);
-// 	}
-// }
-
-// section.one,
-// section.two,
-// section.three,
-// section#testimonials,
-// section#filter,
-// section.six
 section:not(.top-bar-section) {
 	@include rem-fallback(padding-top, 3.6875);
 	@include rem-fallback(padding-bottom, 3.6875);
 }
 
-// section.one,
-// section.three,
 section.contact-thanks {
 	background: $color-white;
 }
@@ -247,44 +137,6 @@ form span {
 	color: $color-turquoise;
 }
 
-// section.one {
-	// background: $color-white;
-
-	// h2,
-	// h3{
-	// 	font-family: 'gotham-rounded-book';
-	// }
-	// h2 {
-	// 	span {
-	// 		font-weight: bold;
-	// 		font-style: italic;
-	// 	}
-	// }
-	// h4 {
-	// 	@include media("<=tablet") {
-	// 		@include rem-fallback(font-size, 1.6)
-	// 	}
-	// }
-	// li {
-		// color: $color-slate;
-		// @include rem-fallback(font-size, 1.125);
-		// @include rem-fallback(margin-bottom, 1.875);
-	// }
-	// p {
-	// 	@include rem-fallback(font-size, 1.3125);
-	// 	@include rem-fallback(margin, 1.3, 0, 1.5625, 0);
-	// 	span {
-	// 		font-family: 'Gotham-Rounded-Medium-Italic';
-	// 	}
-	// }
-// }
-
-// section.two,
-// section.four {
-// 	background: $color-plaster;
-// }
-
-// section.five,
 footer {
 	@include rem-fallback(padding-top, 2.1875);
 	@include rem-fallback(padding-bottom, 2.1875);
@@ -296,55 +148,9 @@ footer {
 		@include rem-fallback(height, 5.25);
 		margin: 0 auto;
 	}
-// 	p {
-// 		span {
-// 			@include rem-fallback(margin-bottom, 0) ;
-// 		}
-// 	}
 
-	// h2,
-	// p {
-	// 	@include rem-fallback(padding-top, 1.5);
-	// }
-}
-
-// section.two p span,
-// #filter h6 {
-// 	text-transform: uppercase;
-// 	color: $color-grey;
-// 	@include rem-fallback(font-size, 1);
-// }
-
-// section.three,
-section.six
-// section#testimonials
-{
-	h3 {
-		@include rem-fallback(padding-bottom, 1.75);
-	}
-}
-
-// section.four h6,
 section.contact-thanks p span {
 	font-family: 'gotham-rounded-bold';
-}
-// section.four {
-// 	h6 {
-// 		@include rem-fallback(margin-bottom, 0);
-//
-// 	}
-// 	p span {
-// 		@include rem-fallback(font-size, 1.125);
-// 	}
-// }
-
-// section.five {
-// 	background: $color-magenta;
-// 	@include rem-fallback(padding, 2.1, 0, 1.1, 0);
-// }
-
-section.six {
-	background: $color-navy;
 }
 
 #contact button,
@@ -418,52 +224,36 @@ form span {
 	@include rem-fallback(font-size, 0.9);
 }
 
-// form span {
-// 	@include rem-fallback(margin-top, 0);
-// }
-
-// span.hint {
-// 	@include rem-fallback(margin-top, -2.0);
-// }
-
 footer {
 	background: $color-midnight;
 }
 
-.bg-turquoise {
-	@include bg-color($color-turquoise);
-}
-
-.bg-magenta {
-	@include bg-color($color-magenta);
-}
-
-.bg-sea-green {
-	@include bg-color($color-sea-green);
-}
-
-.bg-navy {
-	@include bg-color($color-navy);
-}
-
-.bg-white {
-	@include bg-color($color-white);
-}
-
-.bg-plaster {
-	@include bg-color($color-plaster);
-}
+// .bg-turquoise {
+// 	@include bg-color($color-turquoise);
+// }
+//
+// .bg-magenta {
+// 	@include bg-color($color-magenta);
+// }
+//
+// .bg-sea-green {
+// 	@include bg-color($color-sea-green);
+// }
+//
+// .bg-navy {
+// 	@include bg-color($color-navy);
+// }
+//
+// .bg-white {
+// 	@include bg-color($color-white);
+// }
+//
+// .bg-plaster {
+// 	@include bg-color($color-plaster);
+// }
 
 .card {
 	@include rem-fallback(padding, 1.2, 0, 1.2, 0);
-	// p {
-	// 	@include rem-fallback(font-size, 1.875);
-	// 	color: $color-white !important;
-	// }
-	// p#card-subtitle span {
-	// 	text-transform: none !important;
-	//
-	// }
 	h5 {
 		@include rem-fallback(font-size, 1.3125);
 	}
@@ -480,19 +270,12 @@ footer {
 	li,
 	p.card-subtitle span {
 		@include rem-fallback(font-size, 1);
-		// @include rem-fallback(margin-bottom, 1);
 		text-transform: none;
 		letter-spacing: normal;
 	}
-	// h6,
-	// li {
-	// 	@include font-color($color-grey);
-	// }
 	li {
-		// @include rem-fallback(padding-bottom, 1);
 		@include rem-fallback(padding-left, 0.5);
 	}
-
 	@media only screen and (max-width: 1025px) {
 		p,
 		h5,
@@ -517,18 +300,8 @@ footer {
 	-webkit-box-shadow: 0 2px 0 rgba(0, 0, 0, 0.2), inset 0 0 10px rgba(0, 0, 0, 0.03);
 	box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2), inset 0 0 10px rgba(0, 0, 0, 0.03);
 	@include rem-fallback(margin, 0.625);
-	// @include bg-color($color-white);
 	@include rem-fallback(border-radius, 0.25);
 	@include rem-fallback(padding-bottom, 2);
-	// &:after {
-	// 	visibility: hidden;
-	// 	display: block;
-	// 	font-size: 0;
-	// 	content: " ";
-	// 	clear: both;
-	// 	height: 0;
-	// }
-	// display: block;
 	@include media('>=tablet', '<=desktop') {
 		@include rem-fallback(margin, 1, 0, 1, 0);
 	}
@@ -541,53 +314,14 @@ footer {
 	@include rem-fallback(border-radius, 0.25, 0.25, 0, 0);
 }
 
-// .card:nth-last-of-type(odd) {
-// 	li:last-of-type {
-// 		@include rem-fallback(padding-bottom, 2);
-// 	}
-// }
-
-
-
 .divider {
 	border-bottom: 1px solid #c7cfd3;
 	@include rem-fallback(margin, 2, 0, 2, 0);
 }
 
-// section.products h4,
-// // #about h3,
-// // #filter h4,
-// #testimonials h3 {
-// 		@include font-color($color-navy);
-// }
-
 img.portrait {
 	@include rem-fallback(padding-bottom, 1);
 }
-
-// #filter
-// // #testimonials
-// {
-// 	h4,
-// 	h5,
-// 	h6 {
-// 		@include rem-fallback(margin, 1, 0, 1, 0);
-// 	}
-// }
-
-// p.testimonial {
-// 	font-style: italic;
-// }
-
-// p.quote-attribute {
-// 	// text-transform: uppercase;
-// 	float: right;
-// }
-
-// .social-icons a.bg-social {
-// 	@include rem-fallback(width, 5);
-// 	@include rem-fallback(height, 5);
-// }
 
 .bg-social img {
 	padding-bottom: 0;
