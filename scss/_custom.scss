@@ -132,10 +132,10 @@ section.contact-thanks {
 	@include rem-fallback(padding-bottom, 10);
 }
 
-section.six h3,
-form span {
-	color: $color-turquoise;
-}
+// section.six h3,
+// form span {
+// 	color: $color-turquoise;
+// }
 
 footer {
 	@include rem-fallback(padding-top, 2.1875);
@@ -148,6 +148,7 @@ footer {
 		@include rem-fallback(height, 5.25);
 		margin: 0 auto;
 	}
+}
 
 section.contact-thanks p span {
 	font-family: 'gotham-rounded-bold';

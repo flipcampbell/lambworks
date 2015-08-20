@@ -19,15 +19,23 @@
       <img src="/images/case-studies/merch-colony/merch-colony-logo.png" alt="Merch Colony Logo">
     </div> <!-- /.large-4 large-uncentered medium-uncentered small-12 small-centered columns text-center padding-top-15px-->
     <div class="large-4 large-uncentered medium-6 medium-uncentered small-12 small-centered columns">
-      <h5 class="no-margin-bottom font-slate"><span>Client</span></h5>
+      <h5 class="no-margin-bottom font-slate">
+        <span class="font-medium">Client</span>
+      </h5>
       <p>Merch Colony, LLC</p>
-      <h5 class="no-margin-bottom font-slate"><span>Timeline</span></h5>
+      <h5 class="no-margin-bottom font-slate">
+        <span class="font-medium">Timeline</span>
+      </h5>
       <p>April 2013 - Present</p>
     </div> <!-- /.large-4 large-uncentered medium-6 medium-uncentered small-12 small-centered columns-->
     <div class="large-4 large-uncentered medium-6 medium-uncentered small-12 small-centered columns">
-      <h5 class="no-margin-bottom font-slate"><span>Services Provided</span></h5>
+      <h5 class="no-margin-bottom font-slate">
+        <span class="font-medium">Services Provided</span>
+      </h5>
       <p>Visual Identity Design, Web App UI Design</p>
-      <h5 class="no-margin-bottom font-slate"><span>Project URL</span></h5>
+      <h5 class="no-margin-bottom font-slate">
+        <span class="font-medium">Project URL</span>
+      </h5>
       <p>
         <a href="http://www.merchcolony.com" target="_blank" class="font-slate underlined">
           merchcolony.com

@@ -19,17 +19,25 @@
       <img src="/images/case-studies/zeumo/zeumo-logo.png" alt="Zeumo Logo">
     </div> <!-- /.large-4 large-uncentered medium-uncentered small-12 small-centered columns text-center padding-top-30px-->
     <div class="large-3 large-uncentered medium-5 medium-uncentered small-12 small-centered columns">
-      <h5 class="no-margin-bottom font-slate"><span>Client</span></h5>
+      <h5 class="no-margin-bottom font-slate">
+        <span class="font-medium">Client</span>
+      </h5>
       <p>Zeumo, Inc.</p>
-      <h5 class="no-margin-bottom font-slate"><span>Timeline</span></h5>
+      <h5 class="no-margin-bottom font-slate">
+        <span class="font-medium">Timeline</span>
+      </h5>
       <p>January 2013 - August 2014</p>
     </div> <!-- /.large-3 large-uncentered medium-5 medium-uncentered small-12 small-centered columns-->
     <div class="large-5 large-uncentered medium-7 medium-uncentered small-12 small-centered columns">
-      <h5 class="no-margin-bottom font-slate"><span>Services Provided</span></h5>
+      <h5 class="no-margin-bottom font-slate">
+        <span class="font-medium">Services Provided</span>
+      </h5>
       <p>Visual Identity Rebranding, Web &amp; Mobile App UI Design, Marketing
         Pages Design, Email Campaign Design
       </p>
-      <h5 class="no-margin-bottom font-slate"><span>Project URL</span></h5>
+      <h5 class="no-margin-bottom font-slate">
+        <span class="font-medium">Project URL</span>
+      </h5>
       <p>
         <a href="http://www.zeumo.com" target="_blank" class="font-slate underlined">
           zeumo.com

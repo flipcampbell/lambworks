@@ -18,15 +18,23 @@
       <img src="/images/case-studies/trust-tree/trust-tree-logo.png" alt="Trust Tree Logo">
     </div> <!-- /.large-4 large-uncentered medium-uncentered small-12 small-centered columns text-center-->
     <div class="large-4 large-uncentered medium-6 medium-uncentered small-12 small-centered columns">
-      <h5 class="no-margin-bottom font-slate"><span>Client</span></h5>
+      <h5 class="no-margin-bottom font-slate">
+        <span class="font-medium">Client</span>
+      </h5>
       <p>Trust Tree Legal, PC</p>
-      <h5 class="no-margin-bottom font-slate"><span>Timeline</span></h5>
+      <h5 class="no-margin-bottom font-slate">
+        <span class="font-medium">Timeline</span>
+      </h5>
       <p>December 2014 - Present</p>
     </div> <!-- /.large-4 large-uncentered medium-6 medium-uncentered small-12 small-centered columns-->
     <div class="large-4 large-uncentered medium-6 medium-uncentered small-12 small-centered columns">
-      <h5 class="no-margin-bottom font-slate"><span>Services Provided</span></h5>
+      <h5 class="no-margin-bottom font-slate">
+        <span class="font-medium">Services Provided</span>
+      </h5>
       <p>Product Strategy, Visual Identity and Branding, Web App UX/UI Design</p>
-      <h5 class="no-margin-bottom font-slate"><span>Project URL</span></h5>
+      <h5 class="no-margin-bottom font-slate">
+        <span class="font-medium">Project URL</span>
+      </h5>
       <p>
         <a href="http://www.trusttreetrademarks.com" target="_blank" class="font-slate underlined">
           trusttreetrademarks.com

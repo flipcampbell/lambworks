@@ -28,11 +28,11 @@
     .font-sea-green {@include font-color($color-sea-green !important);}
 
     .font-medium-italic {
-      font-family: 'Gotham-Rounded-Medium-Italic';
+      font-family: 'Gotham-Rounded-Medium-Italic' !important;
     }
 
     .font-medium {
-      font-family: 'Gotham-Rounded-Medium';
+      font-family: 'Gotham-Rounded-Medium' !important;
     }
 
     .uppercase {
