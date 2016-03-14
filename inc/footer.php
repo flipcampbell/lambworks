@@ -2,7 +2,7 @@
       <div class="row">
         <div class="large-10 medium-12 large-centered columns">
           <div class="large-5 large-offset-1 medium-12 columns">
-            <p>&copy; 2015 Lambworks</p>
+            <p>&copy; <?php echo date('Y') ?> Lambworks</p>
           </div> <!-- /.large-5 large-offset-1 medium-12 columns -->
         <div class="large-6 medium-12 columns">
           <p>Developed by <a href="http://www.flipcampbell.com">Flip Campbell</a></p>
